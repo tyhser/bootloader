@@ -1,10 +1,15 @@
-/* use precision */
-#define RT_PRINTF_PRECISION
+#include "kservice.h"
+
+#define BL_PRINTF_PRECISION
+#define BL_KPRINTF_USING_LONGLONG
+#define BL_PRINTF_SPECIAL
+
+#define BL_CONSOLEBUF_SIZE 128
 
 /* private function */
 #define _ISDIGIT(c)  ((unsigned)((c) - '0') < 10)
 
-rt_inline int skip_atoi(const char **s)
+bl_inline int skip_atoi(const char **s)
 {
     int i = 0;
     while (_ISDIGIT(**s))
@@ -23,24 +28,24 @@ rt_inline int skip_atoi(const char **s)
 
 static char *print_number(char *buf,
                           char *end,
-#ifdef RT_KPRINTF_USING_LONGLONG
+#ifdef BL_KPRINTF_USING_LONGLONG
                           long long  num,
 #else
                           long  num,
-#endif /* RT_KPRINTF_USING_LONGLONG */
+#endif /* BL_KPRINTF_USING_LONGLONG */
                           int   base,
                           int   s,
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
                           int   precision,
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
                           int   type)
 {
     char c, sign;
-#ifdef RT_KPRINTF_USING_LONGLONG
+#ifdef BL_KPRINTF_USING_LONGLONG
     char tmp[32];
 #else
     char tmp[16];
-#endif /* RT_KPRINTF_USING_LONGLONG */
+#endif /* BL_KPRINTF_USING_LONGLONG */
     int precision_bak = precision;
     const char *digits;
     static const char small_digits[] = "0123456789abcdef";
@@ -70,7 +75,7 @@ static char *print_number(char *buf,
             sign = ' ';
     }
 
-#ifdef RT_PRINTF_SPECIAL
+#ifdef BL_PRINTF_SPECIAL
     if (type & SPECIAL)
     {
         if (base == 16)
@@ -78,7 +83,7 @@ static char *print_number(char *buf,
         else if (base == 8)
             size--;
     }
-#endif /* RT_PRINTF_SPECIAL */
+#endif /* BL_PRINTF_SPECIAL */
 
     i = 0;
     if (num == 0)
@@ -89,13 +94,13 @@ static char *print_number(char *buf,
             tmp[i++] = digits[divide(&num, base)];
     }
 
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
     if (i > precision)
         precision = i;
     size -= precision;
 #else
     size -= i;
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
 
     if (!(type & (ZEROPAD | LEFT)))
     {
@@ -120,7 +125,7 @@ static char *print_number(char *buf,
         ++ buf;
     }
 
-#ifdef RT_PRINTF_SPECIAL
+#ifdef BL_PRINTF_SPECIAL
     if (type & SPECIAL)
     {
         if (base == 8)
@@ -141,7 +146,7 @@ static char *print_number(char *buf,
             ++ buf;
         }
     }
-#endif /* RT_PRINTF_SPECIAL */
+#endif /* BL_PRINTF_SPECIAL */
 
     /* no align to the left */
     if (!(type & LEFT))
@@ -154,14 +159,14 @@ static char *print_number(char *buf,
         }
     }
 
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
     while (i < precision--)
     {
         if (buf < end)
             *buf = '0';
         ++ buf;
     }
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
 
     /* put number in the temporary buffer */
     while (i-- > 0 && (precision_bak != 0))
@@ -194,25 +199,25 @@ static char *print_number(char *buf,
  *
  * @return The number of characters actually written to buffer.
  */
-RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list args)
+BL_WEAK int bl_vsnprintf(char *buf, bl_size_t size, const char *fmt, va_list args)
 {
-#ifdef RT_KPRINTF_USING_LONGLONG
+#ifdef BL_KPRINTF_USING_LONGLONG
     unsigned long long num;
 #else
-    rt_uint32_t num;
-#endif /* RT_KPRINTF_USING_LONGLONG */
+    bl_uint32_t num;
+#endif /* BL_KPRINTF_USING_LONGLONG */
     int i, len;
     char *str, *end, c;
     const char *s;
 
-    rt_uint8_t base;            /* the base of number */
-    rt_uint8_t flags;           /* flags to print number */
-    rt_uint8_t qualifier;       /* 'h', 'l', or 'L' for integer fields */
-    rt_int32_t field_width;     /* width of output field */
+    bl_uint8_t base;            /* the base of number */
+    bl_uint8_t flags;           /* flags to print number */
+    bl_uint8_t qualifier;       /* 'h', 'l', or 'L' for integer fields */
+    bl_int32_t field_width;     /* width of output field */
 
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
     int precision;      /* min. # of digits for integers and max for a string */
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
 
     str = buf;
     end = buf + size;
@@ -264,7 +269,7 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
             }
         }
 
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
         /* get the precision */
         precision = -1;
         if (*fmt == '.')
@@ -279,24 +284,24 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
             }
             if (precision < 0) precision = 0;
         }
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
         /* get the conversion qualifier */
         qualifier = 0;
-#ifdef RT_KPRINTF_USING_LONGLONG
+#ifdef BL_KPRINTF_USING_LONGLONG
         if (*fmt == 'h' || *fmt == 'l' || *fmt == 'L')
 #else
         if (*fmt == 'h' || *fmt == 'l')
-#endif /* RT_KPRINTF_USING_LONGLONG */
+#endif /* BL_KPRINTF_USING_LONGLONG */
         {
             qualifier = *fmt;
             ++ fmt;
-#ifdef RT_KPRINTF_USING_LONGLONG
+#ifdef BL_KPRINTF_USING_LONGLONG
             if (qualifier == 'l' && *fmt == 'l')
             {
                 qualifier = 'L';
                 ++ fmt;
             }
-#endif /* RT_KPRINTF_USING_LONGLONG */
+#endif /* BL_KPRINTF_USING_LONGLONG */
         }
 
         /* the default base */
@@ -315,7 +320,7 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
             }
 
             /* get character */
-            c = (rt_uint8_t)va_arg(args, int);
+            c = (bl_uint8_t)va_arg(args, int);
             if (str < end) *str = c;
             ++ str;
 
@@ -332,9 +337,9 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
             if (!s) s = "(NULL)";
 
             for (len = 0; (len != field_width) && (s[len] != '\0'); len++);
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
             if (precision > 0 && len > precision) len = precision;
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
 
             if (!(flags & LEFT))
             {
@@ -365,7 +370,7 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
                 field_width = sizeof(void *) << 1;
                 flags |= ZEROPAD;
             }
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
             str = print_number(str, end,
                                (long)va_arg(args, void *),
                                16, field_width, precision, flags);
@@ -373,7 +378,7 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
             str = print_number(str, end,
                                (long)va_arg(args, void *),
                                16, field_width, flags);
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
             continue;
 
         case '%':
@@ -414,31 +419,31 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
             continue;
         }
 
-#ifdef RT_KPRINTF_USING_LONGLONG
+#ifdef BL_KPRINTF_USING_LONGLONG
         if (qualifier == 'L') num = va_arg(args, long long);
         else if (qualifier == 'l')
 #else
         if (qualifier == 'l')
-#endif /* RT_KPRINTF_USING_LONGLONG */
+#endif /* BL_KPRINTF_USING_LONGLONG */
         {
-            num = va_arg(args, rt_uint32_t);
-            if (flags & SIGN) num = (rt_int32_t)num;
+            num = va_arg(args, bl_uint32_t);
+            if (flags & SIGN) num = (bl_int32_t)num;
         }
         else if (qualifier == 'h')
         {
-            num = (rt_uint16_t)va_arg(args, rt_int32_t);
-            if (flags & SIGN) num = (rt_int16_t)num;
+            num = (bl_uint16_t)va_arg(args, bl_int32_t);
+            if (flags & SIGN) num = (bl_int16_t)num;
         }
         else
         {
-            num = va_arg(args, rt_uint32_t);
-            if (flags & SIGN) num = (rt_int32_t)num;
+            num = va_arg(args, bl_uint32_t);
+            if (flags & SIGN) num = (bl_int32_t)num;
         }
-#ifdef RT_PRINTF_PRECISION
+#ifdef BL_PRINTF_PRECISION
         str = print_number(str, end, num, base, field_width, precision, flags);
 #else
         str = print_number(str, end, num, base, field_width, flags);
-#endif /* RT_PRINTF_PRECISION */
+#endif /* BL_PRINTF_PRECISION */
     }
 
     if (size > 0)
@@ -455,7 +460,6 @@ RT_WEAK int rt_vsnprintf(char *buf, rt_size_t size, const char *fmt, va_list arg
     */
     return str - buf;
 }
-RTM_EXPORT(rt_vsnprintf);
 
 /**
  * This function will fill a formatted string to buffer.
@@ -468,18 +472,17 @@ RTM_EXPORT(rt_vsnprintf);
  *
  * @return The number of characters actually written to buffer.
  */
-int rt_snprintf(char *buf, rt_size_t size, const char *fmt, ...)
+int bl_snprintf(char *buf, bl_size_t size, const char *fmt, ...)
 {
-    rt_int32_t n;
+    bl_int32_t n;
     va_list args;
 
     va_start(args, fmt);
-    n = rt_vsnprintf(buf, size, fmt, args);
+    n = bl_vsnprintf(buf, size, fmt, args);
     va_end(args);
 
     return n;
 }
-RTM_EXPORT(rt_snprintf);
 
 /**
  * This function will fill a formatted string to buffer.
@@ -492,11 +495,10 @@ RTM_EXPORT(rt_snprintf);
  *
  * @return The number of characters actually written to buffer.
  */
-int rt_vsprintf(char *buf, const char *format, va_list arg_ptr)
+int bl_vsprintf(char *buf, const char *format, va_list arg_ptr)
 {
-    return rt_vsnprintf(buf, (rt_size_t) - 1, format, arg_ptr);
+    return bl_vsnprintf(buf, (bl_size_t) - 1, format, arg_ptr);
 }
-RTM_EXPORT(rt_vsprintf);
 
 /**
  * This function will fill a formatted string to buffer
@@ -507,35 +509,33 @@ RTM_EXPORT(rt_vsprintf);
  *
  * @return The number of characters actually written to buffer.
  */
-int rt_sprintf(char *buf, const char *format, ...)
+int bl_sprintf(char *buf, const char *format, ...)
 {
-    rt_int32_t n;
+    bl_int32_t n;
     va_list arg_ptr;
 
     va_start(arg_ptr, format);
-    n = rt_vsprintf(buf, format, arg_ptr);
+    n = bl_vsprintf(buf, format, arg_ptr);
     va_end(arg_ptr);
 
     return n;
 }
-RTM_EXPORT(rt_sprintf);
 
-RT_WEAK void rt_hw_console_output(const char *str)
+BL_WEAK void bl_hw_console_output(const char *str)
 {
     /* empty console output */
 }
-RTM_EXPORT(rt_hw_console_output);
 
 /**
  * This function will put string to the console.
  *
  * @param str is the string output to the console.
  */
-void rt_kputs(const char *str)
+void bl_kputs(const char *str)
 {
     if (!str) return;
 
-    rt_hw_console_output(str);
+    bl_hw_console_output(str);
 }
 
 /**
@@ -545,24 +545,42 @@ void rt_kputs(const char *str)
  *
  * @return The number of characters actually written to buffer.
  */
-RT_WEAK int rt_kprintf(const char *fmt, ...)
+BL_WEAK int bl_kprintf(const char *fmt, ...)
 {
     va_list args;
-    rt_size_t length;
-    static char rt_log_buf[RT_CONSOLEBUF_SIZE];
+    bl_size_t length;
+    static char bl_log_buf[BL_CONSOLEBUF_SIZE];
 
     va_start(args, fmt);
     /* the return value of vsnprintf is the number of bytes that would be
      * written to buffer had if the size of the buffer been sufficiently
      * large excluding the terminating null byte. If the output string
-     * would be larger than the rt_log_buf, we have to adjust the output
+     * would be larger than the bl_log_buf, we have to adjust the output
      * length. */
-    length = rt_vsnprintf(rt_log_buf, sizeof(rt_log_buf) - 1, fmt, args);
-    if (length > RT_CONSOLEBUF_SIZE - 1)
-        length = RT_CONSOLEBUF_SIZE - 1;
-    rt_hw_console_output(rt_log_buf);
+    length = bl_vsnprintf(bl_log_buf, sizeof(bl_log_buf) - 1, fmt, args);
+    if (length > BL_CONSOLEBUF_SIZE - 1)
+        length = BL_CONSOLEBUF_SIZE - 1;
+    bl_hw_console_output(bl_log_buf);
     va_end(args);
 
     return length;
 }
-RTM_EXPORT(rt_kprintf);
+
+void bl_hex_dump(char *str, bl_uint8_t *pbuf, bl_uint32_t len)
+{
+    unsigned char *pt;
+    int x;
+
+    pt = pbuf;
+    bl_kprintf("%s: %p, len = %d\n\r", str, pbuf, len);
+    for (x = 0; x < len; x++) {
+        if (x % 16 == 0) {
+            bl_kprintf("0x%04x : ", x);
+        }
+        bl_kprintf("%02x ", ((bl_uint8_t)pt[x]));
+        if (x % 16 == 15) {
+            bl_kprintf("\n\r");
+        }
+    }
+    bl_kprintf("\n\r");
+}
