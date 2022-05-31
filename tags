@@ -1,0 +1,1508 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGN_SIZE	lib/libc/malloc/malloc.c	/^	ALIGN_SIZE = (1 << ALIGN_SIZE_LOG2),$/;"	e	enum:tlsf_private	file:
+ALIGN_SIZE_LOG2	lib/libc/malloc/malloc.c	/^	ALIGN_SIZE_LOG2 = 4,$/;"	e	enum:tlsf_private	file:
+ALPHANUMERIC_CHARSET	lib/libx/qrcgen.c	/^static const char ALPHANUMERIC_CHARSET[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ $%*+-.\/:";$/;"	v	file:
+B1	lib/libm/cbrt.c	/^B1 = 715094163, \/* B1 = (1023-1023\/3-0.03306235651)*2**20 *\/$/;"	v	file:
+B1	lib/libm/cbrtf.c	/^B1 = 709958130, \/* B1 = (127-127.0\/3-0.03306235651)*2**23 *\/$/;"	v	file:
+B2	lib/libm/cbrt.c	/^B2 = 696219795; \/* B2 = (1023-1023\/3-54\/3-0.03306235651)*2**20 *\/$/;"	v	file:
+B2	lib/libm/cbrtf.c	/^B2 = 642849266; \/* B2 = (127-127.0\/3-24\/3-0.03306235651)*2**23 *\/$/;"	v	file:
+C0	lib/libm/__cosdf.c	/^C0  = -0x1ffffffd0c5e81.0p-54, \/* -0.499999997251031003120 *\/$/;"	v	file:
+C1	lib/libm/__cos.c	/^C1  =  4.16666666666666019037e-02, \/* 0x3FA55555, 0x5555554C *\/$/;"	v	file:
+C1	lib/libm/__cosdf.c	/^C1  =  0x155553e1053a42.0p-57, \/*  0.0416666233237390631894 *\/$/;"	v	file:
+C2	lib/libm/__cos.c	/^C2  = -1.38888888888741095749e-03, \/* 0xBF56C16C, 0x16C15177 *\/$/;"	v	file:
+C2	lib/libm/__cosdf.c	/^C2  = -0x16c087e80f1e27.0p-62, \/* -0.00138867637746099294692 *\/$/;"	v	file:
+C3	lib/libm/__cos.c	/^C3  =  2.48015872894767294178e-05, \/* 0x3EFA01A0, 0x19CB1590 *\/$/;"	v	file:
+C3	lib/libm/__cosdf.c	/^C3  =  0x199342e0ee5069.0p-68; \/*  0.0000243904487962774090654 *\/$/;"	v	file:
+C4	lib/libm/__cos.c	/^C4  = -2.75573143513906633035e-07, \/* 0xBE927E4F, 0x809C52AD *\/$/;"	v	file:
+C5	lib/libm/__cos.c	/^C5  =  2.08757232129817482790e-09, \/* 0x3E21EE9E, 0xBDB4B1C4 *\/$/;"	v	file:
+C6	lib/libm/__cos.c	/^C6  = -1.13596475577881948265e-11; \/* 0xBDA8FAE9, 0xBE8838D4 *\/$/;"	v	file:
+CVT_BUFSZ	lib/libc/stdio/vsnprintf.c	204;"	d	file:
+DAYS_PER_100Y	lib/libc/time/__secs_to_tm.c	11;"	d	file:
+DAYS_PER_400Y	lib/libc/time/__secs_to_tm.c	10;"	d	file:
+DAYS_PER_4Y	lib/libc/time/__secs_to_tm.c	12;"	d	file:
+ECC_CODEWORDS_PER_BLOCK	lib/libx/qrcgen.c	/^static const int8_t ECC_CODEWORDS_PER_BLOCK[4][41] = {$/;"	v	file:
+ECDSA256_NUM_DIGITS	lib/libc/crypto/ecdsa256.c	11;"	d	file:
+EMIT	lib/libc/stdio/vsnprintf.c	38;"	d	file:
+EPS	lib/libm/__rem_pio2.c	9;"	d	file:
+EPS	lib/libm/__rem_pio2f.c	10;"	d	file:
+EPS	lib/libm/ceil.c	4;"	d	file:
+EPS	lib/libm/floor.c	4;"	d	file:
+EPS	lib/libm/rint.c	4;"	d	file:
+EPS	lib/libm/rintf.c	4;"	d	file:
+EPS	lib/libm/round.c	4;"	d	file:
+EPS	lib/libm/roundf.c	4;"	d	file:
+FLAG_BLOCK_COMMENT	lib/libx/json.c	/^	FLAG_BLOCK_COMMENT		= 1 << 14,$/;"	e	enum:__anon2	file:
+FLAG_DONE	lib/libx/json.c	/^	FLAG_DONE				= 1 << 7,$/;"	e	enum:__anon2	file:
+FLAG_ESCAPED	lib/libx/json.c	/^	FLAG_ESCAPED			= 1 << 4,$/;"	e	enum:__anon2	file:
+FLAG_LINE_COMMENT	lib/libx/json.c	/^	FLAG_LINE_COMMENT		= 1 << 13,$/;"	e	enum:__anon2	file:
+FLAG_NEED_COLON	lib/libx/json.c	/^	FLAG_NEED_COLON			= 1 << 6,$/;"	e	enum:__anon2	file:
+FLAG_NEED_COMMA	lib/libx/json.c	/^	FLAG_NEED_COMMA			= 1 << 2,$/;"	e	enum:__anon2	file:
+FLAG_NEXT	lib/libx/json.c	/^	FLAG_NEXT				= 1 << 0,$/;"	e	enum:__anon2	file:
+FLAG_NUM_E	lib/libx/json.c	/^	FLAG_NUM_E				= 1 << 10,$/;"	e	enum:__anon2	file:
+FLAG_NUM_E_GOT_SIGN	lib/libx/json.c	/^	FLAG_NUM_E_GOT_SIGN		= 1 << 11,$/;"	e	enum:__anon2	file:
+FLAG_NUM_E_NEGATIVE	lib/libx/json.c	/^	FLAG_NUM_E_NEGATIVE		= 1 << 12,$/;"	e	enum:__anon2	file:
+FLAG_NUM_GOT_DECIMAL	lib/libx/json.c	/^	FLAG_NUM_GOT_DECIMAL	= 1 << 15,$/;"	e	enum:__anon2	file:
+FLAG_NUM_NEGATIVE	lib/libx/json.c	/^	FLAG_NUM_NEGATIVE		= 1 << 8,$/;"	e	enum:__anon2	file:
+FLAG_NUM_ZERO	lib/libx/json.c	/^	FLAG_NUM_ZERO			= 1 << 9,$/;"	e	enum:__anon2	file:
+FLAG_REPROC	lib/libx/json.c	/^	FLAG_REPROC				= 1 << 1,$/;"	e	enum:__anon2	file:
+FLAG_SEEK_VALUE	lib/libx/json.c	/^	FLAG_SEEK_VALUE			= 1 << 3,$/;"	e	enum:__anon2	file:
+FLAG_STRING	lib/libx/json.c	/^	FLAG_STRING				= 1 << 5,$/;"	e	enum:__anon2	file:
+FL_HASH	lib/libc/stdio/vsnprintf.c	/^	FL_HASH				= 0x20,		\/* # modifier *\/$/;"	e	enum:flags	file:
+FL_INDEX_COUNT	lib/libc/malloc/malloc.c	/^	FL_INDEX_COUNT = (FL_INDEX_MAX - FL_INDEX_SHIFT + 1),$/;"	e	enum:tlsf_private	file:
+FL_INDEX_MAX	lib/libc/malloc/malloc.c	/^	FL_INDEX_MAX = 32,$/;"	e	enum:tlsf_private	file:
+FL_INDEX_SHIFT	lib/libc/malloc/malloc.c	/^	FL_INDEX_SHIFT = (SL_INDEX_COUNT_LOG2 + ALIGN_SIZE_LOG2),$/;"	e	enum:tlsf_private	file:
+FL_INV	lib/libc/stdio/vsscanf.c	/^	FL_INV				= 0x02,			\/* Character-set with inverse *\/$/;"	e	enum:flags	file:
+FL_MINUS	lib/libc/stdio/vsnprintf.c	/^	FL_MINUS			= 0x02,		\/* Minus modifier *\/$/;"	e	enum:flags	file:
+FL_MINUS	lib/libc/stdio/vsscanf.c	/^	FL_MINUS			= 0x08,			\/* Negative number *\/$/;"	e	enum:flags	file:
+FL_PLUS	lib/libc/stdio/vsnprintf.c	/^	FL_PLUS				= 0x04,		\/* Plus modifier *\/$/;"	e	enum:flags	file:
+FL_SIGNED	lib/libc/stdio/vsnprintf.c	/^	FL_SIGNED			= 0x40,		\/* Number is signed *\/$/;"	e	enum:flags	file:
+FL_SPACE	lib/libc/stdio/vsnprintf.c	/^	FL_SPACE			= 0x10,		\/* Space modifier *\/$/;"	e	enum:flags	file:
+FL_SPLAT	lib/libc/stdio/vsscanf.c	/^	FL_SPLAT			= 0x01,			\/* Drop the value, do not assign *\/$/;"	e	enum:flags	file:
+FL_TICK	lib/libc/stdio/vsnprintf.c	/^	FL_TICK				= 0x08,		\/* ' modifier *\/$/;"	e	enum:flags	file:
+FL_UPPER	lib/libc/stdio/vsnprintf.c	/^	FL_UPPER			= 0x80,		\/* Upper case digits *\/$/;"	e	enum:flags	file:
+FL_WIDTH	lib/libc/stdio/vsscanf.c	/^	FL_WIDTH			= 0x04,			\/* Field width specified *\/$/;"	e	enum:flags	file:
+FL_ZERO	lib/libc/stdio/vsnprintf.c	/^	FL_ZERO				= 0x01,		\/* Zero modifier *\/$/;"	e	enum:flags	file:
+INTMAX_RANK	lib/libc/stdio/vsnprintf.c	34;"	d	file:
+INTMAX_RANK	lib/libc/stdio/vsscanf.c	30;"	d	file:
+K	lib/libc/crypto/sha256.c	/^static const uint32_t K[64] =$/;"	v	file:
+L1	lib/libm/pow.c	/^L1 =  5.99999999999994648725e-01, \/* 0x3FE33333, 0x33333303 *\/$/;"	v	file:
+L1	lib/libm/powf.c	/^L1 =  6.0000002384e-01, \/* 0x3f19999a *\/$/;"	v	file:
+L2	lib/libm/pow.c	/^L2 =  4.28571428578550184252e-01, \/* 0x3FDB6DB6, 0xDB6FABFF *\/$/;"	v	file:
+L2	lib/libm/powf.c	/^L2 =  4.2857143283e-01, \/* 0x3edb6db7 *\/$/;"	v	file:
+L3	lib/libm/pow.c	/^L3 =  3.33333329818377432918e-01, \/* 0x3FD55555, 0x518F264D *\/$/;"	v	file:
+L3	lib/libm/powf.c	/^L3 =  3.3333334327e-01, \/* 0x3eaaaaab *\/$/;"	v	file:
+L4	lib/libm/pow.c	/^L4 =  2.72728123808534006489e-01, \/* 0x3FD17460, 0xA91D4101 *\/$/;"	v	file:
+L4	lib/libm/powf.c	/^L4 =  2.7272811532e-01, \/* 0x3e8ba305 *\/$/;"	v	file:
+L5	lib/libm/pow.c	/^L5 =  2.30660745775561754067e-01, \/* 0x3FCD864A, 0x93C9DB65 *\/$/;"	v	file:
+L5	lib/libm/powf.c	/^L5 =  2.3066075146e-01, \/* 0x3e6c3255 *\/$/;"	v	file:
+L6	lib/libm/pow.c	/^L6 =  2.06975017800338417784e-01, \/* 0x3FCA7E28, 0x4A454EEF *\/$/;"	v	file:
+L6	lib/libm/powf.c	/^L6 =  2.0697501302e-01, \/* 0x3e53f142 *\/$/;"	v	file:
+LEAPOCH	lib/libc/time/__secs_to_tm.c	9;"	d	file:
+Lg1	lib/libm/log.c	/^Lg1 = 6.666666666666735130e-01,  \/* 3FE55555 55555593 *\/$/;"	v	file:
+Lg1	lib/libm/log10.c	/^Lg1 = 6.666666666666735130e-01,  \/* 3FE55555 55555593 *\/$/;"	v	file:
+Lg1	lib/libm/log10f.c	/^Lg1 = 0xaaaaaa.0p-24, \/* 0.66666662693 *\/$/;"	v	file:
+Lg1	lib/libm/log1p.c	/^Lg1 = 6.666666666666735130e-01,  \/* 3FE55555 55555593 *\/$/;"	v	file:
+Lg1	lib/libm/log1pf.c	/^Lg1 = 0xaaaaaa.0p-24, \/* 0.66666662693 *\/$/;"	v	file:
+Lg1	lib/libm/log2.c	/^Lg1 = 6.666666666666735130e-01,  \/* 3FE55555 55555593 *\/$/;"	v	file:
+Lg1	lib/libm/log2f.c	/^Lg1 = 0xaaaaaa.0p-24, \/* 0.66666662693 *\/$/;"	v	file:
+Lg1	lib/libm/logf.c	/^Lg1 = 0xaaaaaa.0p-24, \/* 0.66666662693 *\/$/;"	v	file:
+Lg2	lib/libm/log.c	/^Lg2 = 3.999999999940941908e-01,  \/* 3FD99999 9997FA04 *\/$/;"	v	file:
+Lg2	lib/libm/log10.c	/^Lg2 = 3.999999999940941908e-01,  \/* 3FD99999 9997FA04 *\/$/;"	v	file:
+Lg2	lib/libm/log10f.c	/^Lg2 = 0xccce13.0p-25, \/* 0.40000972152 *\/$/;"	v	file:
+Lg2	lib/libm/log1p.c	/^Lg2 = 3.999999999940941908e-01,  \/* 3FD99999 9997FA04 *\/$/;"	v	file:
+Lg2	lib/libm/log1pf.c	/^Lg2 = 0xccce13.0p-25, \/* 0.40000972152 *\/$/;"	v	file:
+Lg2	lib/libm/log2.c	/^Lg2 = 3.999999999940941908e-01,  \/* 3FD99999 9997FA04 *\/$/;"	v	file:
+Lg2	lib/libm/log2f.c	/^Lg2 = 0xccce13.0p-25, \/* 0.40000972152 *\/$/;"	v	file:
+Lg2	lib/libm/logf.c	/^Lg2 = 0xccce13.0p-25, \/* 0.40000972152 *\/$/;"	v	file:
+Lg3	lib/libm/log.c	/^Lg3 = 2.857142874366239149e-01,  \/* 3FD24924 94229359 *\/$/;"	v	file:
+Lg3	lib/libm/log10.c	/^Lg3 = 2.857142874366239149e-01,  \/* 3FD24924 94229359 *\/$/;"	v	file:
+Lg3	lib/libm/log10f.c	/^Lg3 = 0x91e9ee.0p-25, \/* 0.28498786688 *\/$/;"	v	file:
+Lg3	lib/libm/log1p.c	/^Lg3 = 2.857142874366239149e-01,  \/* 3FD24924 94229359 *\/$/;"	v	file:
+Lg3	lib/libm/log1pf.c	/^Lg3 = 0x91e9ee.0p-25, \/* 0.28498786688 *\/$/;"	v	file:
+Lg3	lib/libm/log2.c	/^Lg3 = 2.857142874366239149e-01,  \/* 3FD24924 94229359 *\/$/;"	v	file:
+Lg3	lib/libm/log2f.c	/^Lg3 = 0x91e9ee.0p-25, \/* 0.28498786688 *\/$/;"	v	file:
+Lg3	lib/libm/logf.c	/^Lg3 = 0x91e9ee.0p-25, \/* 0.28498786688 *\/$/;"	v	file:
+Lg4	lib/libm/log.c	/^Lg4 = 2.222219843214978396e-01,  \/* 3FCC71C5 1D8E78AF *\/$/;"	v	file:
+Lg4	lib/libm/log10.c	/^Lg4 = 2.222219843214978396e-01,  \/* 3FCC71C5 1D8E78AF *\/$/;"	v	file:
+Lg4	lib/libm/log10f.c	/^Lg4 = 0xf89e26.0p-26; \/* 0.24279078841 *\/$/;"	v	file:
+Lg4	lib/libm/log1p.c	/^Lg4 = 2.222219843214978396e-01,  \/* 3FCC71C5 1D8E78AF *\/$/;"	v	file:
+Lg4	lib/libm/log1pf.c	/^Lg4 = 0xf89e26.0p-26; \/* 0.24279078841 *\/$/;"	v	file:
+Lg4	lib/libm/log2.c	/^Lg4 = 2.222219843214978396e-01,  \/* 3FCC71C5 1D8E78AF *\/$/;"	v	file:
+Lg4	lib/libm/log2f.c	/^Lg4 = 0xf89e26.0p-26; \/* 0.24279078841 *\/$/;"	v	file:
+Lg4	lib/libm/logf.c	/^Lg4 = 0xf89e26.0p-26; \/* 0.24279078841 *\/$/;"	v	file:
+Lg5	lib/libm/log.c	/^Lg5 = 1.818357216161805012e-01,  \/* 3FC74664 96CB03DE *\/$/;"	v	file:
+Lg5	lib/libm/log10.c	/^Lg5 = 1.818357216161805012e-01,  \/* 3FC74664 96CB03DE *\/$/;"	v	file:
+Lg5	lib/libm/log1p.c	/^Lg5 = 1.818357216161805012e-01,  \/* 3FC74664 96CB03DE *\/$/;"	v	file:
+Lg5	lib/libm/log2.c	/^Lg5 = 1.818357216161805012e-01,  \/* 3FC74664 96CB03DE *\/$/;"	v	file:
+Lg6	lib/libm/log.c	/^Lg6 = 1.531383769920937332e-01,  \/* 3FC39A09 D078C69F *\/$/;"	v	file:
+Lg6	lib/libm/log10.c	/^Lg6 = 1.531383769920937332e-01,  \/* 3FC39A09 D078C69F *\/$/;"	v	file:
+Lg6	lib/libm/log1p.c	/^Lg6 = 1.531383769920937332e-01,  \/* 3FC39A09 D078C69F *\/$/;"	v	file:
+Lg6	lib/libm/log2.c	/^Lg6 = 1.531383769920937332e-01,  \/* 3FC39A09 D078C69F *\/$/;"	v	file:
+Lg7	lib/libm/log.c	/^Lg7 = 1.479819860511658591e-01;  \/* 3FC2F112 DF3E5244 *\/$/;"	v	file:
+Lg7	lib/libm/log10.c	/^Lg7 = 1.479819860511658591e-01;  \/* 3FC2F112 DF3E5244 *\/$/;"	v	file:
+Lg7	lib/libm/log1p.c	/^Lg7 = 1.479819860511658591e-01;  \/* 3FC2F112 DF3E5244 *\/$/;"	v	file:
+Lg7	lib/libm/log2.c	/^Lg7 = 1.479819860511658591e-01;  \/* 3FC2F112 DF3E5244 *\/$/;"	v	file:
+MAX_RANK	lib/libc/stdio/vsnprintf.c	33;"	d	file:
+MAX_RANK	lib/libc/stdio/vsscanf.c	29;"	d	file:
+MAX_RETRY	lib/libc/crypto/ecdsa256.c	12;"	d	file:
+MIN_RANK	lib/libc/stdio/vsnprintf.c	32;"	d	file:
+MIN_RANK	lib/libc/stdio/vsscanf.c	28;"	d	file:
+NUM_ERROR_CORRECTION_BLOCKS	lib/libx/qrcgen.c	/^static const int8_t NUM_ERROR_CORRECTION_BLOCKS[4][41] = {$/;"	v	file:
+P0	lib/libm/cbrt.c	/^P0 =  1.87595182427177009643,  \/* 0x3ffe03e6, 0x0f61e692 *\/$/;"	v	file:
+P1	lib/libm/cbrt.c	/^P1 = -1.88497979543377169875,  \/* 0xbffe28e0, 0x92f02420 *\/$/;"	v	file:
+P1	lib/libm/exp.c	/^P1   =  1.66666666666666019037e-01, \/* 0x3FC55555, 0x5555553E *\/$/;"	v	file:
+P1	lib/libm/exp2.c	/^P1    = 0x1.62e42fefa39efp-1,$/;"	v	file:
+P1	lib/libm/exp2f.c	/^P1    = 0x1.62e430p-1f,$/;"	v	file:
+P1	lib/libm/expf.c	/^P1 =  1.6666625440e-1f, \/*  0xaaaa8f.0p-26 *\/$/;"	v	file:
+P1	lib/libm/pow.c	/^P1 =  1.66666666666666019037e-01, \/* 0x3FC55555, 0x5555553E *\/$/;"	v	file:
+P1	lib/libm/powf.c	/^P1 =  1.6666667163e-01, \/* 0x3e2aaaab *\/$/;"	v	file:
+P2	lib/libm/cbrt.c	/^P2 =  1.621429720105354466140, \/* 0x3ff9f160, 0x4a49d6c2 *\/$/;"	v	file:
+P2	lib/libm/exp.c	/^P2   = -2.77777777770155933842e-03, \/* 0xBF66C16C, 0x16BEBD93 *\/$/;"	v	file:
+P2	lib/libm/exp2.c	/^P2    = 0x1.ebfbdff82c575p-3,$/;"	v	file:
+P2	lib/libm/exp2f.c	/^P2    = 0x1.ebfbe0p-3f,$/;"	v	file:
+P2	lib/libm/expf.c	/^P2 = -2.7667332906e-3f; \/* -0xb55215.0p-32 *\/$/;"	v	file:
+P2	lib/libm/pow.c	/^P2 = -2.77777777770155933842e-03, \/* 0xBF66C16C, 0x16BEBD93 *\/$/;"	v	file:
+P2	lib/libm/powf.c	/^P2 = -2.7777778450e-03, \/* 0xbb360b61 *\/$/;"	v	file:
+P3	lib/libm/cbrt.c	/^P3 = -0.758397934778766047437, \/* 0xbfe844cb, 0xbee751d9 *\/$/;"	v	file:
+P3	lib/libm/exp.c	/^P3   =  6.61375632143793436117e-05, \/* 0x3F11566A, 0xAF25DE2C *\/$/;"	v	file:
+P3	lib/libm/exp2.c	/^P3    = 0x1.c6b08d704a0a6p-5,$/;"	v	file:
+P3	lib/libm/exp2f.c	/^P3    = 0x1.c6b348p-5f,$/;"	v	file:
+P3	lib/libm/pow.c	/^P3 =  6.61375632143793436117e-05, \/* 0x3F11566A, 0xAF25DE2C *\/$/;"	v	file:
+P3	lib/libm/powf.c	/^P3 =  6.6137559770e-05, \/* 0x388ab355 *\/$/;"	v	file:
+P4	lib/libm/cbrt.c	/^P4 =  0.145996192886612446982; \/* 0x3fc2b000, 0xd4e4edd7 *\/$/;"	v	file:
+P4	lib/libm/exp.c	/^P4   = -1.65339022054652515390e-06, \/* 0xBEBBBD41, 0xC5D26BF1 *\/$/;"	v	file:
+P4	lib/libm/exp2.c	/^P4    = 0x1.3b2ab88f70400p-7,$/;"	v	file:
+P4	lib/libm/exp2f.c	/^P4    = 0x1.3b2c9cp-7f;$/;"	v	file:
+P4	lib/libm/pow.c	/^P4 = -1.65339022054652515390e-06, \/* 0xBEBBBD41, 0xC5D26BF1 *\/$/;"	v	file:
+P4	lib/libm/powf.c	/^P4 = -1.6533901999e-06, \/* 0xb5ddea0e *\/$/;"	v	file:
+P5	lib/libm/exp.c	/^P5   =  4.13813679705723846039e-08; \/* 0x3E663769, 0x72BEA4D0 *\/$/;"	v	file:
+P5	lib/libm/exp2.c	/^P5    = 0x1.5d88003875c74p-10;$/;"	v	file:
+P5	lib/libm/pow.c	/^P5 =  4.13813679705723846039e-08, \/* 0x3E663769, 0x72BEA4D0 *\/$/;"	v	file:
+P5	lib/libm/powf.c	/^P5 =  4.1381369442e-08, \/* 0x3331bb4c *\/$/;"	v	file:
+PIo2	lib/libm/__rem_pio2_large.c	/^static const double PIo2[] = {$/;"	v	file:
+PTRDIFF_T_RANK	lib/libc/stdio/vsnprintf.c	36;"	d	file:
+PTRDIFF_T_RANK	lib/libc/stdio/vsscanf.c	32;"	d	file:
+Q1	lib/libm/expm1.c	/^Q1 = -3.33333333333331316428e-02, \/* BFA11111 111110F4 *\/$/;"	v	file:
+Q1	lib/libm/expm1f.c	/^Q1 = -3.3333212137e-2, \/* -0x888868.0p-28 *\/$/;"	v	file:
+Q2	lib/libm/expm1.c	/^Q2 =  1.58730158725481460165e-03, \/* 3F5A01A0 19FE5585 *\/$/;"	v	file:
+Q2	lib/libm/expm1f.c	/^Q2 =  1.5807170421e-3; \/*  0xcf3010.0p-33 *\/$/;"	v	file:
+Q3	lib/libm/expm1.c	/^Q3 = -7.93650757867487942473e-05, \/* BF14CE19 9EAADBB7 *\/$/;"	v	file:
+Q4	lib/libm/expm1.c	/^Q4 =  4.00821782732936239552e-06, \/* 3ED0CFCA 86E65239 *\/$/;"	v	file:
+Q5	lib/libm/expm1.c	/^Q5 = -2.01099218183624371326e-07; \/* BE8AFDB7 6E09C32D *\/$/;"	v	file:
+QRCGEN_MODE_ALPHANUMERIC	lib/libx/qrcgen.c	/^	QRCGEN_MODE_ALPHANUMERIC	= 0x2,$/;"	e	enum:qrcgen_mode_t	file:
+QRCGEN_MODE_BYTE	lib/libx/qrcgen.c	/^	QRCGEN_MODE_BYTE			= 0x4,$/;"	e	enum:qrcgen_mode_t	file:
+QRCGEN_MODE_ECI	lib/libx/qrcgen.c	/^	QRCGEN_MODE_ECI				= 0x7,$/;"	e	enum:qrcgen_mode_t	file:
+QRCGEN_MODE_KANJI	lib/libx/qrcgen.c	/^	QRCGEN_MODE_KANJI			= 0x8,$/;"	e	enum:qrcgen_mode_t	file:
+QRCGEN_MODE_NUMERIC	lib/libx/qrcgen.c	/^	QRCGEN_MODE_NUMERIC			= 0x1,$/;"	e	enum:qrcgen_mode_t	file:
+R	lib/libm/acos.c	/^static double R(double z)$/;"	f	file:	signature:(double z)
+R	lib/libm/acosf.c	/^static float R(float z)$/;"	f	file:	signature:(float z)
+R	lib/libm/asin.c	/^static double R(double z)$/;"	f	file:	signature:(double z)
+R	lib/libm/asinf.c	/^static float R(float z)$/;"	f	file:	signature:(float z)
+S1	lib/libm/__sin.c	/^S1  = -1.66666666666666324348e-01, \/* 0xBFC55555, 0x55555549 *\/$/;"	v	file:
+S1	lib/libm/__sindf.c	/^S1 = -0x15555554cbac77.0p-55, \/* -0.166666666416265235595 *\/$/;"	v	file:
+S2	lib/libm/__sin.c	/^S2  =  8.33333333332248946124e-03, \/* 0x3F811111, 0x1110F8A6 *\/$/;"	v	file:
+S2	lib/libm/__sindf.c	/^S2 =  0x111110896efbb2.0p-59, \/*  0.0083333293858894631756 *\/$/;"	v	file:
+S3	lib/libm/__sin.c	/^S3  = -1.98412698298579493134e-04, \/* 0xBF2A01A0, 0x19C161D5 *\/$/;"	v	file:
+S3	lib/libm/__sindf.c	/^S3 = -0x1a00f9e2cae774.0p-65, \/* -0.000198393348360966317347 *\/$/;"	v	file:
+S4	lib/libm/__sin.c	/^S4  =  2.75573137070700676789e-06, \/* 0x3EC71DE3, 0x57B1FE7D *\/$/;"	v	file:
+S4	lib/libm/__sindf.c	/^S4 =  0x16cd878c3b46a7.0p-71; \/*  0.0000027183114939898219064 *\/$/;"	v	file:
+S5	lib/libm/__sin.c	/^S5  = -2.50507602534068634195e-08, \/* 0xBE5AE5E6, 0x8A2B9CEB *\/$/;"	v	file:
+S6	lib/libm/__sin.c	/^S6  =  1.58969099521155010221e-10; \/* 0x3DE5D93A, 0x5ACFD57C *\/$/;"	v	file:
+SIZE_T_RANK	lib/libc/stdio/vsnprintf.c	35;"	d	file:
+SIZE_T_RANK	lib/libc/stdio/vsscanf.c	31;"	d	file:
+SL_INDEX_COUNT	lib/libc/malloc/malloc.c	/^	SL_INDEX_COUNT = (1 << SL_INDEX_COUNT_LOG2),$/;"	e	enum:tlsf_private	file:
+SL_INDEX_COUNT_LOG2	lib/libc/malloc/malloc.c	/^	SL_INDEX_COUNT_LOG2 = 5,$/;"	e	enum:tlsf_public	file:
+SMALL_BLOCK_SIZE	lib/libc/malloc/malloc.c	/^	SMALL_BLOCK_SIZE = (1 << FL_INDEX_SHIFT),$/;"	e	enum:tlsf_private	file:
+SPLIT	lib/libm/hypot.c	4;"	d	file:
+SPRING_MAX_DELTA_TIME	lib/libx/spring.c	8;"	d	file:
+SPRING_PRECISION	lib/libx/spring.c	10;"	d	file:
+SPRING_STEP_TIME	lib/libx/spring.c	9;"	d	file:
+SWAPINIT	lib/libc/stdlib/qsort.c	31;"	d	file:
+T	lib/libm/__tan.c	/^static const double T[] = {$/;"	v	file:
+T	lib/libm/__tandf.c	/^static const double T[] = {$/;"	v	file:
+TBLSIZE	lib/libm/exp2.c	4;"	d	file:
+TBLSIZE	lib/libm/exp2f.c	4;"	d	file:
+TLSF_64BIT	lib/libc/malloc/malloc.c	25;"	d	file:
+TLSF_64BIT	lib/libc/malloc/malloc.c	27;"	d	file:
+UTF8_BOTTOMHALF	lib/libx/qrcgen.c	832;"	d	file:
+UTF8_EMPTY	lib/libx/qrcgen.c	830;"	d	file:
+UTF8_END	lib/libx/qrcgen.c	835;"	d	file:
+UTF8_FULL	lib/libx/qrcgen.c	833;"	d	file:
+UTF8_NEWLINE	lib/libx/qrcgen.c	834;"	d	file:
+UTF8_TOPHALF	lib/libx/qrcgen.c	831;"	d	file:
+____rb_erase_color	lib/libx/rbtree.c	/^____rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f	signature:(struct rb_node *parent, struct rb_root *root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__assert_fail	lib/libc/exit/assert.c	/^EXPORT_SYMBOL(__assert_fail);$/;"	v
+__assert_fail	lib/libc/exit/assert.c	/^void __assert_fail(const char * expr, const char * file, int line, const char * func)$/;"	f	signature:(const char * expr, const char * file, int line, const char * func)
+__calloc	lib/libc/malloc/malloc.c	/^static void * __calloc(size_t nmemb, size_t size)$/;"	f	file:	signature:(size_t nmemb, size_t size)
+__ceil	lib/libm/ceil.c	/^static double __ceil(double x)$/;"	f	file:	signature:(double x)
+__ceilf	lib/libm/ceilf.c	/^static float __ceilf(float x)$/;"	f	file:	signature:(float x)
+__cos	lib/libm/__cos.c	/^double __cos(double x, double y)$/;"	f	signature:(double x, double y)
+__cosdf	lib/libm/__cosdf.c	/^float __cosdf(double x)$/;"	f	signature:(double x)
+__expo2	lib/libm/__expo2.c	/^double __expo2(double x, double sign)$/;"	f	signature:(double x, double sign)
+__expo2f	lib/libm/__expo2f.c	/^float __expo2f(float x, float sign)$/;"	f	signature:(float x, float sign)
+__fabs	lib/libm/fabs.c	/^static double __fabs(double x)$/;"	f	file:	signature:(double x)
+__fabsf	lib/libm/fabsf.c	/^static float __fabsf(float x)$/;"	f	file:	signature:(float x)
+__fifo_get	lib/libx/fifo.c	/^unsigned int __fifo_get(struct fifo_t * f, unsigned char * buf, unsigned int len)$/;"	f	signature:(struct fifo_t * f, unsigned char * buf, unsigned int len)
+__fifo_len	lib/libx/fifo.c	/^unsigned int __fifo_len(struct fifo_t * f)$/;"	f	signature:(struct fifo_t * f)
+__fifo_put	lib/libx/fifo.c	/^unsigned int __fifo_put(struct fifo_t * f, unsigned char * buf, unsigned int len)$/;"	f	signature:(struct fifo_t * f, unsigned char * buf, unsigned int len)
+__fifo_reset	lib/libx/fifo.c	/^void __fifo_reset(struct fifo_t * f)$/;"	f	signature:(struct fifo_t * f)
+__file_alloc	lib/libc/stdio/__stdio.c	/^FILE * __file_alloc(int fd, void * data)$/;"	f	signature:(int fd, void * data)
+__file_close	lib/libc/stdio/__stdio.c	/^static int __file_close(FILE * f)$/;"	f	file:	signature:(FILE * f)
+__file_free	lib/libc/stdio/__stdio.c	/^void __file_free(FILE * f)$/;"	f	signature:(FILE * f)
+__file_read	lib/libc/stdio/__stdio.c	/^static ssize_t __file_read(FILE * f, unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, unsigned char * buf, size_t size)
+__file_seek	lib/libc/stdio/__stdio.c	/^static fpos_t __file_seek(FILE * f, fpos_t off, int whence)$/;"	f	file:	signature:(FILE * f, fpos_t off, int whence)
+__file_write	lib/libc/stdio/__stdio.c	/^static ssize_t __file_write(FILE * f, const unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, const unsigned char * buf, size_t size)
+__floor	lib/libm/floor.c	/^static double __floor(double x)$/;"	f	file:	signature:(double x)
+__floorf	lib/libm/floorf.c	/^static float __floorf(float x)$/;"	f	file:	signature:(float x)
+__fmax	lib/libm/fmax.c	/^static double __fmax(double x, double y)$/;"	f	file:	signature:(double x, double y)
+__fmaxf	lib/libm/fmaxf.c	/^static float __fmaxf(float x, float y)$/;"	f	file:	signature:(float x, float y)
+__fmin	lib/libm/fmin.c	/^static double __fmin(double x, double y)$/;"	f	file:	signature:(double x, double y)
+__fminf	lib/libm/fminf.c	/^static float __fminf(float x, float y)$/;"	f	file:	signature:(float x, float y)
+__fpclassify	lib/libm/__fpclassify.c	/^int __fpclassify(double x)$/;"	f	signature:(double x)
+__fpclassifyf	lib/libm/__fpclassifyf.c	/^int __fpclassifyf(float x)$/;"	f	signature:(float x)
+__free	lib/libc/malloc/malloc.c	/^static void __free(void * ptr)$/;"	f	file:	signature:(void * ptr)
+__heap_lock	lib/libc/malloc/malloc.c	/^static spinlock_t __heap_lock = SPIN_LOCK_INIT();$/;"	v	file:
+__heap_pool	lib/libc/malloc/malloc.c	/^static void * __heap_pool = NULL;$/;"	v	file:
+__malloc	lib/libc/malloc/malloc.c	/^static void * __malloc(size_t size)$/;"	f	file:	signature:(size_t size)
+__memalign	lib/libc/malloc/malloc.c	/^static void * __memalign(size_t align, size_t size)$/;"	f	file:	signature:(size_t align, size_t size)
+__memcmp	lib/libc/string/memcmp.c	/^static int __memcmp(const void * s1, const void * s2, size_t n)$/;"	f	file:	signature:(const void * s1, const void * s2, size_t n)
+__memcpy	lib/libc/string/memcpy.c	/^static void * __memcpy(void * dest, const void * src, size_t len)$/;"	f	file:	signature:(void * dest, const void * src, size_t len)
+__meminfo	lib/libc/malloc/malloc.c	/^static void __meminfo(size_t * mused, size_t * mfree)$/;"	f	file:	signature:(size_t * mused, size_t * mfree)
+__memmove	lib/libc/string/memmove.c	/^static void * __memmove(void * dest, const void * src, size_t n)$/;"	f	file:	signature:(void * dest, const void * src, size_t n)
+__memset	lib/libc/string/memset.c	/^static void * __memset(void * s, int c, size_t n)$/;"	f	file:	signature:(void * s, int c, size_t n)
+__month_to_secs	lib/libc/time/__tm_to_secs.c	/^static int __month_to_secs(int month, int is_leap)$/;"	f	file:	signature:(int month, int is_leap)
+__put_env	lib/libc/environ/putenv.c	/^int __put_env(char * str, size_t len, int overwrite)$/;"	f	signature:(char * str, size_t len, int overwrite)
+__put_env	lib/libc/environ/setenv.c	/^extern int __put_env(char * str, size_t len, int overwrite);$/;"	p	file:	signature:(char * str, size_t len, int overwrite)
+__rb_erase_color	lib/libx/rbtree.c	/^EXPORT_SYMBOL(__rb_erase_color);$/;"	v
+__rb_erase_color	lib/libx/rbtree.c	/^void __rb_erase_color(struct rb_node * parent, struct rb_root * root,$/;"	f	signature:(struct rb_node * parent, struct rb_root * root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__rb_insert	lib/libx/rbtree.c	/^__rb_insert(struct rb_node * node, struct rb_root * root,$/;"	f	signature:(struct rb_node * node, struct rb_root * root, int newleft, struct rb_node ** leftmost, void (*augment_rotate)(struct rb_node * old, struct rb_node * new))
+__rb_insert_augmented	lib/libx/rbtree.c	/^EXPORT_SYMBOL(__rb_insert_augmented);$/;"	v
+__rb_insert_augmented	lib/libx/rbtree.c	/^void __rb_insert_augmented(struct rb_node * node, struct rb_root * root,$/;"	f	signature:(struct rb_node * node, struct rb_root * root, int newleft, struct rb_node ** leftmost, void (*augment_rotate)(struct rb_node * old, struct rb_node * new))
+__rb_rotate_set_parents	lib/libx/rbtree.c	/^__rb_rotate_set_parents(struct rb_node * old, struct rb_node * new,$/;"	f	file:	signature:(struct rb_node * old, struct rb_node * new, struct rb_root * root, int color)
+__realloc	lib/libc/malloc/malloc.c	/^static void * __realloc(void * ptr, size_t size)$/;"	f	file:	signature:(void * ptr, size_t size)
+__rem_pio2	lib/libm/__rem_pio2.c	/^int __rem_pio2(double x, double *y)$/;"	f	signature:(double x, double *y)
+__rem_pio2_large	lib/libm/__rem_pio2_large.c	/^int __rem_pio2_large(double *x, double *y, int e0, int nx, int prec)$/;"	f	signature:(double *x, double *y, int e0, int nx, int prec)
+__rem_pio2f	lib/libm/__rem_pio2f.c	/^int __rem_pio2f(float x, double *y)$/;"	f	signature:(float x, double *y)
+__rint	lib/libm/rint.c	/^static double __rint(double x)$/;"	f	file:	signature:(double x)
+__rintf	lib/libm/rintf.c	/^static float __rintf(float x)$/;"	f	file:	signature:(float x)
+__round	lib/libm/round.c	/^static double __round(double x)$/;"	f	file:	signature:(double x)
+__roundf	lib/libm/roundf.c	/^static float __roundf(float x)$/;"	f	file:	signature:(float x)
+__secs_to_tm	lib/libc/time/__secs_to_tm.c	/^int __secs_to_tm(int64_t t, struct tm * tm)$/;"	f	signature:(int64_t t, struct tm * tm)
+__seed	lib/libc/stdlib/rand.c	/^static unsigned short __seed[3] = {1, 1, 1};$/;"	v	file:
+__sin	lib/libm/__sin.c	/^double __sin(double x, double y, int iy)$/;"	f	signature:(double x, double y, int iy)
+__sindf	lib/libm/__sindf.c	/^float __sindf(double x)$/;"	f	signature:(double x)
+__sqrt	lib/libm/sqrt.c	/^static double __sqrt(double x)$/;"	f	file:	signature:(double x)
+__sqrtf	lib/libm/sqrtf.c	/^static float __sqrtf(float x)$/;"	f	file:	signature:(float x)
+__stdio_get_stderr	lib/libc/stdio/__stdio.c	/^EXPORT_SYMBOL(__stdio_get_stderr);$/;"	v
+__stdio_get_stderr	lib/libc/stdio/__stdio.c	/^FILE * __stdio_get_stderr(void)$/;"	f	signature:(void)
+__stdio_get_stdin	lib/libc/stdio/__stdio.c	/^EXPORT_SYMBOL(__stdio_get_stdin);$/;"	v
+__stdio_get_stdin	lib/libc/stdio/__stdio.c	/^FILE * __stdio_get_stdin(void)$/;"	f	signature:(void)
+__stdio_get_stdout	lib/libc/stdio/__stdio.c	/^EXPORT_SYMBOL(__stdio_get_stdout);$/;"	v
+__stdio_get_stdout	lib/libc/stdio/__stdio.c	/^FILE * __stdio_get_stdout(void)$/;"	f	signature:(void)
+__stdio_no_flush	lib/libc/stdio/__stdio_flush.c	/^int __stdio_no_flush(FILE * f)$/;"	f	signature:(FILE * f)
+__stdio_read	lib/libc/stdio/__stdio_read.c	/^ssize_t __stdio_read(FILE * f, unsigned char * buf, size_t size)$/;"	f	signature:(FILE * f, unsigned char * buf, size_t size)
+__stdio_read_flush	lib/libc/stdio/__stdio_flush.c	/^int	__stdio_read_flush(FILE * f)$/;"	f	signature:(FILE * f)
+__stdio_write	lib/libc/stdio/__stdio_write.c	/^ssize_t __stdio_write(FILE * f, const unsigned char * buf, size_t size)$/;"	f	signature:(FILE * f, const unsigned char * buf, size_t size)
+__stdio_write_flush	lib/libc/stdio/__stdio_flush.c	/^int __stdio_write_flush(FILE * f)$/;"	f	signature:(FILE * f)
+__strcmp	lib/libc/string/strcmp.c	/^static int __strcmp(const char * s1, const char * s2)$/;"	f	file:	signature:(const char * s1, const char * s2)
+__strcpy	lib/libc/string/strcpy.c	/^char * __strcpy(char * dest, const char * src)$/;"	f	signature:(char * dest, const char * src)
+__strncmp	lib/libc/string/strncmp.c	/^static int __strncmp(const char * s1, const char * s2, size_t n)$/;"	f	file:	signature:(const char * s1, const char * s2, size_t n)
+__tan	lib/libm/__tan.c	/^double __tan(double x, double y, int odd)$/;"	f	signature:(double x, double y, int odd)
+__tandf	lib/libm/__tandf.c	/^float __tandf(double x, int odd)$/;"	f	signature:(double x, int odd)
+__task_errno_location	lib/libc/errno/errno.c	/^EXPORT_SYMBOL(__task_errno_location);$/;"	v
+__task_errno_location	lib/libc/errno/errno.c	/^volatile int * __task_errno_location(void)$/;"	f	signature:(void)
+__tm_to_secs	lib/libc/time/__tm_to_secs.c	/^int64_t __tm_to_secs(const struct tm * tm)$/;"	f	signature:(const struct tm * tm)
+__trunc	lib/libm/trunc.c	/^static double __trunc(double x)$/;"	f	file:	signature:(double x)
+__truncf	lib/libm/truncf.c	/^static float __truncf(float x)$/;"	f	file:	signature:(float x)
+__tty_null_close	lib/libc/stdio/__stdio.c	/^static int __tty_null_close(FILE * f)$/;"	f	file:	signature:(FILE * f)
+__tty_null_read	lib/libc/stdio/__stdio.c	/^static ssize_t __tty_null_read(FILE * f, unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, unsigned char * buf, size_t size)
+__tty_null_seek	lib/libc/stdio/__stdio.c	/^static fpos_t __tty_null_seek(FILE * f, fpos_t off, int whence)$/;"	f	file:	signature:(FILE * f, fpos_t off, int whence)
+__tty_null_write	lib/libc/stdio/__stdio.c	/^static ssize_t __tty_null_write(FILE * f, const unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, const unsigned char * buf, size_t size)
+__tty_stderr_write	lib/libc/stdio/__stdio.c	/^static ssize_t __tty_stderr_write(FILE * f, const unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, const unsigned char * buf, size_t size)
+__tty_stdin_read	lib/libc/stdio/__stdio.c	/^static ssize_t __tty_stdin_read(FILE * f, unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, unsigned char * buf, size_t size)
+__tty_stdout_write	lib/libc/stdio/__stdio.c	/^static ssize_t __tty_stdout_write(FILE * f, const unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, const unsigned char * buf, size_t size)
+__unbuffered_read	lib/libc/stdio/__stdio_read.c	/^static ssize_t __unbuffered_read(FILE * f, unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, unsigned char * buf, size_t size)
+__unbuffered_write	lib/libc/stdio/__stdio_write.c	/^static ssize_t __unbuffered_write(FILE * f, const unsigned char * buf, size_t size)$/;"	f	file:	signature:(FILE * f, const unsigned char * buf, size_t size)
+__xenviron	lib/libc/environ/environ.c	/^struct environ_t __xenviron = {$/;"	v	typeref:struct:environ_t
+__year_to_secs	lib/libc/time/__tm_to_secs.c	/^static int64_t __year_to_secs(int64_t year, int * is_leap)$/;"	f	file:	signature:(int64_t year, int * is_leap)
+aT	lib/libm/atan.c	/^static const double aT[] = {$/;"	v	file:
+aT	lib/libm/atanf.c	/^static const float aT[] = {$/;"	v	file:
+abort	lib/libc/exit/abort.c	/^EXPORT_SYMBOL(abort);$/;"	v
+abort	lib/libc/exit/abort.c	/^void __attribute__((__noreturn__)) abort(void)$/;"	f	signature:(void)
+abs	lib/libc/stdlib/abs.c	/^EXPORT_SYMBOL(abs);$/;"	v
+abs	lib/libc/stdlib/abs.c	/^int abs(int n)$/;"	f	signature:(int n)
+acos	lib/libm/acos.c	/^EXPORT_SYMBOL(acos);$/;"	v
+acos	lib/libm/acos.c	/^double acos(double x)$/;"	f	signature:(double x)
+acosf	lib/libm/acosf.c	/^EXPORT_SYMBOL(acosf);$/;"	v
+acosf	lib/libm/acosf.c	/^float acosf(float x)$/;"	f	signature:(float x)
+acosh	lib/libm/acosh.c	/^EXPORT_SYMBOL(acosh);$/;"	v
+acosh	lib/libm/acosh.c	/^double acosh(double x)$/;"	f	signature:(double x)
+acoshf	lib/libm/acoshf.c	/^EXPORT_SYMBOL(acoshf);$/;"	v
+acoshf	lib/libm/acoshf.c	/^float acoshf(float x)$/;"	f	signature:(float x)
+aday	lib/libc/time/strftime.c	/^static char * aday[] = {$/;"	v	file:
+add_128_128	lib/libc/crypto/ecdsa256.c	/^static struct ecdsa256_uint128_t add_128_128(struct ecdsa256_uint128_t a, struct ecdsa256_uint128_t b)$/;"	f	file:	signature:(struct ecdsa256_uint128_t a, struct ecdsa256_uint128_t b)
+add_counter	lib/libc/crypto/aes128.c	/^static inline void add_counter(uint8_t * counter)$/;"	f	file:	signature:(uint8_t * counter)
+add_counter	lib/libc/crypto/aes256.c	/^static inline void add_counter(uint8_t * counter)$/;"	f	file:	signature:(uint8_t * counter)
+add_ecc_and_interleave	lib/libx/qrcgen.c	/^static void add_ecc_and_interleave(uint8_t * data, int version, enum qrcgen_ecc_t ecc, uint8_t * result)$/;"	f	file:	signature:(uint8_t * data, int version, enum qrcgen_ecc_t ecc, uint8_t * result)
+add_round_key	lib/libc/crypto/aes128.c	/^static inline void add_round_key(uint8_t * state, uint8_t * key)$/;"	f	file:	signature:(uint8_t * state, uint8_t * key)
+add_round_key	lib/libc/crypto/aes256.c	/^static inline void add_round_key(uint8_t * state, uint8_t * key)$/;"	f	file:	signature:(uint8_t * state, uint8_t * key)
+adjust_request_size	lib/libc/malloc/malloc.c	/^static size_t adjust_request_size(size_t size, size_t align)$/;"	f	file:	signature:(size_t size, size_t align)
+aes128_cbc_decrypt	lib/libc/crypto/aes128.c	/^void aes128_cbc_decrypt(struct aes128_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes128_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)
+aes128_cbc_encrypt	lib/libc/crypto/aes128.c	/^void aes128_cbc_encrypt(struct aes128_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes128_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)
+aes128_ctr_decrypt	lib/libc/crypto/aes128.c	/^void aes128_ctr_decrypt(struct aes128_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)$/;"	f	signature:(struct aes128_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)
+aes128_ctr_encrypt	lib/libc/crypto/aes128.c	/^void aes128_ctr_encrypt(struct aes128_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)$/;"	f	signature:(struct aes128_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)
+aes128_decrypt	lib/libc/crypto/aes128.c	/^static void aes128_decrypt(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out)$/;"	f	file:	signature:(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out)
+aes128_ecb_decrypt	lib/libc/crypto/aes128.c	/^void aes128_ecb_decrypt(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)
+aes128_ecb_encrypt	lib/libc/crypto/aes128.c	/^void aes128_ecb_encrypt(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)
+aes128_encrypt	lib/libc/crypto/aes128.c	/^static void aes128_encrypt(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out)$/;"	f	file:	signature:(struct aes128_ctx_t * ctx, uint8_t * in, uint8_t * out)
+aes128_set_key	lib/libc/crypto/aes128.c	/^void aes128_set_key(struct aes128_ctx_t * ctx, uint8_t * key)$/;"	f	signature:(struct aes128_ctx_t * ctx, uint8_t * key)
+aes256_cbc_decrypt	lib/libc/crypto/aes256.c	/^void aes256_cbc_decrypt(struct aes256_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes256_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)
+aes256_cbc_encrypt	lib/libc/crypto/aes256.c	/^void aes256_cbc_encrypt(struct aes256_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes256_ctx_t * ctx, uint8_t * iv, uint8_t * in, uint8_t * out, int blks)
+aes256_ctr_decrypt	lib/libc/crypto/aes256.c	/^void aes256_ctr_decrypt(struct aes256_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)$/;"	f	signature:(struct aes256_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)
+aes256_ctr_encrypt	lib/libc/crypto/aes256.c	/^void aes256_ctr_encrypt(struct aes256_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)$/;"	f	signature:(struct aes256_ctx_t * ctx, uint64_t offset, uint8_t * in, uint8_t * out, int bytes)
+aes256_decrypt	lib/libc/crypto/aes256.c	/^static void aes256_decrypt(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out)$/;"	f	file:	signature:(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out)
+aes256_ecb_decrypt	lib/libc/crypto/aes256.c	/^void aes256_ecb_decrypt(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)
+aes256_ecb_encrypt	lib/libc/crypto/aes256.c	/^void aes256_ecb_encrypt(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)$/;"	f	signature:(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out, int blks)
+aes256_encrypt	lib/libc/crypto/aes256.c	/^static void aes256_encrypt(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out)$/;"	f	file:	signature:(struct aes256_ctx_t * ctx, uint8_t * in, uint8_t * out)
+aes256_set_key	lib/libc/crypto/aes256.c	/^void aes256_set_key(struct aes256_ctx_t * ctx, uint8_t * key)$/;"	f	signature:(struct aes256_ctx_t * ctx, uint8_t * key)
+align_data	lib/libc/malloc/malloc.c	/^		char align_data[ALIGN_SIZE];$/;"	m	union:block_header_t::__anon1	file:	access:public
+align_down	lib/libc/malloc/malloc.c	/^static size_t align_down(size_t x, size_t align)$/;"	f	file:	signature:(size_t x, size_t align)
+align_ptr	lib/libc/malloc/malloc.c	/^static void * align_ptr(const void * ptr, size_t align)$/;"	f	file:	signature:(const void * ptr, size_t align)
+align_up	lib/libc/malloc/malloc.c	/^static size_t align_up(size_t x, size_t align)$/;"	f	file:	signature:(size_t x, size_t align)
+amonth	lib/libc/time/strftime.c	/^static char * amonth[] = {$/;"	v	file:
+append_bits_to_buffer	lib/libx/qrcgen.c	/^static void append_bits_to_buffer(unsigned int val, int nbits, uint8_t * buffer, int * bitlen)$/;"	f	file:	signature:(unsigned int val, int nbits, uint8_t * buffer, int * bitlen)
+apply_mask	lib/libx/qrcgen.c	/^static void apply_mask(const uint8_t * m, uint8_t * qrc, enum qrcgen_mask_t mask)$/;"	f	file:	signature:(const uint8_t * m, uint8_t * qrc, enum qrcgen_mask_t mask)
+apply_z	lib/libc/crypto/ecdsa256.c	/^static void apply_z(uint64_t * x1, uint64_t * y1, uint64_t * z)$/;"	f	file:	signature:(uint64_t * x1, uint64_t * y1, uint64_t * z)
+asctime	lib/libc/time/asctime.c	/^EXPORT_SYMBOL(asctime);$/;"	v
+asctime	lib/libc/time/asctime.c	/^char * asctime(const struct tm * tm)$/;"	f	signature:(const struct tm * tm)
+asctime_r	lib/libc/time/asctime_r.c	/^EXPORT_SYMBOL(asctime_r);$/;"	v
+asctime_r	lib/libc/time/asctime_r.c	/^char * asctime_r(const struct tm * tm, char * buf)$/;"	f	signature:(const struct tm * tm, char * buf)
+asin	lib/libm/asin.c	/^EXPORT_SYMBOL(asin);$/;"	v
+asin	lib/libm/asin.c	/^double asin(double x)$/;"	f	signature:(double x)
+asinf	lib/libm/asinf.c	/^EXPORT_SYMBOL(asinf);$/;"	v
+asinf	lib/libm/asinf.c	/^float asinf(float x)$/;"	f	signature:(float x)
+asinh	lib/libm/asinh.c	/^EXPORT_SYMBOL(asinh);$/;"	v
+asinh	lib/libm/asinh.c	/^double asinh(double x)$/;"	f	signature:(double x)
+asinhf	lib/libm/asinhf.c	/^EXPORT_SYMBOL(asinhf);$/;"	v
+asinhf	lib/libm/asinhf.c	/^float asinhf(float x)$/;"	f	signature:(float x)
+asprintf	lib/libc/stdio/asprintf.c	/^EXPORT_SYMBOL(asprintf);$/;"	v
+asprintf	lib/libc/stdio/asprintf.c	/^int asprintf(char ** s, const char * fmt, ...)$/;"	f	signature:(char ** s, const char * fmt, ...)
+atan	lib/libm/atan.c	/^EXPORT_SYMBOL(atan);$/;"	v
+atan	lib/libm/atan.c	/^double atan(double x)$/;"	f	signature:(double x)
+atan2	lib/libm/atan2.c	/^EXPORT_SYMBOL(atan2);$/;"	v
+atan2	lib/libm/atan2.c	/^double atan2(double y, double x)$/;"	f	signature:(double y, double x)
+atan2f	lib/libm/atan2f.c	/^EXPORT_SYMBOL(atan2f);$/;"	v
+atan2f	lib/libm/atan2f.c	/^float atan2f(float y, float x)$/;"	f	signature:(float y, float x)
+atanf	lib/libm/atanf.c	/^EXPORT_SYMBOL(atanf);$/;"	v
+atanf	lib/libm/atanf.c	/^float atanf(float x)$/;"	f	signature:(float x)
+atanh	lib/libm/atanh.c	/^EXPORT_SYMBOL(atanh);$/;"	v
+atanh	lib/libm/atanh.c	/^double atanh(double x)$/;"	f	signature:(double x)
+atanhf	lib/libm/atanhf.c	/^EXPORT_SYMBOL(atanhf);$/;"	v
+atanhf	lib/libm/atanhf.c	/^float atanhf(float x)$/;"	f	signature:(float x)
+atanhi	lib/libm/atan.c	/^static const double atanhi[] = {$/;"	v	file:
+atanhi	lib/libm/atanf.c	/^static const float atanhi[] = {$/;"	v	file:
+atanlo	lib/libm/atan.c	/^static const double atanlo[] = {$/;"	v	file:
+atanlo	lib/libm/atanf.c	/^static const float atanlo[] = {$/;"	v	file:
+atof	lib/libc/stdlib/atof.c	/^EXPORT_SYMBOL(atof);$/;"	v
+atof	lib/libc/stdlib/atof.c	/^double atof(const char * nptr)$/;"	f	signature:(const char * nptr)
+atoi	lib/libc/stdlib/atoi.c	/^EXPORT_SYMBOL(atoi);$/;"	v
+atoi	lib/libc/stdlib/atoi.c	/^int atoi(const char * nptr)$/;"	f	signature:(const char * nptr)
+atol	lib/libc/stdlib/atol.c	/^EXPORT_SYMBOL(atol);$/;"	v
+atol	lib/libc/stdlib/atol.c	/^long atol(const char * nptr)$/;"	f	signature:(const char * nptr)
+atoll	lib/libc/stdlib/atoll.c	/^EXPORT_SYMBOL(atoll);$/;"	v
+atoll	lib/libc/stdlib/atoll.c	/^long long atoll(const char * nptr)$/;"	f	signature:(const char * nptr)
+bail	lib/libc/stdio/vsscanf.c	/^enum bail {$/;"	g	file:
+bail_eof	lib/libc/stdio/vsscanf.c	/^	bail_eof,							\/* Hit EOF *\/$/;"	e	enum:bail	file:
+bail_err	lib/libc/stdio/vsscanf.c	/^	bail_err,							\/* Conversion mismatch *\/$/;"	e	enum:bail	file:
+bail_none	lib/libc/stdio/vsscanf.c	/^	bail_none = 0,						\/* No error condition *\/$/;"	e	enum:bail	file:
+base64_decode	lib/libc/crypto/base64.c	/^int base64_decode(const char * in, int len, char * out)$/;"	f	signature:(const char * in, int len, char * out)
+base64_encode	lib/libc/crypto/base64.c	/^int base64_encode(const char * in, int len, char * out)$/;"	f	signature:(const char * in, int len, char * out)
+basename	lib/libc/path/basename.c	/^EXPORT_SYMBOL(basename);$/;"	v
+basename	lib/libc/path/basename.c	/^char * basename(char * path)$/;"	f	signature:(char * path)
+blen	lib/libx/qrcgen.c	/^	int blen;$/;"	m	struct:qrcgen_segment_t	file:	access:public
+block_absorb	lib/libc/malloc/malloc.c	/^static block_header_t * block_absorb(block_header_t * prev, block_header_t * block)$/;"	f	file:	signature:(block_header_t * prev, block_header_t * block)
+block_can_split	lib/libc/malloc/malloc.c	/^static int block_can_split(block_header_t * block, size_t size)$/;"	f	file:	signature:(block_header_t * block, size_t size)
+block_from_ptr	lib/libc/malloc/malloc.c	/^static block_header_t * block_from_ptr(const void * ptr)$/;"	f	file:	signature:(const void * ptr)
+block_get_size	lib/libc/malloc/malloc.c	/^static size_t block_get_size(const block_header_t * block)$/;"	f	file:	signature:(const block_header_t * block)
+block_header_free_bit	lib/libc/malloc/malloc.c	/^static const size_t block_header_free_bit = 1 << 0;$/;"	v	file:
+block_header_overhead	lib/libc/malloc/malloc.c	/^static const size_t block_header_overhead = sizeof(size_t);$/;"	v	file:
+block_header_prev_free_bit	lib/libc/malloc/malloc.c	/^static const size_t block_header_prev_free_bit = 1 << 1;$/;"	v	file:
+block_header_t	lib/libc/malloc/malloc.c	/^typedef struct block_header_t$/;"	s	file:
+block_header_t	lib/libc/malloc/malloc.c	/^} block_header_t;$/;"	t	typeref:struct:block_header_t	file:
+block_header_t::__anon1::align_data	lib/libc/malloc/malloc.c	/^		char align_data[ALIGN_SIZE];$/;"	m	union:block_header_t::__anon1	file:	access:public
+block_header_t::__anon1::prev_phys_block	lib/libc/malloc/malloc.c	/^		struct block_header_t * prev_phys_block;$/;"	m	union:block_header_t::__anon1	typeref:struct:block_header_t::__anon1::block_header_t	file:	access:public
+block_header_t::next_free	lib/libc/malloc/malloc.c	/^	struct block_header_t * next_free;$/;"	m	struct:block_header_t	typeref:struct:block_header_t::block_header_t	file:	access:public
+block_header_t::prev_free	lib/libc/malloc/malloc.c	/^	struct block_header_t * prev_free;$/;"	m	struct:block_header_t	typeref:struct:block_header_t::block_header_t	file:	access:public
+block_header_t::size	lib/libc/malloc/malloc.c	/^	size_t size;$/;"	m	struct:block_header_t	file:	access:public
+block_insert	lib/libc/malloc/malloc.c	/^static void block_insert(control_t * control, block_header_t * block)$/;"	f	file:	signature:(control_t * control, block_header_t * block)
+block_is_free	lib/libc/malloc/malloc.c	/^static int block_is_free(const block_header_t * block)$/;"	f	file:	signature:(const block_header_t * block)
+block_is_last	lib/libc/malloc/malloc.c	/^static int block_is_last(const block_header_t * block)$/;"	f	file:	signature:(const block_header_t * block)
+block_is_prev_free	lib/libc/malloc/malloc.c	/^static int block_is_prev_free(const block_header_t * block)$/;"	f	file:	signature:(const block_header_t * block)
+block_link_next	lib/libc/malloc/malloc.c	/^static block_header_t * block_link_next(block_header_t * block)$/;"	f	file:	signature:(block_header_t * block)
+block_locate_free	lib/libc/malloc/malloc.c	/^static block_header_t * block_locate_free(control_t * control, size_t size)$/;"	f	file:	signature:(control_t * control, size_t size)
+block_mark_as_free	lib/libc/malloc/malloc.c	/^static void block_mark_as_free(block_header_t * block)$/;"	f	file:	signature:(block_header_t * block)
+block_mark_as_used	lib/libc/malloc/malloc.c	/^static void block_mark_as_used(block_header_t * block)$/;"	f	file:	signature:(block_header_t * block)
+block_merge_next	lib/libc/malloc/malloc.c	/^static block_header_t * block_merge_next(control_t * control, block_header_t * block)$/;"	f	file:	signature:(control_t * control, block_header_t * block)
+block_merge_prev	lib/libc/malloc/malloc.c	/^static block_header_t * block_merge_prev(control_t * control, block_header_t * block)$/;"	f	file:	signature:(control_t * control, block_header_t * block)
+block_next	lib/libc/malloc/malloc.c	/^static block_header_t * block_next(const block_header_t * block)$/;"	f	file:	signature:(const block_header_t * block)
+block_null	lib/libc/malloc/malloc.c	/^	block_header_t block_null;$/;"	m	struct:control_t	file:	access:public
+block_prepare_used	lib/libc/malloc/malloc.c	/^static void * block_prepare_used(control_t * control, block_header_t * block, size_t size)$/;"	f	file:	signature:(control_t * control, block_header_t * block, size_t size)
+block_prev	lib/libc/malloc/malloc.c	/^static block_header_t * block_prev(const block_header_t * block)$/;"	f	file:	signature:(const block_header_t * block)
+block_remove	lib/libc/malloc/malloc.c	/^static void block_remove(control_t * control, block_header_t * block)$/;"	f	file:	signature:(control_t * control, block_header_t * block)
+block_set_free	lib/libc/malloc/malloc.c	/^static void block_set_free(block_header_t * block)$/;"	f	file:	signature:(block_header_t * block)
+block_set_prev_free	lib/libc/malloc/malloc.c	/^static void block_set_prev_free(block_header_t * block)$/;"	f	file:	signature:(block_header_t * block)
+block_set_prev_used	lib/libc/malloc/malloc.c	/^static void block_set_prev_used(block_header_t * block)$/;"	f	file:	signature:(block_header_t * block)
+block_set_size	lib/libc/malloc/malloc.c	/^static void block_set_size(block_header_t * block, size_t size)$/;"	f	file:	signature:(block_header_t * block, size_t size)
+block_set_used	lib/libc/malloc/malloc.c	/^static void block_set_used(block_header_t * block)$/;"	f	file:	signature:(block_header_t * block)
+block_size_max	lib/libc/malloc/malloc.c	/^static const size_t block_size_max = tlsf_cast(size_t, 1) << FL_INDEX_MAX;$/;"	v	file:
+block_size_min	lib/libc/malloc/malloc.c	/^static const size_t block_size_min = sizeof(block_header_t) - sizeof(block_header_t *);$/;"	v	file:
+block_split	lib/libc/malloc/malloc.c	/^static block_header_t * block_split(block_header_t * block, size_t size)$/;"	f	file:	signature:(block_header_t * block, size_t size)
+block_start_offset	lib/libc/malloc/malloc.c	/^static const size_t block_start_offset = offsetof(block_header_t, size) + sizeof(size_t);$/;"	v	file:
+block_to_ptr	lib/libc/malloc/malloc.c	/^static void * block_to_ptr(const block_header_t * block)$/;"	f	file:	signature:(const block_header_t * block)
+block_trim_free	lib/libc/malloc/malloc.c	/^static void block_trim_free(control_t * control, block_header_t * block, size_t size)$/;"	f	file:	signature:(control_t * control, block_header_t * block, size_t size)
+block_trim_free_leading	lib/libc/malloc/malloc.c	/^static block_header_t * block_trim_free_leading(control_t * control, block_header_t * block, size_t size)$/;"	f	file:	signature:(control_t * control, block_header_t * block, size_t size)
+block_trim_used	lib/libc/malloc/malloc.c	/^static void block_trim_used(control_t * control, block_header_t * block, size_t size)$/;"	f	file:	signature:(control_t * control, block_header_t * block, size_t size)
+blocks	lib/libc/malloc/malloc.c	/^	block_header_t * blocks[FL_INDEX_COUNT][SL_INDEX_COUNT];$/;"	m	struct:control_t	file:	access:public
+bp	lib/libm/pow.c	/^bp[]   = {1.0, 1.5,},$/;"	v	file:
+bp	lib/libm/powf.c	/^bp[]   = {1.0, 1.5,},$/;"	v	file:
+bsearch	lib/libc/stdlib/bsearch.c	/^EXPORT_SYMBOL(bsearch);$/;"	v
+bsearch	lib/libc/stdlib/bsearch.c	/^void * bsearch(const void * key, const void * base, size_t nmemb, size_t size,$/;"	f	signature:(const void * key, const void * base, size_t nmemb, size_t size, int (*compar)(const void *, const void *))
+byte_reverse_table	lib/libx/div.c	/^static const unsigned char byte_reverse_table[] = {$/;"	v	file:
+c1pio2	lib/libm/cosf.c	/^c1pio2 = 1*M_PI_2, \/* 0x3FF921FB, 0x54442D18 *\/$/;"	v	file:
+c2pio2	lib/libm/cosf.c	/^c2pio2 = 2*M_PI_2, \/* 0x400921FB, 0x54442D18 *\/$/;"	v	file:
+c3pio2	lib/libm/cosf.c	/^c3pio2 = 3*M_PI_2, \/* 0x4012D97C, 0x7F3321D2 *\/$/;"	v	file:
+c4pio2	lib/libm/cosf.c	/^c4pio2 = 4*M_PI_2; \/* 0x401921FB, 0x54442D18 *\/$/;"	v	file:
+calc_segment_bit_length	lib/libx/qrcgen.c	/^static int calc_segment_bit_length(enum qrcgen_mode_t mode, int nchar)$/;"	f	file:	signature:(enum qrcgen_mode_t mode, int nchar)
+cbrt	lib/libm/cbrt.c	/^EXPORT_SYMBOL(cbrt);$/;"	v
+cbrt	lib/libm/cbrt.c	/^double cbrt(double x)$/;"	f	signature:(double x)
+cbrtf	lib/libm/cbrtf.c	/^EXPORT_SYMBOL(cbrtf);$/;"	v
+cbrtf	lib/libm/cbrtf.c	/^float cbrtf(float x)$/;"	f	signature:(float x)
+ceil	lib/libm/arm64/ceil.c	/^double ceil(double x)$/;"	f	signature:(double x)
+ceilf	lib/libm/arm64/ceilf.c	/^float ceilf(float x)$/;"	f	signature:(float x)
+cfltcvt	lib/libc/stdio/vsnprintf.c	/^static void cfltcvt(double value, char * buffer, char fmt, int precision)$/;"	f	file:	signature:(double value, char * buffer, char fmt, int precision)
+clearenv	lib/libc/environ/clearenv.c	/^EXPORT_SYMBOL(clearenv);$/;"	v
+clearenv	lib/libc/environ/clearenv.c	/^int clearenv(void)$/;"	f	signature:(void)
+clearerr	lib/libc/stdio/clearerr.c	/^EXPORT_SYMBOL(clearerr);$/;"	v
+clearerr	lib/libc/stdio/clearerr.c	/^void clearerr(FILE * f)$/;"	f	signature:(FILE * f)
+clock	lib/libc/time/clock.c	/^EXPORT_SYMBOL(clock);$/;"	v
+clock	lib/libc/time/clock.c	/^clock_t clock(void)$/;"	f	signature:(void)
+control_construct	lib/libc/malloc/malloc.c	/^static void control_construct(control_t * control)$/;"	f	file:	signature:(control_t * control)
+control_t	lib/libc/malloc/malloc.c	/^typedef struct control_t$/;"	s	file:
+control_t	lib/libc/malloc/malloc.c	/^} control_t;$/;"	t	typeref:struct:control_t	file:
+control_t::block_null	lib/libc/malloc/malloc.c	/^	block_header_t block_null;$/;"	m	struct:control_t	file:	access:public
+control_t::blocks	lib/libc/malloc/malloc.c	/^	block_header_t * blocks[FL_INDEX_COUNT][SL_INDEX_COUNT];$/;"	m	struct:control_t	file:	access:public
+control_t::fl_bitmap	lib/libc/malloc/malloc.c	/^	unsigned int fl_bitmap;$/;"	m	struct:control_t	file:	access:public
+control_t::sl_bitmap	lib/libc/malloc/malloc.c	/^	unsigned int sl_bitmap[FL_INDEX_COUNT];$/;"	m	struct:control_t	file:	access:public
+cos	lib/libm/cos.c	/^EXPORT_SYMBOL(cos);$/;"	v
+cos	lib/libm/cos.c	/^double cos(double x)$/;"	f	signature:(double x)
+cosf	lib/libm/cosf.c	/^EXPORT_SYMBOL(cosf);$/;"	v
+cosf	lib/libm/cosf.c	/^float cosf(float x)$/;"	f	signature:(float x)
+cosh	lib/libm/cosh.c	/^EXPORT_SYMBOL(cosh);$/;"	v
+cosh	lib/libm/cosh.c	/^double cosh(double x)$/;"	f	signature:(double x)
+coshf	lib/libm/coshf.c	/^EXPORT_SYMBOL(coshf);$/;"	v
+coshf	lib/libm/coshf.c	/^float coshf(float x)$/;"	f	signature:(float x)
+cp	lib/libm/pow.c	/^cp      =  9.61796693925975554329e-01, \/* 0x3FEEC709, 0xDC3A03FD =2\/(3ln2) *\/$/;"	v	file:
+cp	lib/libm/powf.c	/^cp      =  9.6179670095e-01, \/* 0x3f76384f =2\/(3ln2) *\/$/;"	v	file:
+cp_h	lib/libm/pow.c	/^cp_h    =  9.61796700954437255859e-01, \/* 0x3FEEC709, 0xE0000000 =(float)cp *\/$/;"	v	file:
+cp_h	lib/libm/powf.c	/^cp_h    =  9.6191406250e-01, \/* 0x3f764000 =12b cp *\/$/;"	v	file:
+cp_l	lib/libm/pow.c	/^cp_l    = -7.02846165095275826516e-09, \/* 0xBE3E2FE0, 0x145B01F5 =tail of cp_h*\/$/;"	v	file:
+cp_l	lib/libm/powf.c	/^cp_l    = -1.1736857402e-04, \/* 0xb8f623c6 =tail of cp_h *\/$/;"	v	file:
+crc16_sum	lib/libc/crypto/crc16.c	/^uint16_t crc16_sum(uint16_t crc, const uint8_t * buf, int len)$/;"	f	signature:(uint16_t crc, const uint8_t * buf, int len)
+crc16_table	lib/libc/crypto/crc16.c	/^static const uint16_t crc16_table[256] = {$/;"	v	file:
+crc32_sum	lib/libc/crypto/crc32.c	/^uint32_t crc32_sum(uint32_t crc, const uint8_t * buf, int len)$/;"	f	signature:(uint32_t crc, const uint8_t * buf, int len)
+crc32_table	lib/libc/crypto/crc32.c	/^static const uint32_t crc32_table[256] = {$/;"	v	file:
+crc8_sum	lib/libc/crypto/crc8.c	/^uint8_t crc8_sum(uint8_t crc, const uint8_t * buf, int len)$/;"	f	signature:(uint8_t crc, const uint8_t * buf, int len)
+crc8_table	lib/libc/crypto/crc8.c	/^static const uint8_t crc8_table[256] = {$/;"	v	file:
+cropzeros	lib/libc/stdio/vsnprintf.c	/^static void cropzeros(char *buffer)$/;"	f	file:	signature:(char *buffer)
+ctime	lib/libc/time/ctime.c	/^EXPORT_SYMBOL(ctime);$/;"	v
+ctime	lib/libc/time/ctime.c	/^char * ctime(const time_t * t)$/;"	f	signature:(const time_t * t)
+ctime_r	lib/libc/time/ctime_r.c	/^EXPORT_SYMBOL(ctime_r);$/;"	v
+ctime_r	lib/libc/time/ctime_r.c	/^char * ctime_r(const time_t * t, char * buf)$/;"	f	signature:(const time_t * t, char * buf)
+cur_col	lib/libx/json.c	/^	unsigned int cur_col;$/;"	m	struct:json_state_t	file:	access:public
+cur_line	lib/libx/json.c	/^	unsigned int cur_line;$/;"	m	struct:json_state_t	file:	access:public
+curve_b	lib/libc/crypto/ecdsa256.c	/^static uint64_t curve_b[ECDSA256_NUM_DIGITS] = { 0x3bce3c3e27d2604bull, 0x651d06b0cc53b0f6ull, 0xb3ebbd55769886bcull, 0x5ac635d8aa3a93e7ull };$/;"	v	file:
+curve_g	lib/libc/crypto/ecdsa256.c	/^static struct ecdsa256_point_t curve_g = { { 0xf4a13945d898c296ull, 0x77037d812deb33a0ull, 0xf8bce6e563a440f2ull, 0x6b17d1f2e12c4247ull }, { 0xcbb6406837bf51f5ull, 0x2bce33576b315eceull, 0x8ee7eb4a7c0f9e16ull, 0x4fe342e2fe1a7f9bull } };$/;"	v	typeref:struct:ecdsa256_point_t	file:
+curve_n	lib/libc/crypto/ecdsa256.c	/^static uint64_t curve_n[ECDSA256_NUM_DIGITS] = { 0xf3b9cac2fc632551ull, 0xbce6faada7179e84ull, 0xffffffffffffffffull, 0xffffffff00000000ull };$/;"	v	file:
+curve_p	lib/libc/crypto/ecdsa256.c	/^static uint64_t curve_p[ECDSA256_NUM_DIGITS] = { 0xffffffffffffffffull, 0x00000000ffffffffull, 0x0000000000000000ull, 0xffffffff00000001ull };$/;"	v	file:
+cvt	lib/libc/stdio/vsnprintf.c	/^static char * cvt(double arg, int ndigits, int * decpt, int * sign, char * buf, int eflag)$/;"	f	file:	signature:(double arg, int ndigits, int * decpt, int * sign, char * buf, int eflag)
+data	lib/libx/qrcgen.c	/^	uint8_t * data;$/;"	m	struct:qrcgen_segment_t	file:	access:public
+day	lib/libc/time/strftime.c	/^static char * day[] = {$/;"	v	file:
+decode_table	lib/libc/crypto/base64.c	/^static const char decode_table[] = {$/;"	v	file:
+difftime	lib/libc/time/difftime.c	/^EXPORT_SYMBOL(difftime);$/;"	v
+difftime	lib/libc/time/difftime.c	/^double difftime(time_t t1, time_t t0)$/;"	f	signature:(time_t t1, time_t t0)
+digitval	lib/libc/stdlib/strntoumax.c	/^static inline int digitval(int ch)$/;"	f	file:	signature:(int ch)
+dirname	lib/libc/path/dirname.c	/^EXPORT_SYMBOL(dirname);$/;"	v
+dirname	lib/libc/path/dirname.c	/^char * dirname(char * path)$/;"	f	signature:(char * path)
+div	lib/libc/stdlib/div.c	/^EXPORT_SYMBOL(div);$/;"	v
+div	lib/libc/stdlib/div.c	/^div_t div(int num, int den)$/;"	f	signature:(int num, int den)
+do_fls32	lib/libx/div.c	/^static inline u32_t do_fls32(u32_t value)$/;"	f	file:	signature:(u32_t value)
+do_fls64	lib/libx/div.c	/^static inline u32_t do_fls64(u64_t value)$/;"	f	file:	signature:(u64_t value)
+do_init_mem	lib/libc/malloc/malloc.c	/^void do_init_mem(void)$/;"	f	signature:(void)
+do_udiv32	lib/libx/div.c	/^u32_t do_udiv32(u32_t dividend, u32_t divisor, u32_t * remainder)$/;"	f	signature:(u32_t dividend, u32_t divisor, u32_t * remainder)
+do_udiv64	lib/libx/div.c	/^u64_t do_udiv64(u64_t dividend, u64_t divisor, u64_t * remainder)$/;"	f	signature:(u64_t dividend, u64_t divisor, u64_t * remainder)
+dp_h	lib/libm/pow.c	/^dp_h[] = { 0.0, 5.84962487220764160156e-01,}, \/* 0x3FE2B803, 0x40000000 *\/$/;"	v	file:
+dp_h	lib/libm/powf.c	/^dp_h[] = { 0.0, 5.84960938e-01,}, \/* 0x3f15c000 *\/$/;"	v	file:
+dp_l	lib/libm/pow.c	/^dp_l[] = { 0.0, 1.35003920212974897128e-08,}, \/* 0x3E4CFDEB, 0x43CFD006 *\/$/;"	v	file:
+dp_l	lib/libm/powf.c	/^dp_l[] = { 0.0, 1.56322085e-06,}, \/* 0x35d1cfdc *\/$/;"	v	file:
+draw_code_words	lib/libx/qrcgen.c	/^static void draw_code_words(const uint8_t * data, int dlen, uint8_t * qrc)$/;"	f	file:	signature:(const uint8_t * data, int dlen, uint8_t * qrc)
+draw_format_bits	lib/libx/qrcgen.c	/^static void draw_format_bits(enum qrcgen_ecc_t ecc, enum qrcgen_mask_t mask, uint8_t * qrc)$/;"	f	file:	signature:(enum qrcgen_ecc_t ecc, enum qrcgen_mask_t mask, uint8_t * qrc)
+draw_white_function_modules	lib/libx/qrcgen.c	/^static void draw_white_function_modules(uint8_t * qrc, int version)$/;"	f	file:	signature:(uint8_t * qrc, int version)
+dummy_callbacks	lib/libx/rbtree.c	/^static const struct rb_augment_callbacks dummy_callbacks = {$/;"	v	typeref:struct:rb_augment_callbacks	file:
+dummy_copy	lib/libx/rbtree.c	/^static inline void dummy_copy(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:	signature:(struct rb_node *old, struct rb_node *new)
+dummy_propagate	lib/libx/rbtree.c	/^static inline void dummy_propagate(struct rb_node *node, struct rb_node *stop) {}$/;"	f	file:	signature:(struct rb_node *node, struct rb_node *stop)
+dummy_rotate	lib/libx/rbtree.c	/^static inline void dummy_rotate(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:	signature:(struct rb_node *old, struct rb_node *new)
+ecc_bytes2native	lib/libc/crypto/ecdsa256.c	/^static void ecc_bytes2native(uint64_t * native, const uint8_t * bytes)$/;"	f	file:	signature:(uint64_t * native, const uint8_t * bytes)
+ecc_native2bytes	lib/libc/crypto/ecdsa256.c	/^static void ecc_native2bytes(uint8_t * bytes, const uint64_t * native)$/;"	f	file:	signature:(uint8_t * bytes, const uint64_t * native)
+ecc_point_decompress	lib/libc/crypto/ecdsa256.c	/^static void ecc_point_decompress(struct ecdsa256_point_t * point, const uint8_t * compressed)$/;"	f	file:	signature:(struct ecdsa256_point_t * point, const uint8_t * compressed)
+eccpoint_double_jacobian	lib/libc/crypto/ecdsa256.c	/^static void eccpoint_double_jacobian(uint64_t * x1, uint64_t * y1, uint64_t * z1)$/;"	f	file:	signature:(uint64_t * x1, uint64_t * y1, uint64_t * z1)
+eccpoint_iszero	lib/libc/crypto/ecdsa256.c	/^static int eccpoint_iszero(struct ecdsa256_point_t * point)$/;"	f	file:	signature:(struct ecdsa256_point_t * point)
+eccpoint_mult	lib/libc/crypto/ecdsa256.c	/^static void eccpoint_mult(struct ecdsa256_point_t * result, struct ecdsa256_point_t * point, uint64_t * scalar, uint64_t * initialz)$/;"	f	file:	signature:(struct ecdsa256_point_t * result, struct ecdsa256_point_t * point, uint64_t * scalar, uint64_t * initialz)
+ecdh256_keygen	lib/libc/crypto/ecdsa256.c	/^int ecdh256_keygen(const uint8_t * public, const uint8_t * private, uint8_t * shared)$/;"	f	signature:(const uint8_t * public, const uint8_t * private, uint8_t * shared)
+ecdsa256_keygen	lib/libc/crypto/ecdsa256.c	/^int ecdsa256_keygen(uint8_t * public, uint8_t * private)$/;"	f	signature:(uint8_t * public, uint8_t * private)
+ecdsa256_point_t	lib/libc/crypto/ecdsa256.c	/^struct ecdsa256_point_t {$/;"	s	file:
+ecdsa256_point_t::x	lib/libc/crypto/ecdsa256.c	/^	uint64_t x[ECDSA256_NUM_DIGITS];$/;"	m	struct:ecdsa256_point_t	file:	access:public
+ecdsa256_point_t::y	lib/libc/crypto/ecdsa256.c	/^	uint64_t y[ECDSA256_NUM_DIGITS];$/;"	m	struct:ecdsa256_point_t	file:	access:public
+ecdsa256_sign	lib/libc/crypto/ecdsa256.c	/^int ecdsa256_sign(const uint8_t * private, const uint8_t * sha256, uint8_t * signature)$/;"	f	signature:(const uint8_t * private, const uint8_t * sha256, uint8_t * signature)
+ecdsa256_uint128_t	lib/libc/crypto/ecdsa256.c	/^struct ecdsa256_uint128_t {$/;"	s	file:
+ecdsa256_uint128_t::m_high	lib/libc/crypto/ecdsa256.c	/^	uint64_t m_high;$/;"	m	struct:ecdsa256_uint128_t	file:	access:public
+ecdsa256_uint128_t::m_low	lib/libc/crypto/ecdsa256.c	/^	uint64_t m_low;$/;"	m	struct:ecdsa256_uint128_t	file:	access:public
+ecdsa256_verify	lib/libc/crypto/ecdsa256.c	/^int ecdsa256_verify(const uint8_t * public, const uint8_t * sha256, const uint8_t * signature)$/;"	f	signature:(const uint8_t * public, const uint8_t * sha256, const uint8_t * signature)
+efx8	lib/libm/erf.c	/^efx8 =  1.02703333676410069053e+00, \/* 0x3FF06EBA, 0x8214DB69 *\/$/;"	v	file:
+efx8	lib/libm/erff.c	/^efx8 =  1.0270333290e+00, \/* 0x3f8375d4 *\/$/;"	v	file:
+encode_table	lib/libc/crypto/base64.c	/^static const char encode_table[] = {$/;"	v	file:
+erf	lib/libm/erf.c	/^EXPORT_SYMBOL(erf);$/;"	v
+erf	lib/libm/erf.c	/^double erf(double x)$/;"	f	signature:(double x)
+erfc	lib/libm/erf.c	/^EXPORT_SYMBOL(erfc);$/;"	v
+erfc	lib/libm/erf.c	/^double erfc(double x)$/;"	f	signature:(double x)
+erfc1	lib/libm/erf.c	/^static double erfc1(double x)$/;"	f	file:	signature:(double x)
+erfc1	lib/libm/erff.c	/^static float erfc1(float x)$/;"	f	file:	signature:(float x)
+erfc2	lib/libm/erf.c	/^static double erfc2(uint32_t ix, double x)$/;"	f	file:	signature:(uint32_t ix, double x)
+erfc2	lib/libm/erff.c	/^static float erfc2(uint32_t ix, float x)$/;"	f	file:	signature:(uint32_t ix, float x)
+erfcf	lib/libm/erff.c	/^EXPORT_SYMBOL(erfcf);$/;"	v
+erfcf	lib/libm/erff.c	/^float erfcf(float x)$/;"	f	signature:(float x)
+erff	lib/libm/erff.c	/^EXPORT_SYMBOL(erff);$/;"	v
+erff	lib/libm/erff.c	/^float erff(float x)$/;"	f	signature:(float x)
+erx	lib/libm/erf.c	/^erx  = 8.45062911510467529297e-01, \/* 0x3FEB0AC1, 0x60000000 *\/$/;"	v	file:
+erx	lib/libm/erff.c	/^erx  =  8.4506291151e-01, \/* 0x3f58560b *\/$/;"	v	file:
+ewma_alloc	lib/libc/filter/ewma.c	/^struct ewma_filter_t * ewma_alloc(float weight)$/;"	f	signature:(float weight)
+ewma_clear	lib/libc/filter/ewma.c	/^void ewma_clear(struct ewma_filter_t * filter)$/;"	f	signature:(struct ewma_filter_t * filter)
+ewma_free	lib/libc/filter/ewma.c	/^void ewma_free(struct ewma_filter_t * filter)$/;"	f	signature:(struct ewma_filter_t * filter)
+ewma_update	lib/libc/filter/ewma.c	/^float ewma_update(struct ewma_filter_t * filter, float value)$/;"	f	signature:(struct ewma_filter_t * filter, float value)
+exit	lib/libc/exit/exit.c	/^EXPORT_SYMBOL(exit);$/;"	v
+exit	lib/libc/exit/exit.c	/^void __attribute__((__noreturn__)) exit(int code)$/;"	f	signature:(int code)
+exp	lib/libm/exp.c	/^EXPORT_SYMBOL(exp);$/;"	v
+exp	lib/libm/exp.c	/^double exp(double x)$/;"	f	signature:(double x)
+exp2	lib/libm/exp2.c	/^EXPORT_SYMBOL(exp2);$/;"	v
+exp2	lib/libm/exp2.c	/^double exp2(double x)$/;"	f	signature:(double x)
+exp2f	lib/libm/exp2f.c	/^EXPORT_SYMBOL(exp2f);$/;"	v
+exp2f	lib/libm/exp2f.c	/^float exp2f(float x)$/;"	f	signature:(float x)
+exp2ft	lib/libm/exp2f.c	/^static const double exp2ft[TBLSIZE] = {$/;"	v	file:
+expf	lib/libm/expf.c	/^EXPORT_SYMBOL(expf);$/;"	v
+expf	lib/libm/expf.c	/^float expf(float x)$/;"	f	signature:(float x)
+expm1	lib/libm/expm1.c	/^EXPORT_SYMBOL(expm1);$/;"	v
+expm1	lib/libm/expm1.c	/^double expm1(double x)$/;"	f	signature:(double x)
+expm1f	lib/libm/expm1f.c	/^EXPORT_SYMBOL(expm1f);$/;"	v
+expm1f	lib/libm/expm1f.c	/^float expm1f(float x)$/;"	f	signature:(float x)
+fabs	lib/libm/arm32/fabs.c	/^double fabs(double x)$/;"	f	signature:(double x)
+fabs	lib/libm/arm64/fabs.c	/^double fabs(double x)$/;"	f	signature:(double x)
+fabs	lib/libm/riscv64/fabs.c	/^double fabs(double x)$/;"	f	signature:(double x)
+fabs	lib/libm/x64/fabs.c	/^double fabs(double x)$/;"	f	signature:(double x)
+fabsf	lib/libm/arm32/fabsf.c	/^float fabsf(float x)$/;"	f	signature:(float x)
+fabsf	lib/libm/arm64/fabsf.c	/^float fabsf(float x)$/;"	f	signature:(float x)
+fabsf	lib/libm/riscv64/fabsf.c	/^float fabsf(float x)$/;"	f	signature:(float x)
+fabsf	lib/libm/x64/fabsf.c	/^float fabsf(float x)$/;"	f	signature:(float x)
+fclose	lib/libc/stdio/fclose.c	/^EXPORT_SYMBOL(fclose);$/;"	v
+fclose	lib/libc/stdio/fclose.c	/^int fclose(FILE * f)$/;"	f	signature:(FILE * f)
+fdim	lib/libm/fdim.c	/^EXPORT_SYMBOL(fdim);$/;"	v
+fdim	lib/libm/fdim.c	/^double fdim(double x, double y)$/;"	f	signature:(double x, double y)
+fdimf	lib/libm/fdimf.c	/^EXPORT_SYMBOL(fdimf);$/;"	v
+fdimf	lib/libm/fdimf.c	/^float fdimf(float x, float y)$/;"	f	signature:(float x, float y)
+feof	lib/libc/stdio/feof.c	/^EXPORT_SYMBOL(feof);$/;"	v
+feof	lib/libc/stdio/feof.c	/^int feof(FILE * f)$/;"	f	signature:(FILE * f)
+ferror	lib/libc/stdio/ferror.c	/^EXPORT_SYMBOL(ferror);$/;"	v
+ferror	lib/libc/stdio/ferror.c	/^int ferror(FILE * f)$/;"	f	signature:(FILE * f)
+fflush	lib/libc/stdio/fflush.c	/^EXPORT_SYMBOL(fflush);$/;"	v
+fflush	lib/libc/stdio/fflush.c	/^int fflush(FILE * f)$/;"	f	signature:(FILE * f)
+fgetc	lib/libc/stdio/fgetc.c	/^EXPORT_SYMBOL(fgetc);$/;"	v
+fgetc	lib/libc/stdio/fgetc.c	/^int fgetc(FILE * f)$/;"	f	signature:(FILE * f)
+fgetpos	lib/libc/stdio/fgetpos.c	/^EXPORT_SYMBOL(fgetpos);$/;"	v
+fgetpos	lib/libc/stdio/fgetpos.c	/^int fgetpos(FILE * f, fpos_t * pos)$/;"	f	signature:(FILE * f, fpos_t * pos)
+fgets	lib/libc/stdio/fgets.c	/^EXPORT_SYMBOL(fgets);$/;"	v
+fgets	lib/libc/stdio/fgets.c	/^char * fgets(char * s, int n, FILE * f)$/;"	f	signature:(char * s, int n, FILE * f)
+fifo_alloc	lib/libx/fifo.c	/^EXPORT_SYMBOL(fifo_alloc);$/;"	v
+fifo_alloc	lib/libx/fifo.c	/^struct fifo_t * fifo_alloc(unsigned int size)$/;"	f	signature:(unsigned int size)
+fifo_free	lib/libx/fifo.c	/^EXPORT_SYMBOL(fifo_free);$/;"	v
+fifo_free	lib/libx/fifo.c	/^void fifo_free(struct fifo_t * f)$/;"	f	signature:(struct fifo_t * f)
+fifo_get	lib/libx/fifo.c	/^EXPORT_SYMBOL(fifo_get);$/;"	v
+fifo_get	lib/libx/fifo.c	/^unsigned int fifo_get(struct fifo_t * f, unsigned char * buf, unsigned int len)$/;"	f	signature:(struct fifo_t * f, unsigned char * buf, unsigned int len)
+fifo_len	lib/libx/fifo.c	/^EXPORT_SYMBOL(fifo_len);$/;"	v
+fifo_len	lib/libx/fifo.c	/^unsigned int fifo_len(struct fifo_t * f)$/;"	f	signature:(struct fifo_t * f)
+fifo_put	lib/libx/fifo.c	/^unsigned int fifo_put(struct fifo_t * f, unsigned char * buf, unsigned int len)$/;"	f	signature:(struct fifo_t * f, unsigned char * buf, unsigned int len)
+fifo_reset	lib/libx/fifo.c	/^EXPORT_SYMBOL(fifo_reset);$/;"	v
+fifo_reset	lib/libx/fifo.c	/^void fifo_reset(struct fifo_t * f)$/;"	f	signature:(struct fifo_t * f)
+fileext	lib/libc/path/fileext.c	/^EXPORT_SYMBOL(fileext);$/;"	v
+fileext	lib/libc/path/fileext.c	/^const char * fileext(const char * filename)$/;"	f	signature:(const char * filename)
+fill_rectangle	lib/libx/qrcgen.c	/^static void fill_rectangle(int left, int top, int width, int height, uint8_t * qrc)$/;"	f	file:	signature:(int left, int top, int width, int height, uint8_t * qrc)
+find_string	lib/libx/uri.c	/^static const char * find_string(const char * s, size_t len, const char * str)$/;"	f	file:	signature:(const char * s, size_t len, const char * str)
+find_string_reverse	lib/libx/uri.c	/^static const char * find_string_reverse(const char * s, size_t len, const char * str)$/;"	f	file:	signature:(const char * s, size_t len, const char * str)
+finder_penalty_add_history	lib/libx/qrcgen.c	/^static void finder_penalty_add_history(int crl, int * h, int qrs)$/;"	f	file:	signature:(int crl, int * h, int qrs)
+finder_penalty_count_patterns	lib/libx/qrcgen.c	/^static int finder_penalty_count_patterns(const int * h, int qrs)$/;"	f	file:	signature:(const int * h, int qrs)
+finder_penalty_terminate_and_count	lib/libx/qrcgen.c	/^static int finder_penalty_terminate_and_count(int col, int crl, int * h, int qrs)$/;"	f	file:	signature:(int col, int crl, int * h, int qrs)
+first_pass	lib/libx/json.c	/^	int first_pass;$/;"	m	struct:json_state_t	file:	access:public
+fl_bitmap	lib/libc/malloc/malloc.c	/^	unsigned int fl_bitmap;$/;"	m	struct:control_t	file:	access:public
+flags	lib/libc/stdio/vsnprintf.c	/^enum flags {$/;"	g	file:
+flags	lib/libc/stdio/vsscanf.c	/^enum flags {$/;"	g	file:
+floor	lib/libm/arm64/floor.c	/^double floor(double x)$/;"	f	signature:(double x)
+floorf	lib/libm/arm64/floorf.c	/^float floorf(float x)$/;"	f	signature:(float x)
+fmax	lib/libm/arm64/fmax.c	/^double fmax(double x, double y)$/;"	f	signature:(double x, double y)
+fmax	lib/libm/riscv64/fmax.c	/^double fmax(double x, double y)$/;"	f	signature:(double x, double y)
+fmaxf	lib/libm/arm64/fmaxf.c	/^float fmaxf(float x, float y)$/;"	f	signature:(float x, float y)
+fmaxf	lib/libm/riscv64/fmaxf.c	/^float fmaxf(float x, float y)$/;"	f	signature:(float x, float y)
+fmin	lib/libm/arm64/fmin.c	/^double fmin(double x, double y)$/;"	f	signature:(double x, double y)
+fmin	lib/libm/riscv64/fmin.c	/^double fmin(double x, double y)$/;"	f	signature:(double x, double y)
+fminf	lib/libm/arm64/fminf.c	/^float fminf(float x, float y)$/;"	f	signature:(float x, float y)
+fminf	lib/libm/riscv64/fminf.c	/^float fminf(float x, float y)$/;"	f	signature:(float x, float y)
+fmod	lib/libm/fmod.c	/^EXPORT_SYMBOL(fmod);$/;"	v
+fmod	lib/libm/fmod.c	/^double fmod(double x, double y)$/;"	f	signature:(double x, double y)
+fmodf	lib/libm/fmodf.c	/^EXPORT_SYMBOL(fmodf);$/;"	v
+fmodf	lib/libm/fmodf.c	/^float fmodf(float x, float y)$/;"	f	signature:(float x, float y)
+fopen	lib/libc/stdio/fopen.c	/^EXPORT_SYMBOL(fopen);$/;"	v
+fopen	lib/libc/stdio/fopen.c	/^FILE * fopen(const char * path, const char * mode)$/;"	f	signature:(const char * path, const char * mode)
+forcdecpt	lib/libc/stdio/vsnprintf.c	/^static void forcdecpt(char * buffer)$/;"	f	file:	signature:(char * buffer)
+format_float	lib/libc/stdio/vsnprintf.c	/^static size_t format_float(char * q, size_t n, double val, enum flags flags, char fmt, int width, int prec)$/;"	f	file:	signature:(char * q, size_t n, double val, enum flags flags, char fmt, int width, int prec)
+format_int	lib/libc/stdio/vsnprintf.c	/^static size_t format_int(char * q, size_t n, uintmax_t val, enum flags flags,$/;"	f	file:	signature:(char * q, size_t n, uintmax_t val, enum flags flags, int base, int width, int prec)
+fprintf	lib/libc/stdio/fprintf.c	/^EXPORT_SYMBOL(fprintf);$/;"	v
+fprintf	lib/libc/stdio/fprintf.c	/^int fprintf(FILE * f, const char * fmt, ...)$/;"	f	signature:(FILE * f, const char * fmt, ...)
+fputc	lib/libc/stdio/fputc.c	/^EXPORT_SYMBOL(fputc);$/;"	v
+fputc	lib/libc/stdio/fputc.c	/^int fputc(int c, FILE * f)$/;"	f	signature:(int c, FILE * f)
+fputs	lib/libc/stdio/fputs.c	/^EXPORT_SYMBOL(fputs);$/;"	v
+fputs	lib/libc/stdio/fputs.c	/^int fputs(const char * s, FILE * f)$/;"	f	signature:(const char * s, FILE * f)
+fread	lib/libc/stdio/fread.c	/^EXPORT_SYMBOL(fread);$/;"	v
+fread	lib/libc/stdio/fread.c	/^size_t fread(void * buf, size_t size, size_t count, FILE * f)$/;"	f	signature:(void * buf, size_t size, size_t count, FILE * f)
+freopen	lib/libc/stdio/freopen.c	/^EXPORT_SYMBOL(freopen);$/;"	v
+freopen	lib/libc/stdio/freopen.c	/^FILE * freopen(const char * path, const char * mode, FILE * f)$/;"	f	signature:(const char * path, const char * mode, FILE * f)
+frexp	lib/libm/frexp.c	/^EXPORT_SYMBOL(frexp);$/;"	v
+frexp	lib/libm/frexp.c	/^double frexp(double x, int *e)$/;"	f	signature:(double x, int *e)
+frexpf	lib/libm/frexpf.c	/^EXPORT_SYMBOL(frexpf);$/;"	v
+frexpf	lib/libm/frexpf.c	/^float frexpf(float x, int *e)$/;"	f	signature:(float x, int *e)
+fscanf	lib/libc/stdio/fscanf.c	/^EXPORT_SYMBOL(fscanf);$/;"	v
+fscanf	lib/libc/stdio/fscanf.c	/^int fscanf(FILE * f, const char * fmt, ...)$/;"	f	signature:(FILE * f, const char * fmt, ...)
+fseek	lib/libc/stdio/fseek.c	/^EXPORT_SYMBOL(fseek);$/;"	v
+fseek	lib/libc/stdio/fseek.c	/^int fseek(FILE * f, fpos_t off, int whence)$/;"	f	signature:(FILE * f, fpos_t off, int whence)
+fsetpos	lib/libc/stdio/fsetpos.c	/^EXPORT_SYMBOL(fsetpos);$/;"	v
+fsetpos	lib/libc/stdio/fsetpos.c	/^int fsetpos(FILE * f, const fpos_t * pos)$/;"	f	signature:(FILE * f, const fpos_t * pos)
+ftell	lib/libc/stdio/ftell.c	/^EXPORT_SYMBOL(ftell);$/;"	v
+ftell	lib/libc/stdio/ftell.c	/^fpos_t ftell(FILE * f)$/;"	f	signature:(FILE * f)
+fwrite	lib/libc/stdio/fwrite.c	/^EXPORT_SYMBOL(fwrite);$/;"	v
+fwrite	lib/libc/stdio/fwrite.c	/^size_t fwrite(const void * buf, size_t size, size_t count, FILE * f)$/;"	f	signature:(const void * buf, size_t size, size_t count, FILE * f)
+get_alignment_pattern_position	lib/libx/qrcgen.c	/^static int get_alignment_pattern_position(int version, uint8_t * result)$/;"	f	file:	signature:(int version, uint8_t * result)
+get_bit	lib/libx/qrcgen.c	/^static int get_bit(int x, int i)$/;"	f	file:	signature:(int x, int i)
+get_module	lib/libx/qrcgen.c	/^static int get_module(const uint8_t * qrc, int x, int y)$/;"	f	file:	signature:(const uint8_t * qrc, int x, int y)
+get_num_data_code_words	lib/libx/qrcgen.c	/^static int get_num_data_code_words(int version, enum qrcgen_ecc_t ecc)$/;"	f	file:	signature:(int version, enum qrcgen_ecc_t ecc)
+get_num_raw_data_modules	lib/libx/qrcgen.c	/^static int get_num_raw_data_modules(int version)$/;"	f	file:	signature:(int version)
+get_penalty_score	lib/libx/qrcgen.c	/^static long get_penalty_score(const uint8_t * qrc)$/;"	f	file:	signature:(const uint8_t * qrc)
+get_random_number	lib/libc/crypto/ecdsa256.c	/^static int get_random_number(uint64_t * vli)$/;"	f	file:	signature:(uint64_t * vli)
+get_total_bits	lib/libx/qrcgen.c	/^static int get_total_bits(struct qrcgen_segment_t * segs, int len, int version)$/;"	f	file:	signature:(struct qrcgen_segment_t * segs, int len, int version)
+getc	lib/libc/stdio/getc.c	/^EXPORT_SYMBOL(getc);$/;"	v
+getc	lib/libc/stdio/getc.c	/^int getc(FILE * f)$/;"	f	signature:(FILE * f)
+getchar	lib/libc/stdio/getchar.c	/^EXPORT_SYMBOL(getchar);$/;"	v
+getchar	lib/libc/stdio/getchar.c	/^int getchar(void)$/;"	f	signature:(void)
+getenv	lib/libc/environ/getenv.c	/^EXPORT_SYMBOL(getenv);$/;"	v
+getenv	lib/libc/environ/getenv.c	/^char * getenv(const char * name)$/;"	f	signature:(const char * name)
+gettimeofday	lib/libc/time/gettimeofday.c	/^EXPORT_SYMBOL(gettimeofday);$/;"	v
+gettimeofday	lib/libc/time/gettimeofday.c	/^int gettimeofday(struct timeval * tv, void * tz)$/;"	f	signature:(struct timeval * tv, void * tz)
+gmtime	lib/libc/time/gmtime.c	/^EXPORT_SYMBOL(gmtime);$/;"	v
+gmtime	lib/libc/time/gmtime.c	/^struct tm * gmtime(const time_t * t)$/;"	f	signature:(const time_t * t)
+gmtime_r	lib/libc/time/gmtime_r.c	/^EXPORT_SYMBOL(gmtime_r);$/;"	v
+gmtime_r	lib/libc/time/gmtime_r.c	/^struct tm * gmtime_r(const time_t * t, struct tm * tm)$/;"	f	signature:(const time_t * t, struct tm * tm)
+half	lib/libm/exp.c	/^half[2] = {0.5,-0.5},$/;"	v	file:
+half	lib/libm/expf.c	/^half[2] = {0.5,-0.5},$/;"	v	file:
+hex_value	lib/libx/json.c	/^static unsigned char hex_value(char c)$/;"	f	file:	signature:(char c)
+hmap_add	lib/libx/hmap.c	/^void hmap_add(struct hmap_t * m, const char * key, void * value)$/;"	f	signature:(struct hmap_t * m, const char * key, void * value)
+hmap_alloc	lib/libx/hmap.c	/^struct hmap_t * hmap_alloc(int size, void (*cb)(struct hmap_t *, struct hmap_entry_t *))$/;"	f	signature:(int size, void (*cb)(struct hmap_t *, struct hmap_entry_t *))
+hmap_clear	lib/libx/hmap.c	/^void hmap_clear(struct hmap_t * m)$/;"	f	signature:(struct hmap_t * m)
+hmap_compare	lib/libx/hmap.c	/^static int hmap_compare(void * priv, struct list_head * a, struct list_head * b)$/;"	f	file:	signature:(void * priv, struct list_head * a, struct list_head * b)
+hmap_free	lib/libx/hmap.c	/^void hmap_free(struct hmap_t * m)$/;"	f	signature:(struct hmap_t * m)
+hmap_remove	lib/libx/hmap.c	/^void hmap_remove(struct hmap_t * m, const char * key)$/;"	f	signature:(struct hmap_t * m, const char * key)
+hmap_resize	lib/libx/hmap.c	/^static void hmap_resize(struct hmap_t * m, unsigned int size)$/;"	f	file:	signature:(struct hmap_t * m, unsigned int size)
+hmap_search	lib/libx/hmap.c	/^void * hmap_search(struct hmap_t * m, const char * key)$/;"	f	signature:(struct hmap_t * m, const char * key)
+hmap_sort	lib/libx/hmap.c	/^void hmap_sort(struct hmap_t * m)$/;"	f	signature:(struct hmap_t * m)
+huge	lib/libm/pow.c	/^huge   =  1.0e300,$/;"	v	file:
+huge	lib/libm/powf.c	/^huge   =  1.0e30,$/;"	v	file:
+hypot	lib/libm/hypot.c	/^EXPORT_SYMBOL(hypot);$/;"	v
+hypot	lib/libm/hypot.c	/^double hypot(double x, double y)$/;"	f	signature:(double x, double y)
+hypotf	lib/libm/hypotf.c	/^EXPORT_SYMBOL(hypotf);$/;"	v
+hypotf	lib/libm/hypotf.c	/^float hypotf(float x, float y)$/;"	f	signature:(float x, float y)
+init_jk	lib/libm/__rem_pio2_large.c	/^static const int init_jk[] = {3,4,4,6}; \/* initial value for jk *\/$/;"	v	file:
+initialize_function_modules	lib/libx/qrcgen.c	/^static void initialize_function_modules(int version, uint8_t * qrc)$/;"	f	file:	signature:(int version, uint8_t * qrc)
+insert_free_block	lib/libc/malloc/malloc.c	/^static void insert_free_block(control_t * control, block_header_t * block, int fl, int sl)$/;"	f	file:	signature:(control_t * control, block_header_t * block, int fl, int sl)
+inv_mix_sub_columns	lib/libc/crypto/aes128.c	/^static void inv_mix_sub_columns(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+inv_mix_sub_columns	lib/libc/crypto/aes256.c	/^static void inv_mix_sub_columns(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+inv_sbox	lib/libc/crypto/aes128.c	/^static const uint8_t inv_sbox[256] = {$/;"	v	file:
+inv_sbox	lib/libc/crypto/aes256.c	/^static const uint8_t inv_sbox[256] = {$/;"	v	file:
+inv_shift_rows	lib/libc/crypto/aes128.c	/^static void inv_shift_rows(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+inv_shift_rows	lib/libc/crypto/aes256.c	/^static void inv_shift_rows(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+invln2	lib/libm/exp.c	/^invln2 = 1.44269504088896338700e+00, \/* 0x3ff71547, 0x652b82fe *\/$/;"	v	file:
+invln2	lib/libm/expf.c	/^invln2  = 1.4426950216e+0f,  \/* 0x3fb8aa3b *\/$/;"	v	file:
+invln2	lib/libm/expm1.c	/^invln2      = 1.44269504088896338700e+00, \/* 0x3ff71547, 0x652b82fe *\/$/;"	v	file:
+invln2	lib/libm/expm1f.c	/^invln2      = 1.4426950216e+00, \/* 0x3fb8aa3b *\/$/;"	v	file:
+invpio2	lib/libm/__rem_pio2.c	/^invpio2 = 6.36619772367581382433e-01, \/* 0x3FE45F30, 0x6DC9C883 *\/$/;"	v	file:
+invpio2	lib/libm/__rem_pio2f.c	/^invpio2 = 6.36619772367581382433e-01, \/* 0x3FE45F30, 0x6DC9C883 *\/$/;"	v	file:
+ipio2	lib/libm/__rem_pio2_large.c	/^static const int32_t ipio2[] = {$/;"	v	file:
+isalnum	lib/libc/ctype/isalnum.c	/^EXPORT_SYMBOL(isalnum);$/;"	v
+isalnum	lib/libc/ctype/isalnum.c	/^int isalnum(int c)$/;"	f	signature:(int c)
+isalpha	lib/libc/ctype/isalpha.c	/^EXPORT_SYMBOL(isalpha);$/;"	v
+isalpha	lib/libc/ctype/isalpha.c	/^int isalpha(int c)$/;"	f	signature:(int c)
+isascii	lib/libc/ctype/isascii.c	/^EXPORT_SYMBOL(isascii);$/;"	v
+isascii	lib/libc/ctype/isascii.c	/^int isascii(int c)$/;"	f	signature:(int c)
+isblank	lib/libc/ctype/isblank.c	/^EXPORT_SYMBOL(isblank);$/;"	v
+isblank	lib/libc/ctype/isblank.c	/^int isblank(int c)$/;"	f	signature:(int c)
+iscntrl	lib/libc/ctype/iscntrl.c	/^EXPORT_SYMBOL(iscntrl);$/;"	v
+iscntrl	lib/libc/ctype/iscntrl.c	/^int iscntrl(int c)$/;"	f	signature:(int c)
+isdigit	lib/libc/ctype/isdigit.c	/^EXPORT_SYMBOL(isdigit);$/;"	v
+isdigit	lib/libc/ctype/isdigit.c	/^int isdigit(int c)$/;"	f	signature:(int c)
+isgraph	lib/libc/ctype/isgraph.c	/^EXPORT_SYMBOL(isgraph);$/;"	v
+isgraph	lib/libc/ctype/isgraph.c	/^int isgraph(int c)$/;"	f	signature:(int c)
+islower	lib/libc/ctype/islower.c	/^EXPORT_SYMBOL(islower);$/;"	v
+islower	lib/libc/ctype/islower.c	/^int islower(int c)$/;"	f	signature:(int c)
+isprint	lib/libc/ctype/isprint.c	/^EXPORT_SYMBOL(isprint);$/;"	v
+isprint	lib/libc/ctype/isprint.c	/^int isprint(int c)$/;"	f	signature:(int c)
+ispunct	lib/libc/ctype/ispunct.c	/^EXPORT_SYMBOL(ispunct);$/;"	v
+ispunct	lib/libc/ctype/ispunct.c	/^int ispunct(int c)$/;"	f	signature:(int c)
+isspace	lib/libc/ctype/isspace.c	/^EXPORT_SYMBOL(isspace);$/;"	v
+isspace	lib/libc/ctype/isspace.c	/^int isspace(int c)$/;"	f	signature:(int c)
+isupper	lib/libc/ctype/isupper.c	/^EXPORT_SYMBOL(isupper);$/;"	v
+isupper	lib/libc/ctype/isupper.c	/^int isupper(int c)$/;"	f	signature:(int c)
+isxdigit	lib/libc/ctype/isxdigit.c	/^EXPORT_SYMBOL(isxdigit);$/;"	v
+isxdigit	lib/libc/ctype/isxdigit.c	/^int isxdigit(int c)$/;"	f	signature:(int c)
+ivln10hi	lib/libm/log10.c	/^ivln10hi  = 4.34294481878168880939e-01, \/* 0x3fdbcb7b, 0x15200000 *\/$/;"	v	file:
+ivln10hi	lib/libm/log10f.c	/^ivln10hi  =  4.3432617188e-01, \/* 0x3ede6000 *\/$/;"	v	file:
+ivln10lo	lib/libm/log10.c	/^ivln10lo  = 2.50829467116452752298e-11, \/* 0x3dbb9438, 0xca9aadd5 *\/$/;"	v	file:
+ivln10lo	lib/libm/log10f.c	/^ivln10lo  = -3.1689971365e-05, \/* 0xb804ead9 *\/$/;"	v	file:
+ivln2	lib/libm/pow.c	/^ivln2   =  1.44269504088896338700e+00, \/* 0x3FF71547, 0x652B82FE =1\/ln2 *\/$/;"	v	file:
+ivln2	lib/libm/powf.c	/^ivln2   =  1.4426950216e+00, \/* 0x3fb8aa3b =1\/ln2 *\/$/;"	v	file:
+ivln2_h	lib/libm/pow.c	/^ivln2_h =  1.44269502162933349609e+00, \/* 0x3FF71547, 0x60000000 =24b 1\/ln2*\/$/;"	v	file:
+ivln2_h	lib/libm/powf.c	/^ivln2_h =  1.4426879883e+00, \/* 0x3fb8aa00 =16b 1\/ln2*\/$/;"	v	file:
+ivln2_l	lib/libm/pow.c	/^ivln2_l =  1.92596299112661746887e-08; \/* 0x3E54AE0B, 0xF85DDF44 =1\/ln2 tail*\/$/;"	v	file:
+ivln2_l	lib/libm/powf.c	/^ivln2_l =  7.0526075433e-06; \/* 0x36eca570 =1\/ln2 tail*\/$/;"	v	file:
+ivln2hi	lib/libm/log2.c	/^ivln2hi = 1.44269504072144627571e+00, \/* 0x3ff71547, 0x65200000 *\/$/;"	v	file:
+ivln2hi	lib/libm/log2f.c	/^ivln2hi =  1.4428710938e+00, \/* 0x3fb8b000 *\/$/;"	v	file:
+ivln2lo	lib/libm/log2.c	/^ivln2lo = 1.67517131648865118353e-10, \/* 0x3de705fc, 0x2eefa200 *\/$/;"	v	file:
+ivln2lo	lib/libm/log2f.c	/^ivln2lo = -1.7605285393e-04, \/* 0xb9389ad4 *\/$/;"	v	file:
+jrand48	lib/libc/stdlib/rand.c	/^static long jrand48(unsigned short * xsubi)$/;"	f	file:	signature:(unsigned short * xsubi)
+json_alloc	lib/libx/json.c	/^static void * json_alloc(struct json_state_t * state, unsigned long size, int zero)$/;"	f	file:	signature:(struct json_state_t * state, unsigned long size, int zero)
+json_free	lib/libx/json.c	/^void json_free(struct json_value_t * value)$/;"	f	signature:(struct json_value_t * value)
+json_parse	lib/libx/json.c	/^struct json_value_t * json_parse(const char * json, size_t length, char * errbuf)$/;"	f	signature:(const char * json, size_t length, char * errbuf)
+json_state_t	lib/libx/json.c	/^struct json_state_t$/;"	s	file:
+json_state_t::cur_col	lib/libx/json.c	/^	unsigned int cur_col;$/;"	m	struct:json_state_t	file:	access:public
+json_state_t::cur_line	lib/libx/json.c	/^	unsigned int cur_line;$/;"	m	struct:json_state_t	file:	access:public
+json_state_t::first_pass	lib/libx/json.c	/^	int first_pass;$/;"	m	struct:json_state_t	file:	access:public
+json_state_t::ptr	lib/libx/json.c	/^	const char * ptr;$/;"	m	struct:json_state_t	file:	access:public
+json_state_t::uint_max	lib/libx/json.c	/^	unsigned int uint_max;$/;"	m	struct:json_state_t	file:	access:public
+json_state_t::ulong_max	lib/libx/json.c	/^	unsigned long ulong_max;$/;"	m	struct:json_state_t	file:	access:public
+json_state_t::used_memory	lib/libx/json.c	/^	unsigned long used_memory;$/;"	m	struct:json_state_t	file:	access:public
+k	lib/libm/__expo2.c	/^static const int k = 2043;$/;"	v	file:
+k	lib/libm/__expo2f.c	/^static const int k = 235;$/;"	v	file:
+kalman_alloc	lib/libc/filter/kalman.c	/^struct kalman_filter_t * kalman_alloc(float a, float h, float q, float r)$/;"	f	signature:(float a, float h, float q, float r)
+kalman_clear	lib/libc/filter/kalman.c	/^void kalman_clear(struct kalman_filter_t * filter)$/;"	f	signature:(struct kalman_filter_t * filter)
+kalman_free	lib/libc/filter/kalman.c	/^void kalman_free(struct kalman_filter_t * filter)$/;"	f	signature:(struct kalman_filter_t * filter)
+kalman_update	lib/libc/filter/kalman.c	/^float kalman_update(struct kalman_filter_t * filter, float value)$/;"	f	signature:(struct kalman_filter_t * filter, float value)
+kln2	lib/libm/__expo2.c	/^static const double kln2 = 0x1.62066151add8bp+10;$/;"	v	file:
+kln2	lib/libm/__expo2f.c	/^static const float kln2 = 0x1.45c778p+7f;$/;"	v	file:
+labs	lib/libc/stdlib/labs.c	/^EXPORT_SYMBOL(labs);$/;"	v
+labs	lib/libc/stdlib/labs.c	/^long labs(long n)$/;"	f	signature:(long n)
+ldexp	lib/libm/ldexp.c	/^EXPORT_SYMBOL(ldexp);$/;"	v
+ldexp	lib/libm/ldexp.c	/^double ldexp(double x, int n)$/;"	f	signature:(double x, int n)
+ldexpf	lib/libm/ldexpf.c	/^EXPORT_SYMBOL(ldexpf);$/;"	v
+ldexpf	lib/libm/ldexpf.c	/^float ldexpf(float x, int n)$/;"	f	signature:(float x, int n)
+ldiv	lib/libc/stdlib/ldiv.c	/^EXPORT_SYMBOL(ldiv);$/;"	v
+ldiv	lib/libc/stdlib/ldiv.c	/^ldiv_t ldiv(long num, long den)$/;"	f	signature:(long num, long den)
+lg2	lib/libm/pow.c	/^lg2     =  6.93147180559945286227e-01, \/* 0x3FE62E42, 0xFEFA39EF *\/$/;"	v	file:
+lg2	lib/libm/powf.c	/^lg2     =  6.9314718246e-01, \/* 0x3f317218 *\/$/;"	v	file:
+lg2_h	lib/libm/pow.c	/^lg2_h   =  6.93147182464599609375e-01, \/* 0x3FE62E43, 0x00000000 *\/$/;"	v	file:
+lg2_h	lib/libm/powf.c	/^lg2_h   =  6.93145752e-01,   \/* 0x3f317200 *\/$/;"	v	file:
+lg2_l	lib/libm/pow.c	/^lg2_l   = -1.90465429995776804525e-09, \/* 0xBE205C61, 0x0CA86C39 *\/$/;"	v	file:
+lg2_l	lib/libm/powf.c	/^lg2_l   =  1.42860654e-06,   \/* 0x35bfbe8c *\/$/;"	v	file:
+llabs	lib/libc/stdlib/llabs.c	/^EXPORT_SYMBOL(llabs);$/;"	v
+llabs	lib/libc/stdlib/llabs.c	/^long long llabs(long long n)$/;"	f	signature:(long long n)
+lldiv	lib/libc/stdlib/lldiv.c	/^EXPORT_SYMBOL(lldiv);$/;"	v
+lldiv	lib/libc/stdlib/lldiv.c	/^lldiv_t lldiv(long long num, long long den)$/;"	f	signature:(long long num, long long den)
+ln2_hi	lib/libm/expm1.c	/^ln2_hi      = 6.93147180369123816490e-01, \/* 0x3fe62e42, 0xfee00000 *\/$/;"	v	file:
+ln2_hi	lib/libm/expm1f.c	/^ln2_hi      = 6.9313812256e-01, \/* 0x3f317180 *\/$/;"	v	file:
+ln2_hi	lib/libm/log.c	/^ln2_hi = 6.93147180369123816490e-01,  \/* 3fe62e42 fee00000 *\/$/;"	v	file:
+ln2_hi	lib/libm/log1p.c	/^ln2_hi = 6.93147180369123816490e-01,  \/* 3fe62e42 fee00000 *\/$/;"	v	file:
+ln2_hi	lib/libm/log1pf.c	/^ln2_hi = 6.9313812256e-01, \/* 0x3f317180 *\/$/;"	v	file:
+ln2_hi	lib/libm/logf.c	/^ln2_hi = 6.9313812256e-01, \/* 0x3f317180 *\/$/;"	v	file:
+ln2_lo	lib/libm/expm1.c	/^ln2_lo      = 1.90821492927058770002e-10, \/* 0x3dea39ef, 0x35793c76 *\/$/;"	v	file:
+ln2_lo	lib/libm/expm1f.c	/^ln2_lo      = 9.0580006145e-06, \/* 0x3717f7d1 *\/$/;"	v	file:
+ln2_lo	lib/libm/log.c	/^ln2_lo = 1.90821492927058770002e-10,  \/* 3dea39ef 35793c76 *\/$/;"	v	file:
+ln2_lo	lib/libm/log1p.c	/^ln2_lo = 1.90821492927058770002e-10,  \/* 3dea39ef 35793c76 *\/$/;"	v	file:
+ln2_lo	lib/libm/log1pf.c	/^ln2_lo = 9.0580006145e-06, \/* 0x3717f7d1 *\/$/;"	v	file:
+ln2_lo	lib/libm/logf.c	/^ln2_lo = 9.0580006145e-06, \/* 0x3717f7d1 *\/$/;"	v	file:
+ln2hi	lib/libm/exp.c	/^ln2hi = 6.93147180369123816490e-01, \/* 0x3fe62e42, 0xfee00000 *\/$/;"	v	file:
+ln2hi	lib/libm/expf.c	/^ln2hi   = 6.9314575195e-1f,  \/* 0x3f317200 *\/$/;"	v	file:
+ln2lo	lib/libm/exp.c	/^ln2lo = 1.90821492927058770002e-10, \/* 0x3dea39ef, 0x35793c76 *\/$/;"	v	file:
+ln2lo	lib/libm/expf.c	/^ln2lo   = 1.4286067653e-6f,  \/* 0x35bfbe8e *\/$/;"	v	file:
+localeconv	lib/libc/locale/localeconv.c	/^EXPORT_SYMBOL(localeconv);$/;"	v
+localeconv	lib/libc/locale/localeconv.c	/^struct lconv * localeconv(void)$/;"	f	signature:(void)
+localtime	lib/libc/time/localtime.c	/^EXPORT_SYMBOL(localtime);$/;"	v
+localtime	lib/libc/time/localtime.c	/^struct tm * localtime(const time_t * t)$/;"	f	signature:(const time_t * t)
+localtime_r	lib/libc/time/localtime_r.c	/^EXPORT_SYMBOL(localtime_r);$/;"	v
+localtime_r	lib/libc/time/localtime_r.c	/^struct tm * localtime_r(const time_t * t, struct tm * tm)$/;"	f	signature:(const time_t * t, struct tm * tm)
+log	lib/libm/log.c	/^EXPORT_SYMBOL(log);$/;"	v
+log	lib/libm/log.c	/^double log(double x)$/;"	f	signature:(double x)
+log10	lib/libm/log10.c	/^EXPORT_SYMBOL(log10);$/;"	v
+log10	lib/libm/log10.c	/^double log10(double x)$/;"	f	signature:(double x)
+log10_2hi	lib/libm/log10.c	/^log10_2hi = 3.01029995663611771306e-01, \/* 0x3FD34413, 0x509F6000 *\/$/;"	v	file:
+log10_2hi	lib/libm/log10f.c	/^log10_2hi =  3.0102920532e-01, \/* 0x3e9a2080 *\/$/;"	v	file:
+log10_2lo	lib/libm/log10.c	/^log10_2lo = 3.69423907715893078616e-13, \/* 0x3D59FEF3, 0x11F12B36 *\/$/;"	v	file:
+log10_2lo	lib/libm/log10f.c	/^log10_2lo =  7.9034151668e-07, \/* 0x355427db *\/$/;"	v	file:
+log10f	lib/libm/log10f.c	/^EXPORT_SYMBOL(log10f);$/;"	v
+log10f	lib/libm/log10f.c	/^float log10f(float x)$/;"	f	signature:(float x)
+log1p	lib/libm/log1p.c	/^EXPORT_SYMBOL(log1p);$/;"	v
+log1p	lib/libm/log1p.c	/^double log1p(double x)$/;"	f	signature:(double x)
+log1pf	lib/libm/log1pf.c	/^EXPORT_SYMBOL(log1pf);$/;"	v
+log1pf	lib/libm/log1pf.c	/^float log1pf(float x)$/;"	f	signature:(float x)
+log2	lib/libm/log2.c	/^EXPORT_SYMBOL(log2);$/;"	v
+log2	lib/libm/log2.c	/^double log2(double x)$/;"	f	signature:(double x)
+log2f	lib/libm/log2f.c	/^EXPORT_SYMBOL(log2f);$/;"	v
+log2f	lib/libm/log2f.c	/^float log2f(float x)$/;"	f	signature:(float x)
+logf	lib/libm/logf.c	/^EXPORT_SYMBOL(logf);$/;"	v
+logf	lib/libm/logf.c	/^float logf(float x)$/;"	f	signature:(float x)
+lookup_scheme	lib/libx/uri.c	/^static const char * lookup_scheme(const char * s)$/;"	f	file:	signature:(const char * s)
+lrand48	lib/libc/stdlib/rand.c	/^static long lrand48(void)$/;"	f	file:	signature:(void)
+lru_alloc	lib/libx/lru.c	/^struct lru_t * lru_alloc(size_t maxbytes, unsigned int hashpower, void (*cb)(struct lru_t *, const char *, int, void *, int))$/;"	f	signature:(size_t maxbytes, unsigned int hashpower, void (*cb)(struct lru_t *, const char *, int, void *, int))
+lru_alloc_item	lib/libx/lru.c	/^static inline void * lru_alloc_item(struct lru_t * l, int sz, struct lru_item_t * old)$/;"	f	file:	signature:(struct lru_t * l, int sz, struct lru_item_t * old)
+lru_free	lib/libx/lru.c	/^void lru_free(struct lru_t * l)$/;"	f	signature:(struct lru_t * l)
+lru_get	lib/libx/lru.c	/^int lru_get(struct lru_t * l, const char * key, int nkey, void * buf, int nbuf)$/;"	f	signature:(struct lru_t * l, const char * key, int nkey, void * buf, int nbuf)
+lru_hash	lib/libx/lru.c	/^static uint32_t lru_hash(const char * key, const int nkey)$/;"	f	file:	signature:(const char * key, const int nkey)
+lru_hash_before	lib/libx/lru.c	/^static inline struct lru_item_t ** lru_hash_before(struct lru_t * l, const char * key, int nkey, uint32_t hv)$/;"	f	file:	signature:(struct lru_t * l, const char * key, int nkey, uint32_t hv)
+lru_hash_insert	lib/libx/lru.c	/^static inline int lru_hash_insert(struct lru_t * l, struct lru_item_t * item, uint32_t hv)$/;"	f	file:	signature:(struct lru_t * l, struct lru_item_t * item, uint32_t hv)
+lru_hash_remove	lib/libx/lru.c	/^static inline void lru_hash_remove(struct lru_t * l, const char * key, int nkey, uint32_t hv)$/;"	f	file:	signature:(struct lru_t * l, const char * key, int nkey, uint32_t hv)
+lru_hash_search	lib/libx/lru.c	/^static struct lru_item_t * lru_hash_search(struct lru_t * l, const char * key, int nkey, uint32_t hv)$/;"	f	file:	signature:(struct lru_t * l, const char * key, int nkey, uint32_t hv)
+lru_remove	lib/libx/lru.c	/^int lru_remove(struct lru_t * l, const char * key, int nkey)$/;"	f	signature:(struct lru_t * l, const char * key, int nkey)
+lru_remove_item	lib/libx/lru.c	/^static inline void lru_remove_item(struct lru_t * l, struct lru_item_t * item)$/;"	f	file:	signature:(struct lru_t * l, struct lru_item_t * item)
+lru_remove_item_hv	lib/libx/lru.c	/^static inline void lru_remove_item_hv(struct lru_t * l, struct lru_item_t * item, uint32_t hv)$/;"	f	file:	signature:(struct lru_t * l, struct lru_item_t * item, uint32_t hv)
+lru_set	lib/libx/lru.c	/^int lru_set(struct lru_t * l, const char * key, int nkey, void * buf, int nbuf)$/;"	f	signature:(struct lru_t * l, const char * key, int nkey, void * buf, int nbuf)
+lsort	lib/libx/lsort.c	/^void lsort(void * priv, struct list_head * head, int (*cmp)(void * priv, struct list_head * a, struct list_head * b))$/;"	f	signature:(void * priv, struct list_head * head, int (*cmp)(void * priv, struct list_head * a, struct list_head * b))
+m_high	lib/libc/crypto/ecdsa256.c	/^	uint64_t m_high;$/;"	m	struct:ecdsa256_uint128_t	file:	access:public
+m_low	lib/libc/crypto/ecdsa256.c	/^	uint64_t m_low;$/;"	m	struct:ecdsa256_uint128_t	file:	access:public
+mapping_insert	lib/libc/malloc/malloc.c	/^static void mapping_insert(size_t size, int * fli, int * sli)$/;"	f	file:	signature:(size_t size, int * fli, int * sli)
+mapping_search	lib/libc/malloc/malloc.c	/^static void mapping_search(size_t size, int * fli, int * sli)$/;"	f	file:	signature:(size_t size, int * fli, int * sli)
+mean_alloc	lib/libc/filter/mean.c	/^struct mean_filter_t * mean_alloc(int length)$/;"	f	signature:(int length)
+mean_clear	lib/libc/filter/mean.c	/^void mean_clear(struct mean_filter_t * filter)$/;"	f	signature:(struct mean_filter_t * filter)
+mean_free	lib/libc/filter/mean.c	/^void mean_free(struct mean_filter_t * filter)$/;"	f	signature:(struct mean_filter_t * filter)
+mean_update	lib/libc/filter/mean.c	/^int mean_update(struct mean_filter_t * filter, int value)$/;"	f	signature:(struct mean_filter_t * filter, int value)
+med3	lib/libc/stdlib/qsort.c	/^static __inline char * med3(char *a, char *b, char *c, int (*cmp)(const void *, const void *))$/;"	f	file:	signature:(char *a, char *b, char *c, int (*cmp)(const void *, const void *))
+median_alloc	lib/libc/filter/median.c	/^struct median_filter_t * median_alloc(int length)$/;"	f	signature:(int length)
+median_clear	lib/libc/filter/median.c	/^void median_clear(struct median_filter_t * filter)$/;"	f	signature:(struct median_filter_t * filter)
+median_free	lib/libc/filter/median.c	/^void median_free(struct median_filter_t * filter)$/;"	f	signature:(struct median_filter_t * filter)
+median_update	lib/libc/filter/median.c	/^int median_update(struct median_filter_t * filter, int value)$/;"	f	signature:(struct median_filter_t * filter, int value)
+memchr	lib/libc/string/memchr.c	/^EXPORT_SYMBOL(memchr);$/;"	v
+memchr	lib/libc/string/memchr.c	/^void * memchr(const void * s, int c, size_t n)$/;"	f	signature:(const void * s, int c, size_t n)
+memory_read_meminfo	lib/libc/malloc/malloc.c	/^static ssize_t memory_read_meminfo(struct kobj_t * kobj, void * buf, size_t size)$/;"	f	file:	signature:(struct kobj_t * kobj, void * buf, size_t size)
+memscan	lib/libc/string/memscan.c	/^EXPORT_SYMBOL(memscan);$/;"	v
+memscan	lib/libc/string/memscan.c	/^void * memscan(void * addr, int c, size_t size)$/;"	f	signature:(void * addr, int c, size_t size)
+merge	lib/libx/lsort.c	/^static struct list_head * merge(void * priv, int (*cmp)(void * priv, struct list_head * a, struct list_head * b), struct list_head * a, struct list_head * b)$/;"	f	file:	signature:(void * priv, int (*cmp)(void * priv, struct list_head * a, struct list_head * b), struct list_head * a, struct list_head * b)
+merge_and_restore_back_links	lib/libx/lsort.c	/^static void merge_and_restore_back_links(void * priv, int (*cmp)(void * priv, struct list_head * a, struct list_head * b), struct list_head * head, struct list_head * a, struct list_head * b)$/;"	f	file:	signature:(void * priv, int (*cmp)(void * priv, struct list_head * a, struct list_head * b), struct list_head * head, struct list_head * a, struct list_head * b)
+mix_sub_columns	lib/libc/crypto/aes128.c	/^static void mix_sub_columns(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+mix_sub_columns	lib/libc/crypto/aes256.c	/^static void mix_sub_columns(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+mktime	lib/libc/time/mktime.c	/^EXPORT_SYMBOL(mktime);$/;"	v
+mktime	lib/libc/time/mktime.c	/^time_t mktime(struct tm * tm)$/;"	f	signature:(struct tm * tm)
+mm_add_pool	lib/libc/malloc/malloc.c	/^void * mm_add_pool(void * mm, void * mem, size_t bytes)$/;"	f	signature:(void * mm, void * mem, size_t bytes)
+mm_create	lib/libc/malloc/malloc.c	/^void * mm_create(void * mem, size_t bytes)$/;"	f	signature:(void * mem, size_t bytes)
+mm_destroy	lib/libc/malloc/malloc.c	/^void mm_destroy(void * mem)$/;"	f	signature:(void * mem)
+mm_free	lib/libc/malloc/malloc.c	/^void mm_free(void * mm, void * ptr)$/;"	f	signature:(void * mm, void * ptr)
+mm_get	lib/libc/malloc/malloc.c	/^void * mm_get(void * mem)$/;"	f	signature:(void * mem)
+mm_info	lib/libc/malloc/malloc.c	/^void mm_info(void * mm, size_t * mused, size_t * mfree)$/;"	f	signature:(void * mm, size_t * mused, size_t * mfree)
+mm_malloc	lib/libc/malloc/malloc.c	/^void * mm_malloc(void * mm, size_t size)$/;"	f	signature:(void * mm, size_t size)
+mm_memalign	lib/libc/malloc/malloc.c	/^void * mm_memalign(void * mm, size_t align, size_t size)$/;"	f	signature:(void * mm, size_t align, size_t size)
+mm_realloc	lib/libc/malloc/malloc.c	/^void * mm_realloc(void * mm, void * ptr, size_t size)$/;"	f	signature:(void * mm, void * ptr, size_t size)
+mm_remove_pool	lib/libc/malloc/malloc.c	/^void mm_remove_pool(void * mm, void * mem)$/;"	f	signature:(void * mm, void * mem)
+mod_sqrt	lib/libc/crypto/ecdsa256.c	/^static void mod_sqrt(uint64_t * a)$/;"	f	file:	signature:(uint64_t * a)
+mode	lib/libx/qrcgen.c	/^	enum qrcgen_mode_t mode;$/;"	m	struct:qrcgen_segment_t	typeref:enum:qrcgen_segment_t::qrcgen_mode_t	file:	access:public
+modf	lib/libm/modf.c	/^EXPORT_SYMBOL(modf);$/;"	v
+modf	lib/libm/modf.c	/^double modf(double x, double *iptr)$/;"	f	signature:(double x, double *iptr)
+modff	lib/libm/modff.c	/^EXPORT_SYMBOL(modff);$/;"	v
+modff	lib/libm/modff.c	/^float modff(float x, float *iptr)$/;"	f	signature:(float x, float *iptr)
+month	lib/libc/time/strftime.c	/^static char * month[] = {$/;"	v	file:
+month_days	lib/libc/time/asctime_r.c	/^static const char * month_days[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};$/;"	v	file:
+mul_64_64	lib/libc/crypto/ecdsa256.c	/^static struct ecdsa256_uint128_t mul_64_64(uint64_t left, uint64_t right)$/;"	f	file:	signature:(uint64_t left, uint64_t right)
+nchar	lib/libx/qrcgen.c	/^	int nchar;$/;"	m	struct:qrcgen_segment_t	file:	access:public
+new_value	lib/libx/json.c	/^static int new_value(struct json_state_t * state, struct json_value_t ** top, struct json_value_t ** root, struct json_value_t ** alloc, enum json_type_t type)$/;"	f	file:	signature:(struct json_state_t * state, struct json_value_t ** top, struct json_value_t ** root, struct json_value_t ** alloc, enum json_type_t type)
+next_free	lib/libc/malloc/malloc.c	/^	struct block_header_t * next_free;$/;"	m	struct:block_header_t	typeref:struct:block_header_t::block_header_t	file:	access:public
+nonspacing_table_data	lib/libc/charset/charset.c	/^static const uint8_t nonspacing_table_data[26 * 64] = {$/;"	v	file:
+nonspacing_table_ind	lib/libc/charset/charset.c	/^static const s8_t nonspacing_table_ind[240] = {$/;"	v	file:
+numchar_count_bits	lib/libx/qrcgen.c	/^static int numchar_count_bits(enum qrcgen_mode_t mode, int version)$/;"	f	file:	signature:(enum qrcgen_mode_t mode, int version)
+o_threshold	lib/libm/expm1.c	/^o_threshold = 7.09782712893383973096e+02, \/* 0x40862E42, 0xFEFA39EF *\/$/;"	v	file:
+o_threshold	lib/libm/expm1f.c	/^o_threshold = 8.8721679688e+01, \/* 0x42b17180 *\/$/;"	v	file:
+offset_to_block	lib/libc/malloc/malloc.c	/^static block_header_t * offset_to_block(const void * ptr, size_t size)$/;"	f	file:	signature:(const void * ptr, size_t size)
+ovt	lib/libm/pow.c	/^ovt     =  8.0085662595372944372e-017, \/* -(1024-log2(ovfl+.5ulp)) *\/$/;"	v	file:
+ovt	lib/libm/powf.c	/^ovt     =  4.2995665694e-08, \/* -(128-log2(ovfl+.5ulp)) *\/$/;"	v	file:
+pS0	lib/libm/acos.c	/^pS0 =  1.66666666666666657415e-01, \/* 0x3FC55555, 0x55555555 *\/$/;"	v	file:
+pS0	lib/libm/acosf.c	/^pS0 =  1.6666586697e-01,$/;"	v	file:
+pS0	lib/libm/asin.c	/^pS0 =  1.66666666666666657415e-01, \/* 0x3FC55555, 0x55555555 *\/$/;"	v	file:
+pS0	lib/libm/asinf.c	/^pS0 =  1.6666586697e-01,$/;"	v	file:
+pS1	lib/libm/acos.c	/^pS1 = -3.25565818622400915405e-01, \/* 0xBFD4D612, 0x03EB6F7D *\/$/;"	v	file:
+pS1	lib/libm/acosf.c	/^pS1 = -4.2743422091e-02,$/;"	v	file:
+pS1	lib/libm/asin.c	/^pS1 = -3.25565818622400915405e-01, \/* 0xBFD4D612, 0x03EB6F7D *\/$/;"	v	file:
+pS1	lib/libm/asinf.c	/^pS1 = -4.2743422091e-02,$/;"	v	file:
+pS2	lib/libm/acos.c	/^pS2 =  2.01212532134862925881e-01, \/* 0x3FC9C155, 0x0E884455 *\/$/;"	v	file:
+pS2	lib/libm/acosf.c	/^pS2 = -8.6563630030e-03,$/;"	v	file:
+pS2	lib/libm/asin.c	/^pS2 =  2.01212532134862925881e-01, \/* 0x3FC9C155, 0x0E884455 *\/$/;"	v	file:
+pS2	lib/libm/asinf.c	/^pS2 = -8.6563630030e-03,$/;"	v	file:
+pS3	lib/libm/acos.c	/^pS3 = -4.00555345006794114027e-02, \/* 0xBFA48228, 0xB5688F3B *\/$/;"	v	file:
+pS3	lib/libm/asin.c	/^pS3 = -4.00555345006794114027e-02, \/* 0xBFA48228, 0xB5688F3B *\/$/;"	v	file:
+pS4	lib/libm/acos.c	/^pS4 =  7.91534994289814532176e-04, \/* 0x3F49EFE0, 0x7501B288 *\/$/;"	v	file:
+pS4	lib/libm/asin.c	/^pS4 =  7.91534994289814532176e-04, \/* 0x3F49EFE0, 0x7501B288 *\/$/;"	v	file:
+pS5	lib/libm/acos.c	/^pS5 =  3.47933107596021167570e-05, \/* 0x3F023DE1, 0x0DFDF709 *\/$/;"	v	file:
+pS5	lib/libm/asin.c	/^pS5 =  3.47933107596021167570e-05, \/* 0x3F023DE1, 0x0DFDF709 *\/$/;"	v	file:
+pa0	lib/libm/erf.c	/^pa0  = -2.36211856075265944077e-03, \/* 0xBF6359B8, 0xBEF77538 *\/$/;"	v	file:
+pa0	lib/libm/erff.c	/^pa0  = -2.3621185683e-03, \/* 0xbb1acdc6 *\/$/;"	v	file:
+pa1	lib/libm/erf.c	/^pa1  =  4.14856118683748331666e-01, \/* 0x3FDA8D00, 0xAD92B34D *\/$/;"	v	file:
+pa1	lib/libm/erff.c	/^pa1  =  4.1485610604e-01, \/* 0x3ed46805 *\/$/;"	v	file:
+pa2	lib/libm/erf.c	/^pa2  = -3.72207876035701323847e-01, \/* 0xBFD7D240, 0xFBB8C3F1 *\/$/;"	v	file:
+pa2	lib/libm/erff.c	/^pa2  = -3.7220788002e-01, \/* 0xbebe9208 *\/$/;"	v	file:
+pa3	lib/libm/erf.c	/^pa3  =  3.18346619901161753674e-01, \/* 0x3FD45FCA, 0x805120E4 *\/$/;"	v	file:
+pa3	lib/libm/erff.c	/^pa3  =  3.1834661961e-01, \/* 0x3ea2fe54 *\/$/;"	v	file:
+pa4	lib/libm/erf.c	/^pa4  = -1.10894694282396677476e-01, \/* 0xBFBC6398, 0x3D3E28EC *\/$/;"	v	file:
+pa4	lib/libm/erff.c	/^pa4  = -1.1089469492e-01, \/* 0xbde31cc2 *\/$/;"	v	file:
+pa5	lib/libm/erf.c	/^pa5  =  3.54783043256182359371e-02, \/* 0x3FA22A36, 0x599795EB *\/$/;"	v	file:
+pa5	lib/libm/erff.c	/^pa5  =  3.5478305072e-02, \/* 0x3d1151b3 *\/$/;"	v	file:
+pa6	lib/libm/erf.c	/^pa6  = -2.16637559486879084300e-03, \/* 0xBF61BF38, 0x0A96073F *\/$/;"	v	file:
+pa6	lib/libm/erff.c	/^pa6  = -2.1663755178e-03, \/* 0xbb0df9c0 *\/$/;"	v	file:
+parse_authority	lib/libx/uri.c	/^static int parse_authority(const char * s, size_t len, struct uri_t * uri)$/;"	f	file:	signature:(const char * s, size_t len, struct uri_t * uri)
+parse_user_password	lib/libx/uri.c	/^static int parse_user_password(const char * s, size_t len, struct uri_t * uri)$/;"	f	file:	signature:(const char * s, size_t len, struct uri_t * uri)
+pi	lib/libm/atan2.c	/^pi     = 3.1415926535897931160E+00, \/* 0x400921FB, 0x54442D18 *\/$/;"	v	file:
+pi	lib/libm/atan2f.c	/^pi     = 3.1415927410e+00, \/* 0x40490fdb *\/$/;"	v	file:
+pi_lo	lib/libm/atan2.c	/^pi_lo  = 1.2246467991473531772E-16; \/* 0x3CA1A626, 0x33145C07 *\/$/;"	v	file:
+pi_lo	lib/libm/atan2f.c	/^pi_lo  = -8.7422776573e-08; \/* 0xb3bbbd2e *\/$/;"	v	file:
+pio2	lib/libm/asinf.c	/^pio2 = 1.570796326794896558e+00;$/;"	v	file:
+pio2_1	lib/libm/__rem_pio2.c	/^pio2_1  = 1.57079632673412561417e+00, \/* 0x3FF921FB, 0x54400000 *\/$/;"	v	file:
+pio2_1	lib/libm/__rem_pio2f.c	/^pio2_1  = 1.57079631090164184570e+00, \/* 0x3FF921FB, 0x50000000 *\/$/;"	v	file:
+pio2_1t	lib/libm/__rem_pio2.c	/^pio2_1t = 6.07710050650619224932e-11, \/* 0x3DD0B461, 0x1A626331 *\/$/;"	v	file:
+pio2_1t	lib/libm/__rem_pio2f.c	/^pio2_1t = 1.58932547735281966916e-08; \/* 0x3E5110b4, 0x611A6263 *\/$/;"	v	file:
+pio2_2	lib/libm/__rem_pio2.c	/^pio2_2  = 6.07710050630396597660e-11, \/* 0x3DD0B461, 0x1A600000 *\/$/;"	v	file:
+pio2_2t	lib/libm/__rem_pio2.c	/^pio2_2t = 2.02226624879595063154e-21, \/* 0x3BA3198A, 0x2E037073 *\/$/;"	v	file:
+pio2_3	lib/libm/__rem_pio2.c	/^pio2_3  = 2.02226624871116645580e-21, \/* 0x3BA3198A, 0x2E000000 *\/$/;"	v	file:
+pio2_3t	lib/libm/__rem_pio2.c	/^pio2_3t = 8.47842766036889956997e-32; \/* 0x397B839A, 0x252049C1 *\/$/;"	v	file:
+pio2_hi	lib/libm/acos.c	/^pio2_hi = 1.57079632679489655800e+00, \/* 0x3FF921FB, 0x54442D18 *\/$/;"	v	file:
+pio2_hi	lib/libm/acosf.c	/^pio2_hi = 1.5707962513e+00, \/* 0x3fc90fda *\/$/;"	v	file:
+pio2_hi	lib/libm/asin.c	/^pio2_hi = 1.57079632679489655800e+00, \/* 0x3FF921FB, 0x54442D18 *\/$/;"	v	file:
+pio2_lo	lib/libm/acos.c	/^pio2_lo = 6.12323399573676603587e-17, \/* 0x3C91A626, 0x33145C07 *\/$/;"	v	file:
+pio2_lo	lib/libm/acosf.c	/^pio2_lo = 7.5497894159e-08, \/* 0x33a22168 *\/$/;"	v	file:
+pio2_lo	lib/libm/asin.c	/^pio2_lo = 6.12323399573676603587e-17, \/* 0x3C91A626, 0x33145C07 *\/$/;"	v	file:
+pio4	lib/libm/__rem_pio2.c	/^pio4    = 0x1.921fb54442d18p-1,$/;"	v	file:
+pio4	lib/libm/__rem_pio2f.c	/^pio4    = 0x1.921fb6p-1,$/;"	v	file:
+pio4	lib/libm/__tan.c	/^pio4 =       7.85398163397448278999e-01, \/* 3FE921FB, 54442D18 *\/$/;"	v	file:
+pio4lo	lib/libm/__tan.c	/^pio4lo =     3.06161699786838301793e-17; \/* 3C81A626, 33145C07 *\/$/;"	v	file:
+posix_lconv	lib/libc/locale/localeconv.c	/^static const struct lconv posix_lconv = {$/;"	v	typeref:struct:lconv	file:
+pow	lib/libm/pow.c	/^EXPORT_SYMBOL(pow);$/;"	v
+pow	lib/libm/pow.c	/^double pow(double x, double y)$/;"	f	signature:(double x, double y)
+powers	lib/libc/time/strftime.c	/^static const int powers[5] = { 1, 10, 100, 1000, 10000 };$/;"	v	file:
+powf	lib/libm/powf.c	/^EXPORT_SYMBOL(powf);$/;"	v
+powf	lib/libm/powf.c	/^float powf(float x, float y)$/;"	f	signature:(float x, float y)
+pp0	lib/libm/erf.c	/^pp0  =  1.28379167095512558561e-01, \/* 0x3FC06EBA, 0x8214DB68 *\/$/;"	v	file:
+pp0	lib/libm/erff.c	/^pp0  =  1.2837916613e-01, \/* 0x3e0375d4 *\/$/;"	v	file:
+pp1	lib/libm/erf.c	/^pp1  = -3.25042107247001499370e-01, \/* 0xBFD4CD7D, 0x691CB913 *\/$/;"	v	file:
+pp1	lib/libm/erff.c	/^pp1  = -3.2504209876e-01, \/* 0xbea66beb *\/$/;"	v	file:
+pp2	lib/libm/erf.c	/^pp2  = -2.84817495755985104766e-02, \/* 0xBF9D2A51, 0xDBD7194F *\/$/;"	v	file:
+pp2	lib/libm/erff.c	/^pp2  = -2.8481749818e-02, \/* 0xbce9528f *\/$/;"	v	file:
+pp3	lib/libm/erf.c	/^pp3  = -5.77027029648944159157e-03, \/* 0xBF77A291, 0x236668E4 *\/$/;"	v	file:
+pp3	lib/libm/erff.c	/^pp3  = -5.7702702470e-03, \/* 0xbbbd1489 *\/$/;"	v	file:
+pp4	lib/libm/erf.c	/^pp4  = -2.37630166566501626084e-05, \/* 0xBEF8EAD6, 0x120016AC *\/$/;"	v	file:
+pp4	lib/libm/erff.c	/^pp4  = -2.3763017452e-05, \/* 0xb7c756b1 *\/$/;"	v	file:
+prev_free	lib/libc/malloc/malloc.c	/^	struct block_header_t * prev_free;$/;"	m	struct:block_header_t	typeref:struct:block_header_t::block_header_t	file:	access:public
+prev_phys_block	lib/libc/malloc/malloc.c	/^		struct block_header_t * prev_phys_block;$/;"	m	union:block_header_t::__anon1	typeref:struct:block_header_t::__anon1::block_header_t	file:	access:public
+printf	lib/libc/stdio/printf.c	/^EXPORT_SYMBOL(printf);$/;"	v
+printf	lib/libc/stdio/printf.c	/^int printf(const char * fmt, ...)$/;"	f	signature:(const char * fmt, ...)
+ptr	lib/libx/json.c	/^	const char * ptr;$/;"	m	struct:json_state_t	file:	access:public
+putc	lib/libc/stdio/putc.c	/^EXPORT_SYMBOL(putc);$/;"	v
+putc	lib/libc/stdio/putc.c	/^int putc(int c, FILE * f)$/;"	f	signature:(int c, FILE * f)
+putchar	lib/libc/stdio/putchar.c	/^EXPORT_SYMBOL(putchar);$/;"	v
+putchar	lib/libc/stdio/putchar.c	/^int putchar(int c)$/;"	f	signature:(int c)
+putenv	lib/libc/environ/putenv.c	/^EXPORT_SYMBOL(putenv);$/;"	v
+putenv	lib/libc/environ/putenv.c	/^int putenv(const char * str)$/;"	f	signature:(const char * str)
+qS1	lib/libm/acos.c	/^qS1 = -2.40339491173441421878e+00, \/* 0xC0033A27, 0x1C8A2D4B *\/$/;"	v	file:
+qS1	lib/libm/acosf.c	/^qS1 = -7.0662963390e-01;$/;"	v	file:
+qS1	lib/libm/asin.c	/^qS1 = -2.40339491173441421878e+00, \/* 0xC0033A27, 0x1C8A2D4B *\/$/;"	v	file:
+qS1	lib/libm/asinf.c	/^qS1 = -7.0662963390e-01;$/;"	v	file:
+qS2	lib/libm/acos.c	/^qS2 =  2.02094576023350569471e+00, \/* 0x40002AE5, 0x9C598AC8 *\/$/;"	v	file:
+qS2	lib/libm/asin.c	/^qS2 =  2.02094576023350569471e+00, \/* 0x40002AE5, 0x9C598AC8 *\/$/;"	v	file:
+qS3	lib/libm/acos.c	/^qS3 = -6.88283971605453293030e-01, \/* 0xBFE6066C, 0x1B8D0159 *\/$/;"	v	file:
+qS3	lib/libm/asin.c	/^qS3 = -6.88283971605453293030e-01, \/* 0xBFE6066C, 0x1B8D0159 *\/$/;"	v	file:
+qS4	lib/libm/acos.c	/^qS4 =  7.70381505559019352791e-02; \/* 0x3FB3B8C5, 0xB12E9282 *\/$/;"	v	file:
+qS4	lib/libm/asin.c	/^qS4 =  7.70381505559019352791e-02; \/* 0x3FB3B8C5, 0xB12E9282 *\/$/;"	v	file:
+qa1	lib/libm/erf.c	/^qa1  =  1.06420880400844228286e-01, \/* 0x3FBB3E66, 0x18EEE323 *\/$/;"	v	file:
+qa1	lib/libm/erff.c	/^qa1  =  1.0642088205e-01, \/* 0x3dd9f331 *\/$/;"	v	file:
+qa2	lib/libm/erf.c	/^qa2  =  5.40397917702171048937e-01, \/* 0x3FE14AF0, 0x92EB6F33 *\/$/;"	v	file:
+qa2	lib/libm/erff.c	/^qa2  =  5.4039794207e-01, \/* 0x3f0a5785 *\/$/;"	v	file:
+qa3	lib/libm/erf.c	/^qa3  =  7.18286544141962662868e-02, \/* 0x3FB2635C, 0xD99FE9A7 *\/$/;"	v	file:
+qa3	lib/libm/erff.c	/^qa3  =  7.1828655899e-02, \/* 0x3d931ae7 *\/$/;"	v	file:
+qa4	lib/libm/erf.c	/^qa4  =  1.26171219808761642112e-01, \/* 0x3FC02660, 0xE763351F *\/$/;"	v	file:
+qa4	lib/libm/erff.c	/^qa4  =  1.2617121637e-01, \/* 0x3e013307 *\/$/;"	v	file:
+qa5	lib/libm/erf.c	/^qa5  =  1.36370839120290507362e-02, \/* 0x3F8BEDC2, 0x6B51DD1C *\/$/;"	v	file:
+qa5	lib/libm/erff.c	/^qa5  =  1.3637083583e-02, \/* 0x3c5f6e13 *\/$/;"	v	file:
+qa6	lib/libm/erf.c	/^qa6  =  1.19844998467991074170e-02, \/* 0x3F888B54, 0x5735151D *\/$/;"	v	file:
+qa6	lib/libm/erff.c	/^qa6  =  1.1984500103e-02, \/* 0x3c445aa3 *\/$/;"	v	file:
+qq1	lib/libm/erf.c	/^qq1  =  3.97917223959155352819e-01, \/* 0x3FD97779, 0xCDDADC09 *\/$/;"	v	file:
+qq1	lib/libm/erff.c	/^qq1  =  3.9791721106e-01, \/* 0x3ecbbbce *\/$/;"	v	file:
+qq2	lib/libm/erf.c	/^qq2  =  6.50222499887672944485e-02, \/* 0x3FB0A54C, 0x5536CEBA *\/$/;"	v	file:
+qq2	lib/libm/erff.c	/^qq2  =  6.5022252500e-02, \/* 0x3d852a63 *\/$/;"	v	file:
+qq3	lib/libm/erf.c	/^qq3  =  5.08130628187576562776e-03, \/* 0x3F74D022, 0xC4D36B0F *\/$/;"	v	file:
+qq3	lib/libm/erff.c	/^qq3  =  5.0813062117e-03, \/* 0x3ba68116 *\/$/;"	v	file:
+qq4	lib/libm/erf.c	/^qq4  =  1.32494738004321644526e-04, \/* 0x3F215DC9, 0x221C1A10 *\/$/;"	v	file:
+qq4	lib/libm/erff.c	/^qq4  =  1.3249473704e-04, \/* 0x390aee49 *\/$/;"	v	file:
+qq5	lib/libm/erf.c	/^qq5  = -3.96022827877536812320e-06, \/* 0xBED09C43, 0x42A26120 *\/$/;"	v	file:
+qq5	lib/libm/erff.c	/^qq5  = -3.9602282413e-06, \/* 0xb684e21a *\/$/;"	v	file:
+qrcgen_calc_segment_buffer_size	lib/libx/qrcgen.c	/^static size_t qrcgen_calc_segment_buffer_size(enum qrcgen_mode_t mode, size_t nchar)$/;"	f	file:	signature:(enum qrcgen_mode_t mode, size_t nchar)
+qrcgen_encode_binary	lib/libx/qrcgen.c	/^int qrcgen_encode_binary(uint8_t * buf, int len, uint8_t * qrc, enum qrcgen_ecc_t ecc, int minv, int maxv, enum qrcgen_mask_t mask, int boost)$/;"	f	signature:(uint8_t * buf, int len, uint8_t * qrc, enum qrcgen_ecc_t ecc, int minv, int maxv, enum qrcgen_mask_t mask, int boost)
+qrcgen_encode_segments_advanced	lib/libx/qrcgen.c	/^static int qrcgen_encode_segments_advanced(struct qrcgen_segment_t * segs, size_t len, enum qrcgen_ecc_t ecc, int minv, int maxv, enum qrcgen_mask_t mask, int boost, uint8_t * tmp, uint8_t * qrc)$/;"	f	file:	signature:(struct qrcgen_segment_t * segs, size_t len, enum qrcgen_ecc_t ecc, int minv, int maxv, enum qrcgen_mask_t mask, int boost, uint8_t * tmp, uint8_t * qrc)
+qrcgen_encode_text	lib/libx/qrcgen.c	/^int qrcgen_encode_text(const char * txt, uint8_t * tmp, uint8_t * qrc, enum qrcgen_ecc_t ecc, int minv, int maxv, enum qrcgen_mask_t mask, int boost)$/;"	f	signature:(const char * txt, uint8_t * tmp, uint8_t * qrc, enum qrcgen_ecc_t ecc, int minv, int maxv, enum qrcgen_mask_t mask, int boost)
+qrcgen_get_pixel	lib/libx/qrcgen.c	/^int qrcgen_get_pixel(uint8_t * qrc, int x, int y)$/;"	f	signature:(uint8_t * qrc, int x, int y)
+qrcgen_get_size	lib/libx/qrcgen.c	/^int qrcgen_get_size(uint8_t * qrc)$/;"	f	signature:(uint8_t * qrc)
+qrcgen_is_alphanumeric	lib/libx/qrcgen.c	/^static int qrcgen_is_alphanumeric(const char * txt)$/;"	f	file:	signature:(const char * txt)
+qrcgen_is_numeric	lib/libx/qrcgen.c	/^static int qrcgen_is_numeric(const char * txt)$/;"	f	file:	signature:(const char * txt)
+qrcgen_make_alphanumeric	lib/libx/qrcgen.c	/^static struct qrcgen_segment_t qrcgen_make_alphanumeric(const char * txt, uint8_t * buf)$/;"	f	file:	signature:(const char * txt, uint8_t * buf)
+qrcgen_make_numeric	lib/libx/qrcgen.c	/^static struct qrcgen_segment_t qrcgen_make_numeric(const char * digits, uint8_t * buf)$/;"	f	file:	signature:(const char * digits, uint8_t * buf)
+qrcgen_mode_t	lib/libx/qrcgen.c	/^enum qrcgen_mode_t {$/;"	g	file:
+qrcgen_segment_t	lib/libx/qrcgen.c	/^struct qrcgen_segment_t {$/;"	s	file:
+qrcgen_segment_t::blen	lib/libx/qrcgen.c	/^	int blen;$/;"	m	struct:qrcgen_segment_t	file:	access:public
+qrcgen_segment_t::data	lib/libx/qrcgen.c	/^	uint8_t * data;$/;"	m	struct:qrcgen_segment_t	file:	access:public
+qrcgen_segment_t::mode	lib/libx/qrcgen.c	/^	enum qrcgen_mode_t mode;$/;"	m	struct:qrcgen_segment_t	typeref:enum:qrcgen_segment_t::qrcgen_mode_t	file:	access:public
+qrcgen_segment_t::nchar	lib/libx/qrcgen.c	/^	int nchar;$/;"	m	struct:qrcgen_segment_t	file:	access:public
+qrcgen_tostring	lib/libx/qrcgen.c	/^char * qrcgen_tostring(const char * txt, int invert)$/;"	f	signature:(const char * txt, int invert)
+qsort	lib/libc/stdlib/qsort.c	/^EXPORT_SYMBOL(qsort);$/;"	v
+qsort	lib/libc/stdlib/qsort.c	/^void qsort(void * aa, size_t n, size_t es, int (*cmp)(const void *, const void *))$/;"	f	signature:(void * aa, size_t n, size_t es, int (*cmp)(const void *, const void *))
+queue_alloc	lib/libx/queue.c	/^EXPORT_SYMBOL(queue_alloc);$/;"	v
+queue_alloc	lib/libx/queue.c	/^struct queue_t * queue_alloc(void)$/;"	f	signature:(void)
+queue_avail	lib/libx/queue.c	/^EXPORT_SYMBOL(queue_avail);$/;"	v
+queue_avail	lib/libx/queue.c	/^int queue_avail(struct queue_t * q)$/;"	f	signature:(struct queue_t * q)
+queue_clear	lib/libx/queue.c	/^EXPORT_SYMBOL(queue_clear);$/;"	v
+queue_clear	lib/libx/queue.c	/^void queue_clear(struct queue_t * q, void (*cb)(struct queue_node_t *))$/;"	f	signature:(struct queue_t * q, void (*cb)(struct queue_node_t *))
+queue_free	lib/libx/queue.c	/^EXPORT_SYMBOL(queue_free);$/;"	v
+queue_free	lib/libx/queue.c	/^void queue_free(struct queue_t * q, void (*cb)(struct queue_node_t *))$/;"	f	signature:(struct queue_t * q, void (*cb)(struct queue_node_t *))
+queue_peek	lib/libx/queue.c	/^EXPORT_SYMBOL(queue_peek);$/;"	v
+queue_peek	lib/libx/queue.c	/^void * queue_peek(struct queue_t * q)$/;"	f	signature:(struct queue_t * q)
+queue_pop	lib/libx/queue.c	/^EXPORT_SYMBOL(queue_pop);$/;"	v
+queue_pop	lib/libx/queue.c	/^void * queue_pop(struct queue_t * q)$/;"	f	signature:(struct queue_t * q)
+queue_push	lib/libx/queue.c	/^EXPORT_SYMBOL(queue_push);$/;"	v
+queue_push	lib/libx/queue.c	/^void queue_push(struct queue_t * q, void * data)$/;"	f	signature:(struct queue_t * q, void * data)
+ra0	lib/libm/erf.c	/^ra0  = -9.86494403484714822705e-03, \/* 0xBF843412, 0x600D6435 *\/$/;"	v	file:
+ra0	lib/libm/erff.c	/^ra0  = -9.8649440333e-03, \/* 0xbc21a093 *\/$/;"	v	file:
+ra1	lib/libm/erf.c	/^ra1  = -6.93858572707181764372e-01, \/* 0xBFE63416, 0xE4BA7360 *\/$/;"	v	file:
+ra1	lib/libm/erff.c	/^ra1  = -6.9385856390e-01, \/* 0xbf31a0b7 *\/$/;"	v	file:
+ra2	lib/libm/erf.c	/^ra2  = -1.05586262253232909814e+01, \/* 0xC0251E04, 0x41B0E726 *\/$/;"	v	file:
+ra2	lib/libm/erff.c	/^ra2  = -1.0558626175e+01, \/* 0xc128f022 *\/$/;"	v	file:
+ra3	lib/libm/erf.c	/^ra3  = -6.23753324503260060396e+01, \/* 0xC04F300A, 0xE4CBA38D *\/$/;"	v	file:
+ra3	lib/libm/erff.c	/^ra3  = -6.2375331879e+01, \/* 0xc2798057 *\/$/;"	v	file:
+ra4	lib/libm/erf.c	/^ra4  = -1.62396669462573470355e+02, \/* 0xC0644CB1, 0x84282266 *\/$/;"	v	file:
+ra4	lib/libm/erff.c	/^ra4  = -1.6239666748e+02, \/* 0xc322658c *\/$/;"	v	file:
+ra5	lib/libm/erf.c	/^ra5  = -1.84605092906711035994e+02, \/* 0xC067135C, 0xEBCCABB2 *\/$/;"	v	file:
+ra5	lib/libm/erff.c	/^ra5  = -1.8460508728e+02, \/* 0xc3389ae7 *\/$/;"	v	file:
+ra6	lib/libm/erf.c	/^ra6  = -8.12874355063065934246e+01, \/* 0xC0545265, 0x57E4D2F2 *\/$/;"	v	file:
+ra6	lib/libm/erff.c	/^ra6  = -8.1287437439e+01, \/* 0xc2a2932b *\/$/;"	v	file:
+ra7	lib/libm/erf.c	/^ra7  = -9.81432934416914548592e+00, \/* 0xC023A0EF, 0xC69AC25C *\/$/;"	v	file:
+ra7	lib/libm/erff.c	/^ra7  = -9.8143291473e+00, \/* 0xc11d077e *\/$/;"	v	file:
+rand	lib/libc/stdlib/rand.c	/^EXPORT_SYMBOL(rand);$/;"	v
+rand	lib/libc/stdlib/rand.c	/^int rand(void)$/;"	f	signature:(void)
+rank_char	lib/libc/stdio/vsnprintf.c	/^	rank_char			= -2,$/;"	e	enum:ranks	file:
+rank_char	lib/libc/stdio/vsscanf.c	/^	rank_char			= -2,$/;"	e	enum:ranks	file:
+rank_int	lib/libc/stdio/vsnprintf.c	/^	rank_int			=  0,$/;"	e	enum:ranks	file:
+rank_int	lib/libc/stdio/vsscanf.c	/^	rank_int			= 0,$/;"	e	enum:ranks	file:
+rank_long	lib/libc/stdio/vsnprintf.c	/^	rank_long			=  1,$/;"	e	enum:ranks	file:
+rank_long	lib/libc/stdio/vsscanf.c	/^	rank_long			= 1,$/;"	e	enum:ranks	file:
+rank_longlong	lib/libc/stdio/vsnprintf.c	/^	rank_longlong		=  2,$/;"	e	enum:ranks	file:
+rank_longlong	lib/libc/stdio/vsscanf.c	/^	rank_longlong		= 2,$/;"	e	enum:ranks	file:
+rank_ptr	lib/libc/stdio/vsscanf.c	/^	rank_ptr			= INT_MAX,		\/* Special value used for pointers *\/$/;"	e	enum:ranks	file:
+rank_short	lib/libc/stdio/vsnprintf.c	/^	rank_short			= -1,$/;"	e	enum:ranks	file:
+rank_short	lib/libc/stdio/vsscanf.c	/^	rank_short			= -1,$/;"	e	enum:ranks	file:
+ranks	lib/libc/stdio/vsnprintf.c	/^enum ranks {$/;"	g	file:
+ranks	lib/libc/stdio/vsscanf.c	/^enum ranks {$/;"	g	file:
+rb0	lib/libm/erf.c	/^rb0  = -9.86494292470009928597e-03, \/* 0xBF843412, 0x39E86F4A *\/$/;"	v	file:
+rb0	lib/libm/erff.c	/^rb0  = -9.8649431020e-03, \/* 0xbc21a092 *\/$/;"	v	file:
+rb1	lib/libm/erf.c	/^rb1  = -7.99283237680523006574e-01, \/* 0xBFE993BA, 0x70C285DE *\/$/;"	v	file:
+rb1	lib/libm/erff.c	/^rb1  = -7.9928326607e-01, \/* 0xbf4c9dd4 *\/$/;"	v	file:
+rb2	lib/libm/erf.c	/^rb2  = -1.77579549177547519889e+01, \/* 0xC031C209, 0x555F995A *\/$/;"	v	file:
+rb2	lib/libm/erff.c	/^rb2  = -1.7757955551e+01, \/* 0xc18e104b *\/$/;"	v	file:
+rb3	lib/libm/erf.c	/^rb3  = -1.60636384855821916062e+02, \/* 0xC064145D, 0x43C5ED98 *\/$/;"	v	file:
+rb3	lib/libm/erff.c	/^rb3  = -1.6063638306e+02, \/* 0xc320a2ea *\/$/;"	v	file:
+rb4	lib/libm/erf.c	/^rb4  = -6.37566443368389627722e+02, \/* 0xC083EC88, 0x1375F228 *\/$/;"	v	file:
+rb4	lib/libm/erff.c	/^rb4  = -6.3756646729e+02, \/* 0xc41f6441 *\/$/;"	v	file:
+rb5	lib/libm/erf.c	/^rb5  = -1.02509513161107724954e+03, \/* 0xC0900461, 0x6A2E5992 *\/$/;"	v	file:
+rb5	lib/libm/erff.c	/^rb5  = -1.0250950928e+03, \/* 0xc480230b *\/$/;"	v	file:
+rb6	lib/libm/erf.c	/^rb6  = -4.83519191608651397019e+02, \/* 0xC07E384E, 0x9BDC383F *\/$/;"	v	file:
+rb6	lib/libm/erff.c	/^rb6  = -4.8351919556e+02, \/* 0xc3f1c275 *\/$/;"	v	file:
+rb_erase	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_erase);$/;"	v
+rb_erase	lib/libx/rbtree.c	/^void rb_erase(struct rb_node * node, struct rb_root * root)$/;"	f	signature:(struct rb_node * node, struct rb_root * root)
+rb_erase_cached	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_erase_cached);$/;"	v
+rb_erase_cached	lib/libx/rbtree.c	/^void rb_erase_cached(struct rb_node *node, struct rb_root_cached *root)$/;"	f	signature:(struct rb_node *node, struct rb_root_cached *root)
+rb_first	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_first);$/;"	v
+rb_first	lib/libx/rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f	signature:(const struct rb_root *root)
+rb_first_postorder	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_first_postorder);$/;"	v
+rb_first_postorder	lib/libx/rbtree.c	/^struct rb_node * rb_first_postorder(const struct rb_root * root)$/;"	f	signature:(const struct rb_root * root)
+rb_insert_color	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_insert_color);$/;"	v
+rb_insert_color	lib/libx/rbtree.c	/^void rb_insert_color(struct rb_node * node, struct rb_root * root)$/;"	f	signature:(struct rb_node * node, struct rb_root * root)
+rb_insert_color_cached	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_insert_color_cached);$/;"	v
+rb_insert_color_cached	lib/libx/rbtree.c	/^void rb_insert_color_cached(struct rb_node * node,$/;"	f	signature:(struct rb_node * node, struct rb_root_cached * root, int leftmost)
+rb_last	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_last);$/;"	v
+rb_last	lib/libx/rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f	signature:(const struct rb_root *root)
+rb_left_deepest_node	lib/libx/rbtree.c	/^static struct rb_node * rb_left_deepest_node(const struct rb_node * node)$/;"	f	file:	signature:(const struct rb_node * node)
+rb_next	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_next);$/;"	v
+rb_next	lib/libx/rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f	signature:(const struct rb_node *node)
+rb_next_postorder	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_next_postorder);$/;"	v
+rb_next_postorder	lib/libx/rbtree.c	/^struct rb_node * rb_next_postorder(const struct rb_node * node)$/;"	f	signature:(const struct rb_node * node)
+rb_prev	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_prev);$/;"	v
+rb_prev	lib/libx/rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f	signature:(const struct rb_node *node)
+rb_red_parent	lib/libx/rbtree.c	/^static inline struct rb_node * rb_red_parent(struct rb_node * red)$/;"	f	file:	signature:(struct rb_node * red)
+rb_replace_node	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_replace_node);$/;"	v
+rb_replace_node	lib/libx/rbtree.c	/^void rb_replace_node(struct rb_node * victim, struct rb_node * new,$/;"	f	signature:(struct rb_node * victim, struct rb_node * new, struct rb_root * root)
+rb_replace_node_cached	lib/libx/rbtree.c	/^EXPORT_SYMBOL(rb_replace_node_cached);$/;"	v
+rb_replace_node_cached	lib/libx/rbtree.c	/^void rb_replace_node_cached(struct rb_node *victim, struct rb_node *new,$/;"	f	signature:(struct rb_node *victim, struct rb_node *new, struct rb_root_cached *root)
+rb_set_black	lib/libx/rbtree.c	/^static inline void rb_set_black(struct rb_node * rb)$/;"	f	file:	signature:(struct rb_node * rb)
+rc4_crypt	lib/libc/crypto/rc4.c	/^void rc4_crypt(uint8_t * key, int kl, uint8_t * dat, int dl)$/;"	f	signature:(uint8_t * key, int kl, uint8_t * dat, int dl)
+redux	lib/libm/exp2.c	/^redux = 0x1.8p52 \/ TBLSIZE,$/;"	v	file:
+redux	lib/libm/exp2f.c	/^redux = 0x1.8p23f \/ TBLSIZE,$/;"	v	file:
+reed_solomon_compute_divisor	lib/libx/qrcgen.c	/^static void reed_solomon_compute_divisor(int degree, uint8_t * result)$/;"	f	file:	signature:(int degree, uint8_t * result)
+reed_solomon_compute_remainder	lib/libx/qrcgen.c	/^static void reed_solomon_compute_remainder(const uint8_t * data, int dlen, const uint8_t * generator, int degree, uint8_t * result)$/;"	f	file:	signature:(const uint8_t * data, int dlen, const uint8_t * generator, int degree, uint8_t * result)
+reed_solomon_multiply	lib/libx/qrcgen.c	/^static uint8_t reed_solomon_multiply(uint8_t x, uint8_t y)$/;"	f	file:	signature:(uint8_t x, uint8_t y)
+remove	lib/libc/stdio/remove.c	/^EXPORT_SYMBOL(remove);$/;"	v
+remove	lib/libc/stdio/remove.c	/^int remove(const char * path)$/;"	f	signature:(const char * path)
+remove_free_block	lib/libc/malloc/malloc.c	/^static void remove_free_block(control_t * control, block_header_t * block, int fl, int sl)$/;"	f	file:	signature:(control_t * control, block_header_t * block, int fl, int sl)
+rename	lib/libc/stdio/rename.c	/^EXPORT_SYMBOL(rename);$/;"	v
+rename	lib/libc/stdio/rename.c	/^int rename(const char * old, const char * new)$/;"	f	signature:(const char * old, const char * new)
+rewind	lib/libc/stdio/rewind.c	/^EXPORT_SYMBOL(rewind);$/;"	v
+rewind	lib/libc/stdio/rewind.c	/^void rewind(FILE * f)$/;"	f	signature:(FILE * f)
+rint	lib/libm/arm64/rint.c	/^double rint(double x)$/;"	f	signature:(double x)
+rintf	lib/libm/arm64/rintf.c	/^float rintf(float x)$/;"	f	signature:(float x)
+rol	lib/libc/crypto/sha1.c	9;"	d	file:
+ror	lib/libc/crypto/sha256.c	9;"	d	file:
+round	lib/libm/arm64/round.c	/^double round(double x)$/;"	f	signature:(double x)
+roundf	lib/libm/arm64/roundf.c	/^float roundf(float x)$/;"	f	signature:(float x)
+s1pio2	lib/libm/sinf.c	/^s1pio2 = 1*M_PI_2, \/* 0x3FF921FB, 0x54442D18 *\/$/;"	v	file:
+s2pio2	lib/libm/sinf.c	/^s2pio2 = 2*M_PI_2, \/* 0x400921FB, 0x54442D18 *\/$/;"	v	file:
+s3pio2	lib/libm/sinf.c	/^s3pio2 = 3*M_PI_2, \/* 0x4012D97C, 0x7F3321D2 *\/$/;"	v	file:
+s4pio2	lib/libm/sinf.c	/^s4pio2 = 4*M_PI_2; \/* 0x401921FB, 0x54442D18 *\/$/;"	v	file:
+sa1	lib/libm/erf.c	/^sa1  =  1.96512716674392571292e+01, \/* 0x4033A6B9, 0xBD707687 *\/$/;"	v	file:
+sa1	lib/libm/erff.c	/^sa1  =  1.9651271820e+01, \/* 0x419d35ce *\/$/;"	v	file:
+sa2	lib/libm/erf.c	/^sa2  =  1.37657754143519042600e+02, \/* 0x4061350C, 0x526AE721 *\/$/;"	v	file:
+sa2	lib/libm/erff.c	/^sa2  =  1.3765776062e+02, \/* 0x4309a863 *\/$/;"	v	file:
+sa3	lib/libm/erf.c	/^sa3  =  4.34565877475229228821e+02, \/* 0x407B290D, 0xD58A1A71 *\/$/;"	v	file:
+sa3	lib/libm/erff.c	/^sa3  =  4.3456588745e+02, \/* 0x43d9486f *\/$/;"	v	file:
+sa4	lib/libm/erf.c	/^sa4  =  6.45387271733267880336e+02, \/* 0x40842B19, 0x21EC2868 *\/$/;"	v	file:
+sa4	lib/libm/erff.c	/^sa4  =  6.4538726807e+02, \/* 0x442158c9 *\/$/;"	v	file:
+sa5	lib/libm/erf.c	/^sa5  =  4.29008140027567833386e+02, \/* 0x407AD021, 0x57700314 *\/$/;"	v	file:
+sa5	lib/libm/erff.c	/^sa5  =  4.2900814819e+02, \/* 0x43d6810b *\/$/;"	v	file:
+sa6	lib/libm/erf.c	/^sa6  =  1.08635005541779435134e+02, \/* 0x405B28A3, 0xEE48AE2C *\/$/;"	v	file:
+sa6	lib/libm/erff.c	/^sa6  =  1.0863500214e+02, \/* 0x42d9451f *\/$/;"	v	file:
+sa7	lib/libm/erf.c	/^sa7  =  6.57024977031928170135e+00, \/* 0x401A47EF, 0x8E484A93 *\/$/;"	v	file:
+sa7	lib/libm/erff.c	/^sa7  =  6.5702495575e+00, \/* 0x40d23f7c *\/$/;"	v	file:
+sa8	lib/libm/erf.c	/^sa8  = -6.04244152148580987438e-02, \/* 0xBFAEEFF2, 0xEE749A62 *\/$/;"	v	file:
+sa8	lib/libm/erff.c	/^sa8  = -6.0424413532e-02, \/* 0xbd777f97 *\/$/;"	v	file:
+sb1	lib/libm/erf.c	/^sb1  =  3.03380607434824582924e+01, \/* 0x403E568B, 0x261D5190 *\/$/;"	v	file:
+sb1	lib/libm/erff.c	/^sb1  =  3.0338060379e+01, \/* 0x41f2b459 *\/$/;"	v	file:
+sb2	lib/libm/erf.c	/^sb2  =  3.25792512996573918826e+02, \/* 0x40745CAE, 0x221B9F0A *\/$/;"	v	file:
+sb2	lib/libm/erff.c	/^sb2  =  3.2579251099e+02, \/* 0x43a2e571 *\/$/;"	v	file:
+sb3	lib/libm/erf.c	/^sb3  =  1.53672958608443695994e+03, \/* 0x409802EB, 0x189D5118 *\/$/;"	v	file:
+sb3	lib/libm/erff.c	/^sb3  =  1.5367296143e+03, \/* 0x44c01759 *\/$/;"	v	file:
+sb4	lib/libm/erf.c	/^sb4  =  3.19985821950859553908e+03, \/* 0x40A8FFB7, 0x688C246A *\/$/;"	v	file:
+sb4	lib/libm/erff.c	/^sb4  =  3.1998581543e+03, \/* 0x4547fdbb *\/$/;"	v	file:
+sb5	lib/libm/erf.c	/^sb5  =  2.55305040643316442583e+03, \/* 0x40A3F219, 0xCEDF3BE6 *\/$/;"	v	file:
+sb5	lib/libm/erff.c	/^sb5  =  2.5530502930e+03, \/* 0x451f90ce *\/$/;"	v	file:
+sb6	lib/libm/erf.c	/^sb6  =  4.74528541206955367215e+02, \/* 0x407DA874, 0xE79FE763 *\/$/;"	v	file:
+sb6	lib/libm/erff.c	/^sb6  =  4.7452853394e+02, \/* 0x43ed43a7 *\/$/;"	v	file:
+sb7	lib/libm/erf.c	/^sb7  = -2.24409524465858183362e+01; \/* 0xC03670E2, 0x42712D62 *\/$/;"	v	file:
+sb7	lib/libm/erff.c	/^sb7  = -2.2440952301e+01; \/* 0xc1b38712 *\/$/;"	v	file:
+sbox	lib/libc/crypto/aes128.c	/^static const uint8_t sbox[256] = {$/;"	v	file:
+sbox	lib/libc/crypto/aes256.c	/^static const uint8_t sbox[256] = {$/;"	v	file:
+scalbln	lib/libm/scalbln.c	/^EXPORT_SYMBOL(scalbln);$/;"	v
+scalbln	lib/libm/scalbln.c	/^double scalbln(double x, long n)$/;"	f	signature:(double x, long n)
+scalblnf	lib/libm/scalblnf.c	/^EXPORT_SYMBOL(scalblnf);$/;"	v
+scalblnf	lib/libm/scalblnf.c	/^float scalblnf(float x, long n)$/;"	f	signature:(float x, long n)
+scalbn	lib/libm/scalbn.c	/^EXPORT_SYMBOL(scalbn);$/;"	v
+scalbn	lib/libm/scalbn.c	/^double scalbn(double x, int n)$/;"	f	signature:(double x, int n)
+scalbnf	lib/libm/scalbnf.c	/^EXPORT_SYMBOL(scalbnf);$/;"	v
+scalbnf	lib/libm/scalbnf.c	/^float scalbnf(float x, int n)$/;"	f	signature:(float x, int n)
+scanf	lib/libc/stdio/scanf.c	/^EXPORT_SYMBOL(scanf);$/;"	v
+scanf	lib/libc/stdio/scanf.c	/^int scanf(const char * fmt, ...)$/;"	f	signature:(const char * fmt, ...)
+search_class_memory_kobj	lib/libc/malloc/malloc.c	/^static struct kobj_t * search_class_memory_kobj(void)$/;"	f	file:	signature:(void)
+search_suitable_block	lib/libc/malloc/malloc.c	/^static block_header_t * search_suitable_block(control_t * control, int * fli, int * sli)$/;"	f	file:	signature:(control_t * control, int * fli, int * sli)
+set_bit	lib/libc/stdio/vsscanf.c	/^static inline void set_bit(unsigned long *bitmap, unsigned int bit)$/;"	f	file:	signature:(unsigned long *bitmap, unsigned int bit)
+set_module	lib/libx/qrcgen.c	/^static void set_module(uint8_t * qrc, int x, int y, int isblack)$/;"	f	file:	signature:(uint8_t * qrc, int x, int y, int isblack)
+set_module_bounded	lib/libx/qrcgen.c	/^static void set_module_bounded(uint8_t * qrc, int x, int y, int isblack)$/;"	f	file:	signature:(uint8_t * qrc, int x, int y, int isblack)
+setbuf	lib/libc/stdio/setbuf.c	/^EXPORT_SYMBOL(setbuf);$/;"	v
+setbuf	lib/libc/stdio/setbuf.c	/^void setbuf(FILE * f, char * buf)$/;"	f	signature:(FILE * f, char * buf)
+setenv	lib/libc/environ/setenv.c	/^EXPORT_SYMBOL(setenv);$/;"	v
+setenv	lib/libc/environ/setenv.c	/^int setenv(const char * name, const char * val, int overwrite)$/;"	f	signature:(const char * name, const char * val, int overwrite)
+setlocale	lib/libc/locale/setlocale.c	/^EXPORT_SYMBOL(setlocale);$/;"	v
+setlocale	lib/libc/locale/setlocale.c	/^char * setlocale(int category, const char * locale)$/;"	f	signature:(int category, const char * locale)
+settimeofday	lib/libc/time/settimeofday.c	/^EXPORT_SYMBOL(settimeofday);$/;"	v
+settimeofday	lib/libc/time/settimeofday.c	/^int settimeofday(struct timeval * tv, void * tz)$/;"	f	signature:(struct timeval * tv, void * tz)
+setvbuf	lib/libc/stdio/setvbuf.c	/^EXPORT_SYMBOL(setvbuf);$/;"	v
+setvbuf	lib/libc/stdio/setvbuf.c	/^int setvbuf(FILE * f, char * buf, int mode, size_t size)$/;"	f	signature:(FILE * f, char * buf, int mode, size_t size)
+sha1_final	lib/libc/crypto/sha1.c	/^const uint8_t * sha1_final(struct sha1_ctx_t * ctx)$/;"	f	signature:(struct sha1_ctx_t * ctx)
+sha1_hash	lib/libc/crypto/sha1.c	/^const uint8_t * sha1_hash(const void * data, int len, uint8_t * digest)$/;"	f	signature:(const void * data, int len, uint8_t * digest)
+sha1_init	lib/libc/crypto/sha1.c	/^void sha1_init(struct sha1_ctx_t * ctx)$/;"	f	signature:(struct sha1_ctx_t * ctx)
+sha1_transform	lib/libc/crypto/sha1.c	/^static void sha1_transform(struct sha1_ctx_t * ctx)$/;"	f	file:	signature:(struct sha1_ctx_t * ctx)
+sha1_update	lib/libc/crypto/sha1.c	/^void sha1_update(struct sha1_ctx_t * ctx, const void * data, int len)$/;"	f	signature:(struct sha1_ctx_t * ctx, const void * data, int len)
+sha256_final	lib/libc/crypto/sha256.c	/^const uint8_t * sha256_final(struct sha256_ctx_t * ctx)$/;"	f	signature:(struct sha256_ctx_t * ctx)
+sha256_hash	lib/libc/crypto/sha256.c	/^const uint8_t * sha256_hash(const void * data, int len, uint8_t * digest)$/;"	f	signature:(const void * data, int len, uint8_t * digest)
+sha256_init	lib/libc/crypto/sha256.c	/^void sha256_init(struct sha256_ctx_t * ctx)$/;"	f	signature:(struct sha256_ctx_t * ctx)
+sha256_transform	lib/libc/crypto/sha256.c	/^static void sha256_transform(struct sha256_ctx_t * ctx)$/;"	f	file:	signature:(struct sha256_ctx_t * ctx)
+sha256_update	lib/libc/crypto/sha256.c	/^void sha256_update(struct sha256_ctx_t * ctx, const void * data, int len)$/;"	f	signature:(struct sha256_ctx_t * ctx, const void * data, int len)
+shift_rows	lib/libc/crypto/aes128.c	/^static void shift_rows(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+shift_rows	lib/libc/crypto/aes256.c	/^static void shift_rows(uint8_t * state)$/;"	f	file:	signature:(uint8_t * state)
+shr	lib/libc/crypto/sha256.c	10;"	d	file:
+sin	lib/libm/sin.c	/^EXPORT_SYMBOL(sin);$/;"	v
+sin	lib/libm/sin.c	/^double sin(double x)$/;"	f	signature:(double x)
+sinf	lib/libm/sinf.c	/^EXPORT_SYMBOL(sinf);$/;"	v
+sinf	lib/libm/sinf.c	/^float sinf(float x)$/;"	f	signature:(float x)
+sinh	lib/libm/sinh.c	/^EXPORT_SYMBOL(sinh);$/;"	v
+sinh	lib/libm/sinh.c	/^double sinh(double x)$/;"	f	signature:(double x)
+sinhf	lib/libm/sinhf.c	/^EXPORT_SYMBOL(sinhf);$/;"	v
+sinhf	lib/libm/sinhf.c	/^float sinhf(float x)$/;"	f	signature:(float x)
+size	lib/libc/malloc/malloc.c	/^	size_t size;$/;"	m	struct:block_header_t	file:	access:public
+skipspace	lib/libc/stdio/vsscanf.c	/^static inline const char * skipspace(const char * p)$/;"	f	file:	signature:(const char * p)
+sl_bitmap	lib/libc/malloc/malloc.c	/^	unsigned int sl_bitmap[FL_INDEX_COUNT];$/;"	m	struct:control_t	file:	access:public
+slist_add	lib/libx/slist.c	/^void slist_add(struct slist_t * sl, void * priv, const char * fmt, ...)$/;"	f	signature:(struct slist_t * sl, void * priv, const char * fmt, ...)
+slist_alloc	lib/libx/slist.c	/^struct slist_t * slist_alloc(void)$/;"	f	signature:(void)
+slist_compare	lib/libx/slist.c	/^static int slist_compare(void * priv, struct list_head * a, struct list_head * b)$/;"	f	file:	signature:(void * priv, struct list_head * a, struct list_head * b)
+slist_empty	lib/libx/slist.c	/^int slist_empty(struct slist_t * sl)$/;"	f	signature:(struct slist_t * sl)
+slist_free	lib/libx/slist.c	/^void slist_free(struct slist_t * sl)$/;"	f	signature:(struct slist_t * sl)
+slist_sort	lib/libx/slist.c	/^void slist_sort(struct slist_t * sl)$/;"	f	signature:(struct slist_t * sl)
+slist_vasprintf	lib/libx/slist.c	/^static char * slist_vasprintf(const char * fmt, va_list ap)$/;"	f	file:	signature:(const char * fmt, va_list ap)
+snprintf	lib/libc/stdio/snprintf.c	/^EXPORT_SYMBOL(snprintf);$/;"	v
+snprintf	lib/libc/stdio/snprintf.c	/^int snprintf(char * buf, size_t n, const char * fmt, ...)$/;"	f	signature:(char * buf, size_t n, const char * fmt, ...)
+spring_init	lib/libx/spring.c	/^void spring_init(struct spring_t * s, double start, double stop, double velocity, double tension, double friction)$/;"	f	signature:(struct spring_t * s, double start, double stop, double velocity, double tension, double friction)
+spring_step	lib/libx/spring.c	/^int spring_step(struct spring_t * s, double dt)$/;"	f	signature:(struct spring_t * s, double dt)
+sprintf	lib/libc/stdio/sprintf.c	/^EXPORT_SYMBOL(sprintf);$/;"	v
+sprintf	lib/libc/stdio/sprintf.c	/^int sprintf(char * buf, const char * fmt, ...)$/;"	f	signature:(char * buf, const char * fmt, ...)
+sq	lib/libm/hypot.c	/^static void sq(double_t *hi, double_t *lo, double x)$/;"	f	file:	signature:(double_t *hi, double_t *lo, double x)
+sqrt	lib/libm/arm32/sqrt.c	/^double sqrt(double x)$/;"	f	signature:(double x)
+sqrt	lib/libm/arm64/sqrt.c	/^double sqrt(double x)$/;"	f	signature:(double x)
+sqrt	lib/libm/riscv64/sqrt.c	/^double sqrt(double x)$/;"	f	signature:(double x)
+sqrt	lib/libm/x64/sqrt.c	/^double sqrt(double x)$/;"	f	signature:(double x)
+sqrtf	lib/libm/arm32/sqrtf.c	/^float sqrtf(float x)$/;"	f	signature:(float x)
+sqrtf	lib/libm/arm64/sqrtf.c	/^float sqrtf(float x)$/;"	f	signature:(float x)
+sqrtf	lib/libm/riscv64/sqrtf.c	/^float sqrtf(float x)$/;"	f	signature:(float x)
+sqrtf	lib/libm/x64/sqrtf.c	/^float sqrtf(float x)$/;"	f	signature:(float x)
+srand	lib/libc/stdlib/rand.c	/^EXPORT_SYMBOL(srand);$/;"	v
+srand	lib/libc/stdlib/rand.c	/^void srand(unsigned int seed)$/;"	f	signature:(unsigned int seed)
+srand48	lib/libc/stdlib/rand.c	/^static void srand48(long val)$/;"	f	file:	signature:(long val)
+sscanf	lib/libc/stdio/sscanf.c	/^EXPORT_SYMBOL(sscanf);$/;"	v
+sscanf	lib/libc/stdio/sscanf.c	/^int sscanf(const char * buf, const char * fmt, ...)$/;"	f	signature:(const char * buf, const char * fmt, ...)
+ssize	lib/libx/ssize.c	/^char * ssize(char * buf, double size)$/;"	f	signature:(char * buf, double size)
+strcasecmp	lib/libc/string/strcasecmp.c	/^EXPORT_SYMBOL(strcasecmp);$/;"	v
+strcasecmp	lib/libc/string/strcasecmp.c	/^int strcasecmp(const char * s1, const char * s2)$/;"	f	signature:(const char * s1, const char * s2)
+strcat	lib/libc/string/strcat.c	/^EXPORT_SYMBOL(strcat);$/;"	v
+strcat	lib/libc/string/strcat.c	/^char * strcat(char * dest, const char * src)$/;"	f	signature:(char * dest, const char * src)
+strchr	lib/libc/string/strchr.c	/^EXPORT_SYMBOL(strchr);$/;"	v
+strchr	lib/libc/string/strchr.c	/^char * strchr(const char * s, int c)$/;"	f	signature:(const char * s, int c)
+strcoll	lib/libc/string/strcoll.c	/^EXPORT_SYMBOL(strcoll);$/;"	v
+strcoll	lib/libc/string/strcoll.c	/^int strcoll(const char * s1, const char * s2)$/;"	f	signature:(const char * s1, const char * s2)
+strcspn	lib/libc/string/strcspn.c	/^EXPORT_SYMBOL(strcspn);$/;"	v
+strcspn	lib/libc/string/strcspn.c	/^size_t strcspn(const char * s, const char * reject)$/;"	f	signature:(const char * s, const char * reject)
+strdup	lib/libc/string/strdup.c	/^EXPORT_SYMBOL(strdup);$/;"	v
+strdup	lib/libc/string/strdup.c	/^char * strdup(const char * s)$/;"	f	signature:(const char * s)
+strerror	lib/libc/errno/strerror.c	/^EXPORT_SYMBOL(strerror);$/;"	v
+strerror	lib/libc/errno/strerror.c	/^char * strerror(int e)$/;"	f	signature:(int e)
+strfmt	lib/libc/time/strftime.c	/^static void strfmt(char * str, const char * fmt, ...)$/;"	f	file:	signature:(char * str, const char * fmt, ...)
+strftime	lib/libc/time/strftime.c	/^EXPORT_SYMBOL(strftime);$/;"	v
+strftime	lib/libc/time/strftime.c	/^size_t strftime(char * s, size_t max, const char * fmt, const struct tm * t)$/;"	f	signature:(char * s, size_t max, const char * fmt, const struct tm * t)
+strim	lib/libc/string/strim.c	/^EXPORT_SYMBOL(strim);$/;"	v
+strim	lib/libc/string/strim.c	/^char * strim(char * s)$/;"	f	signature:(char * s)
+strlcat	lib/libc/string/strlcat.c	/^EXPORT_SYMBOL(strlcat);$/;"	v
+strlcat	lib/libc/string/strlcat.c	/^size_t strlcat(char * dest, const char * src, size_t n)$/;"	f	signature:(char * dest, const char * src, size_t n)
+strlcpy	lib/libc/string/strlcpy.c	/^EXPORT_SYMBOL(strlcpy);$/;"	v
+strlcpy	lib/libc/string/strlcpy.c	/^size_t strlcpy(char * dest, const char * src, size_t n)$/;"	f	signature:(char * dest, const char * src, size_t n)
+strlen	lib/libc/string/strlen.c	/^EXPORT_SYMBOL(strlen);$/;"	v
+strlen	lib/libc/string/strlen.c	/^size_t strlen(const char * s)$/;"	f	signature:(const char * s)
+strncasecmp	lib/libc/string/strncasecmp.c	/^EXPORT_SYMBOL(strncasecmp);$/;"	v
+strncasecmp	lib/libc/string/strncasecmp.c	/^int strncasecmp(const char * s1, const char * s2, size_t n)$/;"	f	signature:(const char * s1, const char * s2, size_t n)
+strncat	lib/libc/string/strncat.c	/^EXPORT_SYMBOL(strncat);$/;"	v
+strncat	lib/libc/string/strncat.c	/^char * strncat(char * dest, const char * src, size_t n)$/;"	f	signature:(char * dest, const char * src, size_t n)
+strnchr	lib/libc/string/strnchr.c	/^EXPORT_SYMBOL(strnchr);$/;"	v
+strnchr	lib/libc/string/strnchr.c	/^char * strnchr(const char * s, size_t n, int c)$/;"	f	signature:(const char * s, size_t n, int c)
+strncpy	lib/libc/string/strncpy.c	/^EXPORT_SYMBOL(strncpy);$/;"	v
+strncpy	lib/libc/string/strncpy.c	/^char * strncpy(char * dest, const char * src, size_t n)$/;"	f	signature:(char * dest, const char * src, size_t n)
+strndup	lib/libc/string/strndup.c	/^EXPORT_SYMBOL(strndup);$/;"	v
+strndup	lib/libc/string/strndup.c	/^char * strndup(const char * s, size_t n)$/;"	f	signature:(const char * s, size_t n)
+strnicmp	lib/libc/string/strnicmp.c	/^EXPORT_SYMBOL(strnicmp);$/;"	v
+strnicmp	lib/libc/string/strnicmp.c	/^int strnicmp(const char * s1, const char * s2, size_t n)$/;"	f	signature:(const char * s1, const char * s2, size_t n)
+strnlen	lib/libc/string/strnlen.c	/^EXPORT_SYMBOL(strnlen);$/;"	v
+strnlen	lib/libc/string/strnlen.c	/^size_t strnlen(const char * s, size_t n)$/;"	f	signature:(const char * s, size_t n)
+strnstr	lib/libc/string/strnstr.c	/^EXPORT_SYMBOL(strnstr);$/;"	v
+strnstr	lib/libc/string/strnstr.c	/^char * strnstr(const char * s1, const char * s2, size_t n)$/;"	f	signature:(const char * s1, const char * s2, size_t n)
+strntoimax	lib/libc/stdlib/strntoimax.c	/^EXPORT_SYMBOL(strntoimax);$/;"	v
+strntoimax	lib/libc/stdlib/strntoimax.c	/^intmax_t strntoimax(const char * nptr, char ** endptr, int base, size_t n)$/;"	f	signature:(const char * nptr, char ** endptr, int base, size_t n)
+strntoumax	lib/libc/stdlib/strntoumax.c	/^EXPORT_SYMBOL(strntoumax);$/;"	v
+strntoumax	lib/libc/stdlib/strntoumax.c	/^uintmax_t strntoumax(const char * nptr, char ** endptr, int base, size_t n)$/;"	f	signature:(const char * nptr, char ** endptr, int base, size_t n)
+strpbrk	lib/libc/string/strpbrk.c	/^EXPORT_SYMBOL(strpbrk);$/;"	v
+strpbrk	lib/libc/string/strpbrk.c	/^char * strpbrk(const char * s1, const char * s2)$/;"	f	signature:(const char * s1, const char * s2)
+strrchr	lib/libc/string/strrchr.c	/^EXPORT_SYMBOL(strrchr);$/;"	v
+strrchr	lib/libc/string/strrchr.c	/^char * strrchr(const char * s, int c)$/;"	f	signature:(const char * s, int c)
+strsep	lib/libc/string/strsep.c	/^EXPORT_SYMBOL(strsep);$/;"	v
+strsep	lib/libc/string/strsep.c	/^char * strsep(char ** s, const char * ct)$/;"	f	signature:(char ** s, const char * ct)
+strspn	lib/libc/string/strspn.c	/^EXPORT_SYMBOL(strspn);$/;"	v
+strspn	lib/libc/string/strspn.c	/^size_t strspn(const char * s, const char * accept)$/;"	f	signature:(const char * s, const char * accept)
+strstr	lib/libc/string/strstr.c	/^EXPORT_SYMBOL(strstr);$/;"	v
+strstr	lib/libc/string/strstr.c	/^char * strstr(const char * s1, const char * s2)$/;"	f	signature:(const char * s1, const char * s2)
+strtod	lib/libc/stdlib/strtod.c	/^EXPORT_SYMBOL(strtod);$/;"	v
+strtod	lib/libc/stdlib/strtod.c	/^double strtod(const char * nptr, char ** endptr)$/;"	f	signature:(const char * nptr, char ** endptr)
+strtoimax	lib/libc/stdlib/strtoimax.c	/^EXPORT_SYMBOL(strtoimax);$/;"	v
+strtoimax	lib/libc/stdlib/strtoimax.c	/^intmax_t strtoimax(const char * nptr, char ** endptr, int base)$/;"	f	signature:(const char * nptr, char ** endptr, int base)
+strtol	lib/libc/stdlib/strtol.c	/^EXPORT_SYMBOL(strtol);$/;"	v
+strtol	lib/libc/stdlib/strtol.c	/^long strtol(const char * nptr, char ** endptr, int base)$/;"	f	signature:(const char * nptr, char ** endptr, int base)
+strtoll	lib/libc/stdlib/strtoll.c	/^EXPORT_SYMBOL(strtoll);$/;"	v
+strtoll	lib/libc/stdlib/strtoll.c	/^long long strtoll(const char * nptr, char ** endptr, int base)$/;"	f	signature:(const char * nptr, char ** endptr, int base)
+strtoul	lib/libc/stdlib/strtoul.c	/^EXPORT_SYMBOL(strtoul);$/;"	v
+strtoul	lib/libc/stdlib/strtoul.c	/^unsigned long strtoul(const char * nptr, char ** endptr, int base)$/;"	f	signature:(const char * nptr, char ** endptr, int base)
+strtoull	lib/libc/stdlib/strtoull.c	/^EXPORT_SYMBOL(strtoull);$/;"	v
+strtoull	lib/libc/stdlib/strtoull.c	/^unsigned long long strtoull(const char * nptr, char ** endptr, int base)$/;"	f	signature:(const char * nptr, char ** endptr, int base)
+strtoumax	lib/libc/stdlib/strtoumax.c	/^EXPORT_SYMBOL(strtoumax);$/;"	v
+strtoumax	lib/libc/stdlib/strtoumax.c	/^uintmax_t strtoumax(const char * nptr, char ** endptr, int base)$/;"	f	signature:(const char * nptr, char ** endptr, int base)
+swap	lib/libc/stdlib/qsort.c	19;"	d	file:
+swapcode	lib/libc/stdlib/qsort.c	8;"	d	file:
+swapfunc	lib/libc/stdlib/qsort.c	/^static __inline void swapfunc(char *a, char *b, int n, int swaptype)$/;"	f	file:	signature:(char *a, char *b, int n, int swaptype)
+system	lib/libc/stdio/system.c	/^EXPORT_SYMBOL(system);$/;"	v
+system	lib/libc/stdio/system.c	/^int system(const char * cmd)$/;"	f	signature:(const char * cmd)
+t1pio2	lib/libm/tanf.c	/^t1pio2 = 1*M_PI_2, \/* 0x3FF921FB, 0x54442D18 *\/$/;"	v	file:
+t2pio2	lib/libm/tanf.c	/^t2pio2 = 2*M_PI_2, \/* 0x400921FB, 0x54442D18 *\/$/;"	v	file:
+t3pio2	lib/libm/tanf.c	/^t3pio2 = 3*M_PI_2, \/* 0x4012D97C, 0x7F3321D2 *\/$/;"	v	file:
+t4pio2	lib/libm/tanf.c	/^t4pio2 = 4*M_PI_2; \/* 0x401921FB, 0x54442D18 *\/$/;"	v	file:
+tan	lib/libm/tan.c	/^EXPORT_SYMBOL(tan);$/;"	v
+tan	lib/libm/tan.c	/^double tan(double x)$/;"	f	signature:(double x)
+tanf	lib/libm/tanf.c	/^EXPORT_SYMBOL(tanf);$/;"	v
+tanf	lib/libm/tanf.c	/^float tanf(float x)$/;"	f	signature:(float x)
+tanh	lib/libm/tanh.c	/^EXPORT_SYMBOL(tanh);$/;"	v
+tanh	lib/libm/tanh.c	/^double tanh(double x)$/;"	f	signature:(double x)
+tanhf	lib/libm/tanhf.c	/^EXPORT_SYMBOL(tanhf);$/;"	v
+tanhf	lib/libm/tanhf.c	/^float tanhf(float x)$/;"	f	signature:(float x)
+tbl	lib/libm/exp2.c	/^static const double tbl[TBLSIZE * 2] = {$/;"	v	file:
+test_bit	lib/libc/stdio/vsscanf.c	/^static inline int test_bit(unsigned long *bitmap, unsigned int bit)$/;"	f	file:	signature:(unsigned long *bitmap, unsigned int bit)
+time	lib/libc/time/time.c	/^EXPORT_SYMBOL(time);$/;"	v
+time	lib/libc/time/time.c	/^time_t time(time_t * t)$/;"	f	signature:(time_t * t)
+time_of_day_adjust	lib/libc/time/gettimeofday.c	/^int64_t time_of_day_adjust = 0;$/;"	v
+timegm	lib/libc/time/timegm.c	/^EXPORT_SYMBOL(timegm);$/;"	v
+timegm	lib/libc/time/timegm.c	/^time_t timegm(struct tm * tm)$/;"	f	signature:(struct tm * tm)
+timezone	lib/libc/time/timezone.c	/^EXPORT_SYMBOL(timezone);$/;"	v
+timezone	lib/libc/time/timezone.c	/^int timezone(const char * tz)$/;"	f	signature:(const char * tz)
+tiny	lib/libm/pow.c	/^tiny   =  1.0e-300,$/;"	v	file:
+tiny	lib/libm/powf.c	/^tiny   =  1.0e-30,$/;"	v	file:
+tiny	lib/libm/sqrt.c	/^static const double tiny = 1.0e-300;$/;"	v	file:
+tiny	lib/libm/sqrtf.c	/^static const float tiny = 1.0e-30;$/;"	v	file:
+tlsf_add_pool	lib/libc/malloc/malloc.c	/^static inline void * tlsf_add_pool(void * tlsf, void * mem, size_t bytes)$/;"	f	file:	signature:(void * tlsf, void * mem, size_t bytes)
+tlsf_assert	lib/libc/malloc/malloc.c	21;"	d	file:
+tlsf_cast	lib/libc/malloc/malloc.c	17;"	d	file:
+tlsf_create	lib/libc/malloc/malloc.c	/^static inline void * tlsf_create(void * mem)$/;"	f	file:	signature:(void * mem)
+tlsf_create_with_pool	lib/libc/malloc/malloc.c	/^static inline void * tlsf_create_with_pool(void * mem, size_t bytes)$/;"	f	file:	signature:(void * mem, size_t bytes)
+tlsf_destroy	lib/libc/malloc/malloc.c	/^static inline void tlsf_destroy(void * mem)$/;"	f	file:	signature:(void * mem)
+tlsf_ffs	lib/libc/malloc/malloc.c	/^static int tlsf_ffs(unsigned int word)$/;"	f	file:	signature:(unsigned int word)
+tlsf_fls	lib/libc/malloc/malloc.c	/^static int tlsf_fls(unsigned int word)$/;"	f	file:	signature:(unsigned int word)
+tlsf_fls_generic	lib/libc/malloc/malloc.c	/^static int tlsf_fls_generic(unsigned int word)$/;"	f	file:	signature:(unsigned int word)
+tlsf_fls_sizet	lib/libc/malloc/malloc.c	/^static int tlsf_fls_sizet(size_t size)$/;"	f	file:	signature:(size_t size)
+tlsf_fls_sizet	lib/libc/malloc/malloc.c	188;"	d	file:
+tlsf_free	lib/libc/malloc/malloc.c	/^static inline void tlsf_free(void * tlsf, void * ptr)$/;"	f	file:	signature:(void * tlsf, void * ptr)
+tlsf_get	lib/libc/malloc/malloc.c	/^static inline void * tlsf_get(void * mem)$/;"	f	file:	signature:(void * mem)
+tlsf_info	lib/libc/malloc/malloc.c	/^static inline void tlsf_info(void * tlsf, size_t * mused, size_t * mfree)$/;"	f	file:	signature:(void * tlsf, size_t * mused, size_t * mfree)
+tlsf_insist	lib/libc/malloc/malloc.c	22;"	d	file:
+tlsf_malloc	lib/libc/malloc/malloc.c	/^static inline void * tlsf_malloc(void * tlsf, size_t size)$/;"	f	file:	signature:(void * tlsf, size_t size)
+tlsf_max	lib/libc/malloc/malloc.c	19;"	d	file:
+tlsf_memalign	lib/libc/malloc/malloc.c	/^static inline void * tlsf_memalign(void * tlsf, size_t align, size_t size)$/;"	f	file:	signature:(void * tlsf, size_t align, size_t size)
+tlsf_min	lib/libc/malloc/malloc.c	18;"	d	file:
+tlsf_private	lib/libc/malloc/malloc.c	/^enum tlsf_private$/;"	g	file:
+tlsf_public	lib/libc/malloc/malloc.c	/^enum tlsf_public$/;"	g	file:
+tlsf_realloc	lib/libc/malloc/malloc.c	/^static inline void * tlsf_realloc(void * tlsf, void * ptr, size_t size)$/;"	f	file:	signature:(void * tlsf, void * ptr, size_t size)
+tlsf_remove_pool	lib/libc/malloc/malloc.c	/^static inline void tlsf_remove_pool(void * tlsf, void * mem)$/;"	f	file:	signature:(void * tlsf, void * mem)
+tlsfptr_t	lib/libc/malloc/malloc.c	/^typedef ptrdiff_t	tlsfptr_t;$/;"	t	file:
+tmpfile	lib/libc/stdio/tmpfile.c	/^EXPORT_SYMBOL(tmpfile);$/;"	v
+tmpfile	lib/libc/stdio/tmpfile.c	/^FILE * tmpfile(void)$/;"	f	signature:(void)
+tmpnam	lib/libc/stdio/tmpnam.c	/^EXPORT_SYMBOL(tmpnam);$/;"	v
+tmpnam	lib/libc/stdio/tmpnam.c	/^char * tmpnam(char * buf)$/;"	f	signature:(char * buf)
+toascii	lib/libc/ctype/toascii.c	/^EXPORT_SYMBOL(toascii);$/;"	v
+toascii	lib/libc/ctype/toascii.c	/^int toascii(int c)$/;"	f	signature:(int c)
+toint	lib/libm/__rem_pio2.c	/^toint   = 1.5\/EPS,$/;"	v	file:
+toint	lib/libm/__rem_pio2f.c	/^toint   = 1.5\/EPS,$/;"	v	file:
+toint	lib/libm/ceil.c	/^static const double_t toint = 1\/EPS;$/;"	v	file:
+toint	lib/libm/floor.c	/^static const double_t toint = 1\/EPS;$/;"	v	file:
+toint	lib/libm/rint.c	/^static const double_t toint = 1\/EPS;$/;"	v	file:
+toint	lib/libm/rintf.c	/^static const float_t toint = 1\/EPS;$/;"	v	file:
+toint	lib/libm/round.c	/^static const double_t toint = 1\/EPS;$/;"	v	file:
+toint	lib/libm/roundf.c	/^static const float_t toint = 1\/EPS;$/;"	v	file:
+tolower	lib/libc/ctype/tolower.c	/^EXPORT_SYMBOL(tolower);$/;"	v
+tolower	lib/libc/ctype/tolower.c	/^int tolower(int c)$/;"	f	signature:(int c)
+toupper	lib/libc/ctype/toupper.c	/^EXPORT_SYMBOL(toupper);$/;"	v
+toupper	lib/libc/ctype/toupper.c	/^int toupper(int c)$/;"	f	signature:(int c)
+trunc	lib/libm/arm64/trunc.c	/^double trunc(double x)$/;"	f	signature:(double x)
+truncf	lib/libm/arm64/truncf.c	/^float truncf(float x)$/;"	f	signature:(float x)
+tsfilter_alloc	lib/libc/filter/tsfilter.c	/^struct tsfilter_t * tsfilter_alloc(int ml, int nl)$/;"	f	signature:(int ml, int nl)
+tsfilter_clear	lib/libc/filter/tsfilter.c	/^void tsfilter_clear(struct tsfilter_t * filter)$/;"	f	signature:(struct tsfilter_t * filter)
+tsfilter_free	lib/libc/filter/tsfilter.c	/^void tsfilter_free(struct tsfilter_t * filter)$/;"	f	signature:(struct tsfilter_t * filter)
+tsfilter_setcal	lib/libc/filter/tsfilter.c	/^void tsfilter_setcal(struct tsfilter_t * filter, int * cal)$/;"	f	signature:(struct tsfilter_t * filter, int * cal)
+tsfilter_update	lib/libc/filter/tsfilter.c	/^void tsfilter_update(struct tsfilter_t * filter, int * x, int * y)$/;"	f	signature:(struct tsfilter_t * filter, int * x, int * y)
+two24	lib/libm/powf.c	/^two24  =  16777216.0,  \/* 0x4b800000 *\/$/;"	v	file:
+two53	lib/libm/pow.c	/^two53  =  9007199254740992.0, \/* 0x43400000, 0x00000000 *\/$/;"	v	file:
+ucs4_to_utf8	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(ucs4_to_utf8);$/;"	v
+ucs4_to_utf8	lib/libc/charset/charset.c	/^char * ucs4_to_utf8(uint32_t * src, size_t ssz, char * dst, size_t dsz)$/;"	f	signature:(uint32_t * src, size_t ssz, char * dst, size_t dsz)
+ucs4_to_utf8_alloc	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(ucs4_to_utf8_alloc);$/;"	v
+ucs4_to_utf8_alloc	lib/libc/charset/charset.c	/^char * ucs4_to_utf8_alloc(uint32_t * src, size_t size)$/;"	f	signature:(uint32_t * src, size_t size)
+ucs4_width	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(ucs4_width);$/;"	v
+ucs4_width	lib/libc/charset/charset.c	/^int ucs4_width(uint32_t uc)$/;"	f	signature:(uint32_t uc)
+uint_max	lib/libx/json.c	/^	unsigned int uint_max;$/;"	m	struct:json_state_t	file:	access:public
+ulong_max	lib/libx/json.c	/^	unsigned long ulong_max;$/;"	m	struct:json_state_t	file:	access:public
+umax	lib/libc/crypto/ecdsa256.c	/^static unsigned int umax(unsigned int a, unsigned int b)$/;"	f	file:	signature:(unsigned int a, unsigned int b)
+ungetc	lib/libc/stdio/ungetc.c	/^EXPORT_SYMBOL(ungetc);$/;"	v
+ungetc	lib/libc/stdio/ungetc.c	/^int ungetc(int c, FILE * f)$/;"	f	signature:(int c, FILE * f)
+unsetenv	lib/libc/environ/unsetenv.c	/^EXPORT_SYMBOL(unsetenv);$/;"	v
+unsetenv	lib/libc/environ/unsetenv.c	/^int unsetenv(const char * name)$/;"	f	signature:(const char * name)
+uri_alloc	lib/libx/uri.c	/^struct uri_t * uri_alloc(const char * s)$/;"	f	signature:(const char * s)
+uri_free	lib/libx/uri.c	/^void uri_free(struct uri_t * uri)$/;"	f	signature:(struct uri_t * uri)
+used_memory	lib/libx/json.c	/^	unsigned long used_memory;$/;"	m	struct:json_state_t	file:	access:public
+utf16_to_utf8	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf16_to_utf8);$/;"	v
+utf16_to_utf8	lib/libc/charset/charset.c	/^char * utf16_to_utf8(char * dst, uint16_t * src, size_t size)$/;"	f	signature:(char * dst, uint16_t * src, size_t size)
+utf8_is_valid	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf8_is_valid);$/;"	v
+utf8_is_valid	lib/libc/charset/charset.c	/^bool_t utf8_is_valid(const char * s, size_t size)$/;"	f	signature:(const char * s, size_t size)
+utf8_strlen	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf8_strlen);$/;"	v
+utf8_strlen	lib/libc/charset/charset.c	/^size_t utf8_strlen(const char * s)$/;"	f	signature:(const char * s)
+utf8_to_code	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf8_to_code);$/;"	v
+utf8_to_code	lib/libc/charset/charset.c	/^const char * utf8_to_code(const char * p, uint32_t * code)$/;"	f	signature:(const char * p, uint32_t * code)
+utf8_to_ucs4	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf8_to_ucs4);$/;"	v
+utf8_to_ucs4	lib/libc/charset/charset.c	/^ssize_t utf8_to_ucs4(uint32_t * dst, size_t dsz, const char * src, size_t ssz, const char ** end)$/;"	f	signature:(uint32_t * dst, size_t dsz, const char * src, size_t ssz, const char ** end)
+utf8_to_ucs4_alloc	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf8_to_ucs4_alloc);$/;"	v
+utf8_to_ucs4_alloc	lib/libc/charset/charset.c	/^ssize_t utf8_to_ucs4_alloc(const char * src, uint32_t ** dst, uint32_t ** pos)$/;"	f	signature:(const char * src, uint32_t ** dst, uint32_t ** pos)
+utf8_to_utf16	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf8_to_utf16);$/;"	v
+utf8_to_utf16	lib/libc/charset/charset.c	/^ssize_t utf8_to_utf16(uint16_t * dst, size_t dsz, const char * src, size_t ssz, const char ** end)$/;"	f	signature:(uint16_t * dst, size_t dsz, const char * src, size_t ssz, const char ** end)
+utf8_width	lib/libc/charset/charset.c	/^EXPORT_SYMBOL(utf8_width);$/;"	v
+utf8_width	lib/libc/charset/charset.c	/^size_t utf8_width(const char * s)$/;"	f	signature:(const char * s)
+vasprintf	lib/libc/stdio/vasprintf.c	/^EXPORT_SYMBOL(vasprintf);$/;"	v
+vasprintf	lib/libc/stdio/vasprintf.c	/^int vasprintf(char ** s, const char * fmt, va_list ap)$/;"	f	signature:(char ** s, const char * fmt, va_list ap)
+vecswap	lib/libc/stdlib/qsort.c	27;"	d	file:
+vli_add	lib/libc/crypto/ecdsa256.c	/^static uint64_t vli_add(uint64_t * result, uint64_t * left, uint64_t * right)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left, uint64_t * right)
+vli_clear	lib/libc/crypto/ecdsa256.c	/^static void vli_clear(uint64_t * vli)$/;"	f	file:	signature:(uint64_t * vli)
+vli_cmp	lib/libc/crypto/ecdsa256.c	/^static int vli_cmp(uint64_t * left, uint64_t * right)$/;"	f	file:	signature:(uint64_t * left, uint64_t * right)
+vli_iszero	lib/libc/crypto/ecdsa256.c	/^static int vli_iszero(uint64_t * vli)$/;"	f	file:	signature:(uint64_t * vli)
+vli_lshift	lib/libc/crypto/ecdsa256.c	/^static uint64_t vli_lshift(uint64_t * result, uint64_t * in, unsigned int shift)$/;"	f	file:	signature:(uint64_t * result, uint64_t * in, unsigned int shift)
+vli_mmod_fast	lib/libc/crypto/ecdsa256.c	/^static void vli_mmod_fast(uint64_t * result, uint64_t * product)$/;"	f	file:	signature:(uint64_t * result, uint64_t * product)
+vli_modMult_fast	lib/libc/crypto/ecdsa256.c	/^static void vli_modMult_fast(uint64_t * result, uint64_t * left, uint64_t * right)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left, uint64_t * right)
+vli_modSquare_fast	lib/libc/crypto/ecdsa256.c	/^static void vli_modSquare_fast(uint64_t * result, uint64_t * left)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left)
+vli_modadd	lib/libc/crypto/ecdsa256.c	/^static void vli_modadd(uint64_t * result, uint64_t * left, uint64_t * right, uint64_t * mod)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left, uint64_t * right, uint64_t * mod)
+vli_modinv	lib/libc/crypto/ecdsa256.c	/^static void vli_modinv(uint64_t * result, uint64_t * input, uint64_t * mod)$/;"	f	file:	signature:(uint64_t * result, uint64_t * input, uint64_t * mod)
+vli_modmult	lib/libc/crypto/ecdsa256.c	/^static void vli_modmult(uint64_t * result, uint64_t * left, uint64_t * right, uint64_t * mod)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left, uint64_t * right, uint64_t * mod)
+vli_modsub	lib/libc/crypto/ecdsa256.c	/^static void vli_modsub(uint64_t * result, uint64_t * left, uint64_t * right, uint64_t * mod)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left, uint64_t * right, uint64_t * mod)
+vli_mult	lib/libc/crypto/ecdsa256.c	/^static void vli_mult(uint64_t * result, uint64_t * left, uint64_t * right)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left, uint64_t * right)
+vli_numbits	lib/libc/crypto/ecdsa256.c	/^static unsigned int vli_numbits(uint64_t * vli)$/;"	f	file:	signature:(uint64_t * vli)
+vli_numdigits	lib/libc/crypto/ecdsa256.c	/^static unsigned int vli_numdigits(uint64_t * vli)$/;"	f	file:	signature:(uint64_t * vli)
+vli_rshift1	lib/libc/crypto/ecdsa256.c	/^static void vli_rshift1(uint64_t * vli)$/;"	f	file:	signature:(uint64_t * vli)
+vli_set	lib/libc/crypto/ecdsa256.c	/^static void vli_set(uint64_t * dst, uint64_t * src)$/;"	f	file:	signature:(uint64_t * dst, uint64_t * src)
+vli_square	lib/libc/crypto/ecdsa256.c	/^static void vli_square(uint64_t *result, uint64_t *left)$/;"	f	file:	signature:(uint64_t *result, uint64_t *left)
+vli_sub	lib/libc/crypto/ecdsa256.c	/^static uint64_t vli_sub(uint64_t * result, uint64_t * left, uint64_t * right)$/;"	f	file:	signature:(uint64_t * result, uint64_t * left, uint64_t * right)
+vli_testbit	lib/libc/crypto/ecdsa256.c	/^static uint64_t vli_testbit(uint64_t * vli, unsigned int bit)$/;"	f	file:	signature:(uint64_t * vli, unsigned int bit)
+vsnprintf	lib/libc/stdio/vsnprintf.c	/^EXPORT_SYMBOL(vsnprintf);$/;"	v
+vsnprintf	lib/libc/stdio/vsnprintf.c	/^int vsnprintf(char * buf, size_t n, const char * fmt, va_list ap)$/;"	f	signature:(char * buf, size_t n, const char * fmt, va_list ap)
+vsscanf	lib/libc/stdio/vsscanf.c	/^EXPORT_SYMBOL(vsscanf);$/;"	v
+vsscanf	lib/libc/stdio/vsscanf.c	/^int vsscanf(const char * buf, const char * fmt, va_list ap)$/;"	f	signature:(const char * buf, const char * fmt, va_list ap)
+week_days	lib/libc/time/asctime_r.c	/^static const char * week_days[] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};$/;"	v	file:
+x	lib/libc/crypto/ecdsa256.c	/^	uint64_t x[ECDSA256_NUM_DIGITS];$/;"	m	struct:ecdsa256_point_t	file:	access:public
+x2_sbox	lib/libc/crypto/aes128.c	/^static const uint8_t x2_sbox[256] = {$/;"	v	file:
+x2_sbox	lib/libc/crypto/aes256.c	/^static const uint8_t x2_sbox[256] = {$/;"	v	file:
+x3_sbox	lib/libc/crypto/aes128.c	/^static const uint8_t x3_sbox[256] = {$/;"	v	file:
+x3_sbox	lib/libc/crypto/aes256.c	/^static const uint8_t x3_sbox[256] = {$/;"	v	file:
+x_time_9	lib/libc/crypto/aes128.c	/^static const uint8_t x_time_9[256] = {$/;"	v	file:
+x_time_9	lib/libc/crypto/aes256.c	/^static const uint8_t x_time_9[256] = {$/;"	v	file:
+x_time_b	lib/libc/crypto/aes128.c	/^static const uint8_t x_time_b[256] = {$/;"	v	file:
+x_time_b	lib/libc/crypto/aes256.c	/^static const uint8_t x_time_b[256] = {$/;"	v	file:
+x_time_d	lib/libc/crypto/aes128.c	/^static const uint8_t x_time_d[256] = {$/;"	v	file:
+x_time_d	lib/libc/crypto/aes256.c	/^static const uint8_t x_time_d[256] = {$/;"	v	file:
+x_time_e	lib/libc/crypto/aes128.c	/^static const uint8_t x_time_e[256] = {$/;"	v	file:
+x_time_e	lib/libc/crypto/aes256.c	/^static const uint8_t x_time_e[256] = {$/;"	v	file:
+xor_block	lib/libc/crypto/aes128.c	/^static inline void xor_block(uint8_t * r, uint8_t * a, uint8_t * b, int len)$/;"	f	file:	signature:(uint8_t * r, uint8_t * a, uint8_t * b, int len)
+xor_block	lib/libc/crypto/aes256.c	/^static inline void xor_block(uint8_t * r, uint8_t * a, uint8_t * b, int len)$/;"	f	file:	signature:(uint8_t * r, uint8_t * a, uint8_t * b, int len)
+xycz_add	lib/libc/crypto/ecdsa256.c	/^static void xycz_add(uint64_t * x1, uint64_t * y1, uint64_t * x2, uint64_t * y2)$/;"	f	file:	signature:(uint64_t * x1, uint64_t * y1, uint64_t * x2, uint64_t * y2)
+xycz_addc	lib/libc/crypto/ecdsa256.c	/^static void xycz_addc(uint64_t * x1, uint64_t * y1, uint64_t * x2, uint64_t * y2)$/;"	f	file:	signature:(uint64_t * x1, uint64_t * y1, uint64_t * x2, uint64_t * y2)
+xycz_initial_double	lib/libc/crypto/ecdsa256.c	/^static void xycz_initial_double(uint64_t * x1, uint64_t * y1, uint64_t * x2, uint64_t * y2, uint64_t * initialz)$/;"	f	file:	signature:(uint64_t * x1, uint64_t * y1, uint64_t * x2, uint64_t * y2, uint64_t * initialz)
+y	lib/libc/crypto/ecdsa256.c	/^	uint64_t y[ECDSA256_NUM_DIGITS];$/;"	m	struct:ecdsa256_point_t	file:	access:public
