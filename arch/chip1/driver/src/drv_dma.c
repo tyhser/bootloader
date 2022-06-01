@@ -1,3 +1,5 @@
+#include "drv_dma.h"
+
 int drv_dma_init(void *hdma)
 {
 }

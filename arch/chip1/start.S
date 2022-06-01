@@ -1,6 +1,8 @@
 .global _start
 _start:
+/*
 	b reset
+*/
 
 reset:
 	/* Set cpu to svc32 mode and disable interrupt */
@@ -20,6 +22,8 @@ reset:
 	/* Call _main */
 
 _main:
+/*
 	b main
 	b _main
+*/
 
