@@ -18,8 +18,8 @@ int main(void)
 	bl_uint32_t image_addr = 0x00004000;
 	bl_uint32_t image_len = 0;
 
-	drv_gpio_init(NULL);
-	drv_uart_init(NULL);
+	drv_gpio_init((void *)0);
+	drv_uart_init((void *)0);
 
 	bl_kprintf("enter main\n");
 

@@ -9,6 +9,48 @@
 /* private function */
 #define _ISDIGIT(c)  ((unsigned)((c) - '0') < 10)
 
+#ifdef BL_KPRINTF_USING_LONGLONG
+
+bl_inline int divide(long long *n, int base)
+{
+    int res;
+
+    /* optimized for processor which does not support divide instructions. */
+    if (base == 10)
+    {
+        res = (int)(((unsigned long long)*n) % 10U);
+        *n = (long long)(((unsigned long long)*n) / 10U);
+    }
+    else
+    {
+        res = (int)(((unsigned long long)*n) % 16U);
+        *n = (long long)(((unsigned long long)*n) / 16U);
+    }
+
+    return res;
+}
+#else
+rt_inline int divide(long *n, int base)
+{
+    int res;
+
+    /* optimized for processor which does not support divide instructions. */
+    if (base == 10)
+    {
+        res = (int)(((unsigned long)*n) % 10U);
+        *n = (long)(((unsigned long)*n) / 10U);
+    }
+    else
+    {
+        res = (int)(((unsigned long)*n) % 16U);
+        *n = (long)(((unsigned long)*n) / 16U);
+    }
+
+    return res;
+}
+#endif
+
+
 bl_inline int skip_atoi(const char **s)
 {
     int i = 0;

@@ -10,6 +10,19 @@ typedef unsigned short                  bl_uint16_t;    /**< 16bit unsigned inte
 typedef unsigned int                    bl_uint32_t;    /**< 32bit unsigned integer type */
 typedef int                             bl_bool_t;      /**< boolean type */
 
+typedef int                             bl_bool_t;      /**< boolean type */
+typedef long                            bl_base_t;      /**< Nbit CPU related date type */
+typedef unsigned long                   bl_ubase_t;     /**< Nbit unsigned CPU related data type */
+
+typedef bl_base_t                       bl_err_t;       /**< Type for error number */
+typedef bl_uint32_t                     bl_time_t;      /**< Type for time stamp */
+typedef bl_uint32_t                     bl_tick_t;      /**< Type for tick count */
+typedef bl_base_t                       bl_flag_t;      /**< Type for flags */
+typedef bl_ubase_t                      bl_size_t;      /**< Type for size number */
+typedef bl_ubase_t                      bl_dev_t;       /**< Type for device */
+typedef bl_base_t                       bl_off_t;       /**< Type for offset */
+
+
 
 /* maximum value of base type */
 #define BL_UINT8_MAX                    0xff            /**< Maxium number of UINT8 */
